@@ -100,3 +100,11 @@ See [release_audit.json](release_audit.json) for machine-readable scope;
 [sensor portability validation](../reproduce/sensor/PORTABILITY_VALIDATION.md),
 [offline transformation verification](../artifact/PUBLIC_COPY_VERIFICATION.json),
 and [label correction](../artifact/LABEL_CORRECTION.md) for the underlying records.
+
+## Subsequent content curation
+
+Four internal paper-direction/editorial documents were removed from the offline
+ZIP after this release audit. All retained archive members are byte-identical
+to the preceding public copy; scientific code, protocols, and raw records were
+not changed. See [CURATION.json](../artifact/CURATION.json) and the refreshed
+[offline validation](../artifact/VALIDATION_RUN.json).

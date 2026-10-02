@@ -10,7 +10,7 @@ The four pre-existing compatibility changes are isolated in [compatibility.patch
 
 Original private records are retained outside this repository. The public copy removes submission-author identifying paths and private Drive URLs. It does not remove upstream copyright attribution.
 
-The offline archive keeps 651 members. Of these, 622 are byte-identical to their originals; 29 contain identity-text or derived source-hash metadata transformations. Independent comparison preserved JSON structure and 4,907,816 non-string scalar values, including 3,773,805 numerical scalars. All 13 NPZ files in that archive are byte-identical. See [PUBLIC_COPY_VERIFICATION.json](../artifact/PUBLIC_COPY_VERIFICATION.json) and [ANONYMIZATION.json](../artifact/ANONYMIZATION.json).
+The offline archive keeps 647 members. Of these, 619 are byte-identical to their originals; 28 contain identity-text or derived source-hash metadata transformations. Independent comparison preserved JSON structure and 4,907,816 non-string scalar values, including 3,773,805 numerical scalars. All 13 NPZ files in that archive are byte-identical. See [PUBLIC_COPY_VERIFICATION.json](../artifact/PUBLIC_COPY_VERIFICATION.json) and [ANONYMIZATION.json](../artifact/ANONYMIZATION.json).
 
 Public hashes refer to the bytes actually distributed. Historical hashes are explicitly named and retained when needed for source lineage. A public source hash must not be silently interpreted as the old private-file hash.
 

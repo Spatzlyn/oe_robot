@@ -2,8 +2,8 @@
   "schema": "anonymous-artifact-transformation.v1",
   "new_native_runs": 0,
   "historical_archive_sha256": "762ed82b70268b468a81ba1145ccdd49748523afd45932a506fbe746871e80c5",
-  "public_archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
-  "files": 651,
+  "public_archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
+  "files": 647,
   "binary_npz_files_unchanged": 13,
   "changes": [
     {
@@ -168,13 +168,6 @@
       "referenced_hashes_recomputed": false
     },
     {
-      "path": "send/SPAIS_C1_native_sensor_validation/inputs/SPAIS_C1_reaudit_synthesis_and_paper_direction_2026-09-24.md",
-      "historical_sha256": "e596e1c5f0c21b37e63f98e5a9961806294171ff01b6847f6cf521050608b28a",
-      "public_sha256": "0784462c5419f4c1a4134cc2024fda0a37c97fa823560ba7f425d64f221f2c48",
-      "identity_scrubbed": true,
-      "referenced_hashes_recomputed": false
-    },
-    {
       "path": "send/SPAIS_C1_native_sensor_validation/inputs/provenance.json",
       "historical_sha256": "c59aac66284cbda991840677df280db788a4ba299cee0fecfd4851721a4d3635",
       "public_sha256": "f34365fec4eaeb1c61d734d0ca3f8ff42f20e7ade996ec7ad405290900454a21",
@@ -214,5 +207,6 @@
   "scientific_values": "No numerical scientific measurements, forests, actions, witnesses or verdicts edited.",
   "portable_source_path": "Archived sensor harness source uses OE_ROBOT_SOURCE_ROOT or current directory; offline validation does not execute it.",
   "original_evidence": "Untouched outside this public artifact.",
-  "limitation": "The public archive hash is intentionally different from the historical private archive."
+  "limitation": "The public archive hash is intentionally different from the historical private archive.",
+  "curation_record": "CURATION.json"
 }

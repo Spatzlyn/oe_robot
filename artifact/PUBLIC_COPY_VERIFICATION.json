@@ -1,8 +1,8 @@
 {
   "schema": "public-transformation-verification.v1",
-  "archive_member_count": 651,
-  "archive_members_byte_identical": 622,
-  "archive_members_modified": 29,
+  "archive_member_count": 647,
+  "archive_members_byte_identical": 619,
+  "archive_members_modified": 28,
   "all_json_shapes_and_non_string_scalars_unchanged": true,
   "numeric_scalars_checked": 3773805,
   "total_non_string_scalars_checked": 4907816,
@@ -1269,5 +1269,6 @@
   ],
   "forbidden_identity_or_personal_link_matches": 0,
   "scientific_execution": "No native experiment or sensor rendering; public evidence transformation audit only.",
-  "original_archive_unchanged": true
+  "original_archive_unchanged": true,
+  "curation_record": "CURATION.json"
 }

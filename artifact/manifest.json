@@ -43,8 +43,8 @@
   "unavailable": [],
   "source_snapshot_scope": "Listed raw and source files only; complete environment and CARLA not bundled.",
   "distribution": "anonymous public copy; redacted provenance and re-hashed source metadata",
-  "archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
-  "archive_bytes": 7114752,
+  "archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
+  "archive_bytes": 7079860,
   "source_root": "archive-relative paths",
   "files": [
     {
@@ -3758,13 +3758,6 @@
       "provenance": "historical_byte_identical_copy"
     },
     {
-      "path": "send/SPAIS_C1_native_sensor_validation/d1/final_review.md",
-      "sha256": "86145b7ac4cadad280cb310bd3196ebecbdd049fbdd0c603358156346248616d",
-      "bytes": 3284,
-      "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
-    },
-    {
       "path": "send/SPAIS_C1_native_sensor_validation/d1/manifest.json",
       "sha256": "a83a1c543fc69b0c4a7cba778fee9b76a027a65b81d2be4d2fbdcbabd104886a",
       "bytes": 490,
@@ -3947,13 +3940,6 @@
       "provenance": "historical_byte_identical_copy"
     },
     {
-      "path": "send/SPAIS_C1_native_sensor_validation/inputs/SPAIS_C1_reaudit_synthesis_and_paper_direction_2026-09-24.md",
-      "sha256": "0784462c5419f4c1a4134cc2024fda0a37c97fa823560ba7f425d64f221f2c48",
-      "bytes": 62010,
-      "storage": "evidence.zip",
-      "provenance": "anonymous_public_copy"
-    },
-    {
       "path": "send/SPAIS_C1_native_sensor_validation/inputs/helpers/common.py",
       "sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
       "bytes": 4099,
@@ -4066,23 +4052,9 @@
       "provenance": "anonymous_public_copy"
     },
     {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/report_review_v2.md",
-      "sha256": "e4e3194d9ad0cf8de86f8ea4cbc9674c95d5bd66e49a765450b7792dc569c0c6",
-      "bytes": 3924,
-      "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
-    },
-    {
       "path": "send/SPAIS_C1_native_sensor_validation/methods/source_sensor_path_review.json",
       "sha256": "d9de1e5be203bfce2d88e53cac6064f0b905cae078eb6d307e3adb07c373b8d2",
       "bytes": 1891,
-      "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/source_sensor_path_review.md",
-      "sha256": "2e6fdfd311f868e1b788cf7e99447eb30b69da5e78705bce747e54cf7eef2f3a",
-      "bytes": 18273,
       "storage": "evidence.zip",
       "provenance": "historical_byte_identical_copy"
     },

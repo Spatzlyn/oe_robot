@@ -1,9 +1,9 @@
 {
   "schema": "spais.e3.validation.v1",
-  "utc": "2026-10-02T11:39:45.201035+00:00",
+  "utc": "2026-10-02T16:52:29.497412+00:00",
   "python": "3.13.12",
   "validator_sha256": "dea28ffca27c80724ff32419f4aa088023c7d93ca7461bc883360520b290dccc",
-  "archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
+  "archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
   "expected_sha256": "68bbb920cef4823ef2352fa6ff57964b48abfb473c0954f2f0e22a49d1746b58",
   "new_native_runs": 0,
   "checks": 22565,
@@ -12,8 +12,8 @@
   "checks_detail": [
     {
       "name": "archive_sha256",
-      "actual": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
-      "expected": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
+      "actual": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
+      "expected": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
       "pass_": true,
       "scope": ""
     },

@@ -1,0 +1,16 @@
+{
+  "schema": "editorial-content-curation.v1",
+  "previous_public_archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
+  "public_archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
+  "removed_editorial_documents": [
+    "send/SPAIS_C1_native_sensor_validation/d1/final_review.md",
+    "send/SPAIS_C1_native_sensor_validation/inputs/SPAIS_C1_reaudit_synthesis_and_paper_direction_2026-09-24.md",
+    "send/SPAIS_C1_native_sensor_validation/methods/report_review_v2.md",
+    "send/SPAIS_C1_native_sensor_validation/methods/source_sensor_path_review.md"
+  ],
+  "reason": "Internal paper-direction and editorial review documents are not reproduction inputs. Scientific protocols, methods audits, source, raw records, failures and unresolved outcomes remain included.",
+  "archive_member_count": 647,
+  "retained_members_byte_identical_to_previous_public_archive": 647,
+  "new_native_runs": 0,
+  "historical_provenance_references": "References to omitted editorial documents remain historical provenance, not required execution inputs. Original private records are preserved."
+}

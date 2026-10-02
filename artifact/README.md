@@ -71,7 +71,7 @@ condition. Later regeneration does not undo an earlier omission.
 
 ## Files and data access
 
-- `evidence.zip`: 651 archive members, about 7.1 MB compressed and 235.2 MB
+- `evidence.zip`: 647 archive members, about 7.1 MB compressed and 235.1 MB
   uncompressed; relative paths preserve the evidence grouping.
 - `manifest.json`: public archive/member hashes and external-input limitations.
 - `expected.json`: retrospective regression expectations, not new predictions.
@@ -96,7 +96,7 @@ python -m zipfile -e artifact/evidence.zip /tmp/oe_robot_evidence
 The validator reads the ZIP directly. An extraction is optional and requires
 about 235 MB of additional disk space. The archive also preserves negative
 results, exploratory records, unresolved cases, historical source snapshots,
-and failed instrumentation records. Some historical notes are in Korean;
+and failed instrumentation records. Some historical scientific reports are in Korean;
 the reviewer-facing instructions and scope documents here are in English.
 
 Four legacy pickle contexts are documented but not bundled in this offline
@@ -119,3 +119,7 @@ The offline validator's scientific checks are unchanged. Its public version adds
 an explicit nonzero exit status on failed checks and describes the transformed
 provenance. Third-party source remains subject to the upstream license and the
 repository's third-party notices.
+
+Internal paper-direction and editorial review documents are excluded from this
+release. Scientific protocols, measurement audits, and raw evidence are retained
+unchanged. See [CURATION.json](CURATION.json) for the exact content change.

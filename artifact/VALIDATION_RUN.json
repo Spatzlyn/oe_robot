@@ -6,7 +6,7 @@
     "--artifact",
     "artifact",
     "--output",
-    "/tmp/oe_robot_offline_check"
+    "outputs/offline_content_curation"
   ],
   "working_directory": "repository root",
   "python": "3.13.12",
@@ -28,7 +28,7 @@
     "total_missing_witness_times": 104
   },
   "source_sha256": "dea28ffca27c80724ff32419f4aa088023c7d93ca7461bc883360520b290dccc",
-  "archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
+  "archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
   "wall_clock_runtime": "not_recorded",
   "private_negative_control": {
     "purpose": "Validator must fail on inconsistent expected data",
@@ -41,5 +41,6 @@
     "checks",
     "numeric scalars",
     "manifest entries"
-  ]
+  ],
+  "curation_record": "CURATION.json"
 }
