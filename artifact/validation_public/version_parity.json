@@ -1,0 +1,112 @@
+{
+  "parent_version": "validation_v2",
+  "unchanged_records": [
+    {
+      "path": "outputs.jsonl",
+      "records": 1410,
+      "unchanged": true,
+      "immutable_v2_sha256": "ccbcc5ba8642fc2cbc499c65131442b27d9c1ad11355339d0283c8856a39ea90"
+    },
+    {
+      "path": "events.jsonl",
+      "records": 828,
+      "unchanged": true,
+      "immutable_v2_sha256": "3e144909c19257ff4d411eb89cddfb20692a941622bd386edd9d087d1d644972"
+    },
+    {
+      "path": "queries.jsonl",
+      "records": 180,
+      "unchanged": true,
+      "immutable_v2_sha256": "43e068365a5ae2ec4be591eee9534d1e79188fbf9e38c5f56e9888798583f156"
+    },
+    {
+      "path": "witnesses.json",
+      "records": 4,
+      "unchanged": true,
+      "immutable_v2_sha256": "ce72a3d2bd69ea9080add58d7b54fe1702b51e7b72661170faa8daf2db8e8765"
+    },
+    {
+      "path": "heuristics.json",
+      "records": 5,
+      "unchanged": true,
+      "immutable_v2_sha256": "0a932778a63c98e02279bb4af47b2faf70fae29cc741017762418578dcdffddd"
+    },
+    {
+      "path": "source_lineage.json",
+      "records": 40,
+      "unchanged": true,
+      "immutable_v2_sha256": "e9541d1f34ec8be49bc43865523bf879cbd1d93566de96649c9a2bd025081cce"
+    }
+  ],
+  "inventory_changes": [
+    {
+      "case": "D_template_000",
+      "t": 0.5,
+      "lane": 2,
+      "delta": {
+        "cause": {
+          "before": "visited_suppression_representative",
+          "after": "unresolved"
+        }
+      }
+    },
+    {
+      "case": "D_template_000",
+      "t": 0.5,
+      "lane": 3,
+      "delta": {
+        "cause": {
+          "before": "visited_suppression_representative",
+          "after": "unresolved"
+        }
+      }
+    },
+    {
+      "case": "D_template_000",
+      "t": 0.75,
+      "lane": 2,
+      "delta": {
+        "cause": {
+          "before": "visited_suppression_representative",
+          "after": "unresolved"
+        }
+      }
+    },
+    {
+      "case": "D_template_000",
+      "t": 0.75,
+      "lane": 3,
+      "delta": {
+        "cause": {
+          "before": "visited_suppression_representative",
+          "after": "unresolved"
+        }
+      }
+    },
+    {
+      "case": "D_template_000",
+      "t": 1.0,
+      "lane": 2,
+      "delta": {
+        "cause": {
+          "before": "visited_suppression_representative",
+          "after": "unresolved"
+        }
+      }
+    },
+    {
+      "case": "D_template_000",
+      "t": 1.0,
+      "lane": 3,
+      "delta": {
+        "cause": {
+          "before": "visited_suppression_representative",
+          "after": "unresolved"
+        }
+      }
+    }
+  ],
+  "raw_archive_unchanged": true,
+  "archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
+  "new_native_runs": 0
+}

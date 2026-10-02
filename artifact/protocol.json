@@ -1,0 +1,29 @@
+{
+  "schema": "spais.e3.protocol.v1",
+  "analysis_type": "Retrospective offline reanalysis of already known results; not prospective confirmation or a detector benchmark.",
+  "new_native_runs_planned": 0,
+  "device": "CPU",
+  "source_root": "archive-relative paths",
+  "rules": {
+    "empty_output": "Flag omission only when returned forest length is zero.",
+    "representative_exists": "Treat the designated earlier mature output still in the returned union as sufficient preservation.",
+    "final_only": "Judge the selected position witness only at the final recorded epoch.",
+    "rejection_is_loss": "Treat any recorded candidate rejection as harmful whole-output omission.",
+    "patch_consensus": "Treat equal whole-output representations across selected repairs as sufficient semantic correctness.",
+    "designated_witness": "Independently check declared feasibility and finite whole-output position membership; do not infer continuous soundness from presence."
+  },
+  "validation_tolerances": {
+    "position": "Exact serialized interval membership; no expanded boundary tolerance.",
+    "model_feasibility": "fractions.Fraction for model fields and bounded-acceleration reference.",
+    "sensor_feasibility": "strict geometric panel-intersection bounds; comparison tolerance 1e-12 only for reported arithmetic equality.",
+    "parity": "Exact JSON forest/state equality; recorded depth SHA256 or array equality as explicitly identified.",
+    "velocity": "independently evaluate sqrt(97); absolute arithmetic agreement tolerance 1e-12."
+  },
+  "stop": "Complete declared seven evidence groups, including negative and unresolved records. No native replay, sweep, new detector training, or source intervention.",
+  "limits": [
+    "Selected cases are not independent random samples.",
+    "Unresolved remains unresolved.",
+    "Return-level evidence is distinct from downstream caller consumption.",
+    "Archived old checker queries remain a different fixture from sensor scenes."
+  ]
+}

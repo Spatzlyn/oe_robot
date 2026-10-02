@@ -1,0 +1,2464 @@
+{
+  "upstream": "https://github.com/SafeRoboticsLab/Safe_Occlusion_Aware_Planning",
+  "revision": "2b6b06637850b406cfbeab926a3dedc01edad91e",
+  "scope": "Runtime Python modules, Town01 map and third-party build source; unused maps, binary distributions and cache excluded.",
+  "files": [
+    {
+      "path": "vendor/rss_occlusion/LICENSE",
+      "upstream_sha256": "36de7707d0f7daca558b2d457033f0e88027e696d8c81f16a3fd332a0903d13e",
+      "public_sha256": "36de7707d0f7daca558b2d457033f0e88027e696d8c81f16a3fd332a0903d13e",
+      "bytes": 1757,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/README.md",
+      "upstream_sha256": "5062b16bf43f0a30c3fd0fb5e4ddf6ee33d882aee9886150f323bb15fd15f869",
+      "public_sha256": "5062b16bf43f0a30c3fd0fb5e4ddf6ee33d882aee9886150f323bb15fd15f869",
+      "bytes": 1972,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/.gitignore",
+      "upstream_sha256": "724fe98b83dc048327649f939d7e84794bf57c102a66bad2cac29fe0c0272b81",
+      "public_sha256": "724fe98b83dc048327649f939d7e84794bf57c102a66bad2cac29fe0c0272b81",
+      "bytes": 88,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/.gitmodules",
+      "upstream_sha256": "4a63fba82eb66da8b31812d6bf1a6f2fe7b9be8da4db6ef1b971a9a51853571c",
+      "public_sha256": "4a63fba82eb66da8b31812d6bf1a6f2fe7b9be8da4db6ef1b971a9a51853571c",
+      "bytes": 97,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/.travis.yml",
+      "upstream_sha256": "5b8db8f5dd01c59a1e32119ef9c2580fe7641e4a5dbb7970693190e6f5295e27",
+      "public_sha256": "5b8db8f5dd01c59a1e32119ef9c2580fe7641e4a5dbb7970693190e6f5295e27",
+      "bytes": 831,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/MANIFEST.in",
+      "upstream_sha256": "d44cdb21d39b908cef9a7ad95bc775d4999fa15abf87a9734efa339ff03311a9",
+      "public_sha256": "d44cdb21d39b908cef9a7ad95bc775d4999fa15abf87a9734efa339ff03311a9",
+      "bytes": 78,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/README.md",
+      "upstream_sha256": "99b802b2ed63d8f0058cad0279aad82e59a22387cb370572d030e9b2c784da8c",
+      "public_sha256": "99b802b2ed63d8f0058cad0279aad82e59a22387cb370572d030e9b2c784da8c",
+      "bytes": 882,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/examples/getLabels.py",
+      "upstream_sha256": "14f4500ba51f4368e266330f8b7ceaee77e2a5a056a4a218dac8c1dd7dd0fd2f",
+      "public_sha256": "14f4500ba51f4368e266330f8b7ceaee77e2a5a056a4a218dac8c1dd7dd0fd2f",
+      "bytes": 1707,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/examples/insertPointCloud.py",
+      "upstream_sha256": "b7d5f13accfb23c5b71a0ad31f503d392d14cc99f1f4b68fc19e8c5024e87fa2",
+      "public_sha256": "b7d5f13accfb23c5b71a0ad31f503d392d14cc99f1f4b68fc19e8c5024e87fa2",
+      "bytes": 3882,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/examples/legacy/add_floor.py",
+      "upstream_sha256": "ad3cda9469fa5751dca69c9082f48ec08148b266297737e90985af0b1d0368f9",
+      "public_sha256": "ad3cda9469fa5751dca69c9082f48ec08148b266297737e90985af0b1d0368f9",
+      "bytes": 738,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/examples/legacy/example1.py",
+      "upstream_sha256": "27f4fd34536d69991df6223dfb1b6c5f5f6a80cae53a4f2a69622e09dc5cabde",
+      "public_sha256": "27f4fd34536d69991df6223dfb1b6c5f5f6a80cae53a4f2a69622e09dc5cabde",
+      "bytes": 531,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/examples/legacy/example2.py",
+      "upstream_sha256": "c083f3a9a53cd63249cb36b1a4900630ac074db095c6be5d2d79965dfa9d3157",
+      "public_sha256": "c083f3a9a53cd63249cb36b1a4900630ac074db095c6be5d2d79965dfa9d3157",
+      "bytes": 1292,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/examples/legacy/octomap_viewer.py",
+      "upstream_sha256": "273114bbbb67567331242d08924194a6d9104c97dfd2e55e23dcc12fd894a21b",
+      "public_sha256": "273114bbbb67567331242d08924194a6d9104c97dfd2e55e23dcc12fd894a21b",
+      "bytes": 1656,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/github2pypi/.travis.yml",
+      "upstream_sha256": "7b1739305ed974b8bfce7187615f15c508f773081d20931b23ab239a7f59570d",
+      "public_sha256": "7b1739305ed974b8bfce7187615f15c508f773081d20931b23ab239a7f59570d",
+      "bytes": 256,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/github2pypi/README.md",
+      "upstream_sha256": "57f2171a4f75c3aff9ac7a8ec4b356c977b2115a9d6139b6d60a17b3d57acaa8",
+      "public_sha256": "57f2171a4f75c3aff9ac7a8ec4b356c977b2115a9d6139b6d60a17b3d57acaa8",
+      "bytes": 958,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/github2pypi/__init__.py",
+      "upstream_sha256": "8029b802ca43300aa94028978dd2a7e87626787aa02ed11ee91b06effcd150a0",
+      "public_sha256": "8029b802ca43300aa94028978dd2a7e87626787aa02ed11ee91b06effcd150a0",
+      "bytes": 53,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/github2pypi/replace_url.py",
+      "upstream_sha256": "f5ebe2e9d50985af7f0020966a8d6d9c809ec84c03cbe9fcdbfae09625c88aa2",
+      "public_sha256": "f5ebe2e9d50985af7f0020966a8d6d9c809ec84c03cbe9fcdbfae09625c88aa2",
+      "bytes": 1035,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap/dynamicEDT3D_defs.pxd",
+      "upstream_sha256": "69a110402a9e1d04acbfec8578f9b1b0cd14d2520e3c9b47bd089eb1a8e65a67",
+      "public_sha256": "69a110402a9e1d04acbfec8578f9b1b0cd14d2520e3c9b47bd089eb1a8e65a67",
+      "bytes": 967,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap/include_and_setting.h",
+      "upstream_sha256": "68ba4dacef3e12432e945338feaf918519a46c5c3c2618fc4d0e1b08427887fc",
+      "public_sha256": "68ba4dacef3e12432e945338feaf918519a46c5c3c2618fc4d0e1b08427887fc",
+      "bytes": 208,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap/octomap.pyx",
+      "upstream_sha256": "a5144a50abae9f2bd471e5a757f40cbe308bab642df9890d95d70da4151eb2d9",
+      "public_sha256": "a5144a50abae9f2bd471e5a757f40cbe308bab642df9890d95d70da4151eb2d9",
+      "bytes": 33732,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap/octomap_defs.pxd",
+      "upstream_sha256": "54192a0e92e11ebf52e24d87f6f934daa30a0f27dc9affb037e92836c834f7a7",
+      "public_sha256": "54192a0e92e11ebf52e24d87f6f934daa30a0f27dc9affb037e92836c834f7a7",
+      "bytes": 7907,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap_python.egg-info/PKG-INFO",
+      "upstream_sha256": "eca58c861a8a0c5870b9d78bd578d2f9a71db4787d510435abbf001a66d8c6b7",
+      "public_sha256": "eca58c861a8a0c5870b9d78bd578d2f9a71db4787d510435abbf001a66d8c6b7",
+      "bytes": 1967,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap_python.egg-info/SOURCES.txt",
+      "upstream_sha256": "402f0001ff2d911628f808bef74b4787b72c8d581fc219eb64c22541284a2eea",
+      "public_sha256": "402f0001ff2d911628f808bef74b4787b72c8d581fc219eb64c22541284a2eea",
+      "bytes": 68201,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap_python.egg-info/dependency_links.txt",
+      "upstream_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "public_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap_python.egg-info/not-zip-safe",
+      "upstream_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "public_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap_python.egg-info/requires.txt",
+      "upstream_sha256": "56a9579b88c13f4fb1a89dceb80b0f67046b5bffe3a9c8e6b4cfca96077d543a",
+      "public_sha256": "56a9579b88c13f4fb1a89dceb80b0f67046b5bffe3a9c8e6b4cfca96077d543a",
+      "bytes": 59,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/octomap_python.egg-info/top_level.txt",
+      "upstream_sha256": "3b09c93078a75096027630c563af0c8dc23de7514582cbd0bd5250389c68cdcf",
+      "public_sha256": "3b09c93078a75096027630c563af0c8dc23de7514582cbd0bd5250389c68cdcf",
+      "bytes": 8,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/setup.cfg",
+      "upstream_sha256": "c6e29555c955a70ff3facf207925fa70e34b13ef6a1a7e79e48347c41f6e2933",
+      "public_sha256": "c6e29555c955a70ff3facf207925fa70e34b13ef6a1a7e79e48347c41f6e2933",
+      "bytes": 54,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/setup.py",
+      "upstream_sha256": "60d88d76e3fc2ed03d8af1090bb67332d4dcb78db949416b44f5b4aeb16a2748",
+      "public_sha256": "60d88d76e3fc2ed03d8af1090bb67332d4dcb78db949416b44f5b4aeb16a2748",
+      "bytes": 3266,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/.gitignore",
+      "upstream_sha256": "8220c52a734290265a1512b2d839c0c04d8ef51a246d9df3f7f6e6f495e135e1",
+      "public_sha256": "8220c52a734290265a1512b2d839c0c04d8ef51a246d9df3f7f6e6f495e135e1",
+      "bytes": 402,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/.travis.yml",
+      "upstream_sha256": "24dfbffcf75a13b206e00c68972b265789e5ea3676cf704efbcebccb714a3074",
+      "public_sha256": "24dfbffcf75a13b206e00c68972b265789e5ea3676cf704efbcebccb714a3074",
+      "bytes": 344,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/CMakeLists.txt",
+      "upstream_sha256": "7fc288d3440841c4c5b7dbd59b03d3ddb0da2ef0ec9e64b2bc4a7bd3d66fea88",
+      "public_sha256": "7fc288d3440841c4c5b7dbd59b03d3ddb0da2ef0ec9e64b2bc4a7bd3d66fea88",
+      "bytes": 758,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/README.md",
+      "upstream_sha256": "3d35053b8fdaed465692b8a50e529b518899a5867d56f464c563b0cddd2323ef",
+      "public_sha256": "3d35053b8fdaed465692b8a50e529b518899a5867d56f464c563b0cddd2323ef",
+      "bytes": 2131,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/CHANGELOG.txt",
+      "upstream_sha256": "6cd6f06ec7a2556163ad4f9536b9cbd2050981d785957ad7486cbf35eaedf2f5",
+      "public_sha256": "6cd6f06ec7a2556163ad4f9536b9cbd2050981d785957ad7486cbf35eaedf2f5",
+      "bytes": 343,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/CMakeLists.txt",
+      "upstream_sha256": "693d07eaaecbaed4a12c1dfe02e30fb6f649241d5fde284af4085b1d8c80b0e1",
+      "public_sha256": "693d07eaaecbaed4a12c1dfe02e30fb6f649241d5fde284af4085b1d8c80b0e1",
+      "bytes": 6222,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/CMakeModules/CMakeUninstall.cmake.in",
+      "upstream_sha256": "6b5c815c7a6807920aff05136297805bdeb8a70728615d4c573d0ca0b1e6387d",
+      "public_sha256": "6b5c815c7a6807920aff05136297805bdeb8a70728615d4c573d0ca0b1e6387d",
+      "bytes": 1011,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/CMakeModules/CPackSettings.cmake",
+      "upstream_sha256": "da9198243a75e7144f4b7c6d406fffc7f09f3289e181b2d5377071c88e1d40fe",
+      "public_sha256": "da9198243a75e7144f4b7c6d406fffc7f09f3289e181b2d5377071c88e1d40fe",
+      "bytes": 707,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/CMakeModules/CompilerSettings.cmake",
+      "upstream_sha256": "3060863afebd34137ce0668bcc4e9d8c8285e58a9f657ef3cb2c1297056ff257",
+      "public_sha256": "3060863afebd34137ce0668bcc4e9d8c8285e58a9f657ef3cb2c1297056ff257",
+      "bytes": 1444,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/CMakeModules/InstallPkgConfigFile.cmake",
+      "upstream_sha256": "6b52bae2a897f451b7f5d4b1567b5a95169623b0ca16c447ab16f8fee90615e3",
+      "public_sha256": "6b52bae2a897f451b7f5d4b1567b5a95169623b0ca16c447ab16f8fee90615e3",
+      "bytes": 2743,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/LICENSE.txt",
+      "upstream_sha256": "02286ce12570518b174ae6441056d1587994b2861cf27354ac56a8d5f940d8c3",
+      "public_sha256": "02286ce12570518b174ae6441056d1587994b2861cf27354ac56a8d5f940d8c3",
+      "bytes": 1722,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/README.txt",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/doxygen.h",
+      "upstream_sha256": "e5b8081dfe34795e2b1f06cf47d40fc14a5651af1df5ad1fb5696761f9b11eb0",
+      "public_sha256": "e5b8081dfe34795e2b1f06cf47d40fc14a5651af1df5ad1fb5696761f9b11eb0",
+      "bytes": 1923,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/dynamicEDT3D.dox",
+      "upstream_sha256": "c77bbdfd470688a9e77ac88d635af93fcb8d3235e59040facceb9a547e84c23a",
+      "public_sha256": "c77bbdfd470688a9e77ac88d635af93fcb8d3235e59040facceb9a547e84c23a",
+      "bytes": 52653,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/dynamicEDT3DConfig.cmake.in",
+      "upstream_sha256": "63894a3a6815132a925b2f31c41e8117af91d2c24b2f101ceab4f339cc64460c",
+      "public_sha256": "63894a3a6815132a925b2f31c41e8117af91d2c24b2f101ceab4f339cc64460c",
+      "bytes": 1340,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/include/dynamicEDT3D/bucketedqueue.h",
+      "upstream_sha256": "e8276ffd09f8d1ddbe2a1f7c663a9dd89b879afa24e1fe143db7e9ceaa300752",
+      "public_sha256": "e8276ffd09f8d1ddbe2a1f7c663a9dd89b879afa24e1fe143db7e9ceaa300752",
+      "bytes": 3237,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/include/dynamicEDT3D/bucketedqueue.hxx",
+      "upstream_sha256": "219c226bf82e10944f43f4537bf46cc68c9fa5b98be19abd16a8f5030b9ca956",
+      "public_sha256": "219c226bf82e10944f43f4537bf46cc68c9fa5b98be19abd16a8f5030b9ca956",
+      "bytes": 2656,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/include/dynamicEDT3D/dynamicEDT3D.h",
+      "upstream_sha256": "0e814c1072a6cf3008900d774195a75f168a08262221bffc6a3a5aceade84f9c",
+      "public_sha256": "0e814c1072a6cf3008900d774195a75f168a08262221bffc6a3a5aceade84f9c",
+      "bytes": 5228,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/include/dynamicEDT3D/dynamicEDTOctomap.h",
+      "upstream_sha256": "87e20b8083c7d783e6a607f19b8b58b36ba307d7aefda472a43b7a923c8aabe3",
+      "public_sha256": "87e20b8083c7d783e6a607f19b8b58b36ba307d7aefda472a43b7a923c8aabe3",
+      "bytes": 7002,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/include/dynamicEDT3D/dynamicEDTOctomap.hxx",
+      "upstream_sha256": "e33bf8ed43d9e089ec313b7b36a33ca0483ff54f4061d473e14ba1290382fcb8",
+      "public_sha256": "e33bf8ed43d9e089ec313b7b36a33ca0483ff54f4061d473e14ba1290382fcb8",
+      "bytes": 11291,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/include/dynamicEDT3D/point.h",
+      "upstream_sha256": "585c58d0a527a23327860c8376e6924aaef6fc3a41a023ef3a2a74bdf28d2624",
+      "public_sha256": "585c58d0a527a23327860c8376e6924aaef6fc3a41a023ef3a2a74bdf28d2624",
+      "bytes": 2379,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/package.xml",
+      "upstream_sha256": "7c3f9e95cde1d29bc762b896441d031dbcb98e55357fc17dd46b95cc18d0aa44",
+      "public_sha256": "7c3f9e95cde1d29bc762b896441d031dbcb98e55357fc17dd46b95cc18d0aa44",
+      "bytes": 899,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/src/CMakeLists.txt",
+      "upstream_sha256": "50136e863db9593bd7a8ac97718b819f4842dc44e7347d9ed660285df348ae61",
+      "public_sha256": "50136e863db9593bd7a8ac97718b819f4842dc44e7347d9ed660285df348ae61",
+      "bytes": 1350,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/src/dynamicEDT3D.cpp",
+      "upstream_sha256": "0ccffefa208fd72dc3307515f5bd0d85bfffd60acd4c682e7379db39814825b9",
+      "public_sha256": "0ccffefa208fd72dc3307515f5bd0d85bfffd60acd4c682e7379db39814825b9",
+      "bytes": 16104,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/src/examples/CMakeLists.txt",
+      "upstream_sha256": "88f539bdacc11c900ccd6ad4be5f8f4578bb3503ca58685601f189e77dfe50f7",
+      "public_sha256": "88f539bdacc11c900ccd6ad4be5f8f4578bb3503ca58685601f189e77dfe50f7",
+      "bytes": 337,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/src/examples/exampleEDT3D.cpp",
+      "upstream_sha256": "ac4b20aa9d30e2c02e5a87af45ec55e34b674fab155979657dc3b70bad136495",
+      "public_sha256": "ac4b20aa9d30e2c02e5a87af45ec55e34b674fab155979657dc3b70bad136495",
+      "bytes": 5086,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/src/examples/exampleEDTOctomap.cpp",
+      "upstream_sha256": "cb83bfebc02851769aa70da53b4189577762da961cdfc026f73f0c182e324937",
+      "public_sha256": "cb83bfebc02851769aa70da53b4189577762da961cdfc026f73f0c182e324937",
+      "bytes": 4039,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/dynamicEDT3D/src/examples/exampleEDTOctomapStamped.cpp",
+      "upstream_sha256": "9ba7e2a1302d4243b66280c1ebc59109b005843891a18fab534de4a0eeb8e472",
+      "public_sha256": "9ba7e2a1302d4243b66280c1ebc59109b005843891a18fab534de4a0eeb8e472",
+      "bytes": 4080,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/AUTHORS.txt",
+      "upstream_sha256": "a74764a3b130f938d47ba628b703d2602bda1affc0428e23188b68f33b3fdad3",
+      "public_sha256": "a74764a3b130f938d47ba628b703d2602bda1affc0428e23188b68f33b3fdad3",
+      "bytes": 485,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/CHANGELOG.txt",
+      "upstream_sha256": "186174efde3b5f27f1784ed34339df1776168ec74ffd73d45e8ba43242601f3f",
+      "public_sha256": "186174efde3b5f27f1784ed34339df1776168ec74ffd73d45e8ba43242601f3f",
+      "bytes": 12350,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/CMakeLists.txt",
+      "upstream_sha256": "c90e13b9a28925550312312696321834297d292718244299318b2e497a97e4fd",
+      "public_sha256": "c90e13b9a28925550312312696321834297d292718244299318b2e497a97e4fd",
+      "bytes": 6299,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/CMakeModules/CMakeUninstall.cmake.in",
+      "upstream_sha256": "9a0f3dc1e9c0d18ee757f14036625b366d47dfef168903eace93a6bf36e4b77a",
+      "public_sha256": "9a0f3dc1e9c0d18ee757f14036625b366d47dfef168903eace93a6bf36e4b77a",
+      "bytes": 1037,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/CMakeModules/CPackSettings.cmake",
+      "upstream_sha256": "da9198243a75e7144f4b7c6d406fffc7f09f3289e181b2d5377071c88e1d40fe",
+      "public_sha256": "da9198243a75e7144f4b7c6d406fffc7f09f3289e181b2d5377071c88e1d40fe",
+      "bytes": 707,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/CMakeModules/CompilerSettings.cmake",
+      "upstream_sha256": "314abf33e2d5987dd234c285f6908766ba17dde5c3186e7d306dd3325c77f652",
+      "public_sha256": "314abf33e2d5987dd234c285f6908766ba17dde5c3186e7d306dd3325c77f652",
+      "bytes": 1048,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/CMakeModules/InstallPkgConfigFile.cmake",
+      "upstream_sha256": "6b52bae2a897f451b7f5d4b1567b5a95169623b0ca16c447ab16f8fee90615e3",
+      "public_sha256": "6b52bae2a897f451b7f5d4b1567b5a95169623b0ca16c447ab16f8fee90615e3",
+      "bytes": 2743,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/LICENSE.txt",
+      "upstream_sha256": "8a9ce1eadc1dd0fc4ee57a6016cb40eddc7003d2da824c58d55463f2b9ceb4ca",
+      "public_sha256": "8a9ce1eadc1dd0fc4ee57a6016cb40eddc7003d2da824c58d55463f2b9ceb4ca",
+      "bytes": 1698,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/README.md",
+      "upstream_sha256": "c9e3707ac5608ca46aedd8b24ac82a8e9131fadcc4b3a0c731cf90bd9ea24607",
+      "public_sha256": "c9e3707ac5608ca46aedd8b24ac82a8e9131fadcc4b3a0c731cf90bd9ea24607",
+      "bytes": 5552,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/doxygen.h",
+      "upstream_sha256": "7ea440120501f2805fa81819fc325fc03021f963bcd0f9ec44af138a9814341c",
+      "public_sha256": "7ea440120501f2805fa81819fc325fc03021f963bcd0f9ec44af138a9814341c",
+      "bytes": 4462,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/extern/README_BINVOX",
+      "upstream_sha256": "0b687199a3503262ee9142f6957691e01f679303cddcc9e6d2c25db7d8fafab1",
+      "public_sha256": "0b687199a3503262ee9142f6957691e01f679303cddcc9e6d2c25db7d8fafab1",
+      "bytes": 158,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/AbstractOcTree.h",
+      "upstream_sha256": "16198ebc601258868bd2e44bb951f6f286eb22be4ab5680be7ca37299f0bbdac",
+      "public_sha256": "16198ebc601258868bd2e44bb951f6f286eb22be4ab5680be7ca37299f0bbdac",
+      "bytes": 6748,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/AbstractOccupancyOcTree.h",
+      "upstream_sha256": "6e176d532cde8a7495574e7809e610d5dbba0ef32c0abee4e6ada605923c6563",
+      "public_sha256": "6e176d532cde8a7495574e7809e610d5dbba0ef32c0abee4e6ada605923c6563",
+      "bytes": 10721,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/ColorOcTree.h",
+      "upstream_sha256": "bafbfd4a291abf6dcab53263eb73d479ac29085f7e873638f237500ea8a5f069",
+      "public_sha256": "bafbfd4a291abf6dcab53263eb73d479ac29085f7e873638f237500ea8a5f069",
+      "bytes": 7563,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/CountingOcTree.h",
+      "upstream_sha256": "405fd6e0065c2cdb8920471dfe9d4faab60640a34f0a3f6209e9cacd6f80b8a8",
+      "public_sha256": "405fd6e0065c2cdb8920471dfe9d4faab60640a34f0a3f6209e9cacd6f80b8a8",
+      "bytes": 4512,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/MCTables.h",
+      "upstream_sha256": "de456107164b7505508983ddaa03b72b18fe343d3f9203397afb38c55397dac9",
+      "public_sha256": "de456107164b7505508983ddaa03b72b18fe343d3f9203397afb38c55397dac9",
+      "bytes": 19345,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/MapCollection.h",
+      "upstream_sha256": "c6a2c34516cd882cd92ea02c9ef85df797695e55053d93ef22c8206936451598",
+      "public_sha256": "c6a2c34516cd882cd92ea02c9ef85df797695e55053d93ef22c8206936451598",
+      "bytes": 3897,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/MapCollection.hxx",
+      "upstream_sha256": "fcb46fb689e553b8a7ed40dec14dcf0004365f120805095d7698c3021c482ecd",
+      "public_sha256": "fcb46fb689e553b8a7ed40dec14dcf0004365f120805095d7698c3021c482ecd",
+      "bytes": 11268,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/MapNode.h",
+      "upstream_sha256": "32b5ea665e80cddcecf6700fe4790f080a693d1d12a6828dc5c040308a5e660b",
+      "public_sha256": "32b5ea665e80cddcecf6700fe4790f080a693d1d12a6828dc5c040308a5e660b",
+      "bytes": 2880,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/MapNode.hxx",
+      "upstream_sha256": "60bd0981d1ee9f97384afdc4f914d37ae8b6169287c20e3006c5f1ad181d6ff2",
+      "public_sha256": "60bd0981d1ee9f97384afdc4f914d37ae8b6169287c20e3006c5f1ad181d6ff2",
+      "bytes": 3389,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTree.h",
+      "upstream_sha256": "94caf6bf81e303e22c3ea2dbe8a754ccafa21c32c85e93ffa2b6a4c9330337d8",
+      "public_sha256": "94caf6bf81e303e22c3ea2dbe8a754ccafa21c32c85e93ffa2b6a4c9330337d8",
+      "bytes": 3597,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeBase.h",
+      "upstream_sha256": "fc55234728e134cb485da8ce33d5b6fd7fce62834396cc2b10f92a9211733a75",
+      "public_sha256": "fc55234728e134cb485da8ce33d5b6fd7fce62834396cc2b10f92a9211733a75",
+      "bytes": 2394,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeBaseImpl.h",
+      "upstream_sha256": "21f2687d88719d7c41f9f765645cfca74af296e9fa86994c4d39e23d974101bb",
+      "public_sha256": "21f2687d88719d7c41f9f765645cfca74af296e9fa86994c4d39e23d974101bb",
+      "bytes": 23307,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeBaseImpl.hxx",
+      "upstream_sha256": "3a34d8d722474169b7cf3de3d67e49dc29c7bf62dd8f7a1b4873569579830bfc",
+      "public_sha256": "3a34d8d722474169b7cf3de3d67e49dc29c7bf62dd8f7a1b4873569579830bfc",
+      "bytes": 32712,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeDataNode.h",
+      "upstream_sha256": "4699ca250ec1fdf646a3e035304a6633ebd974007091173a4818649ce86459ee",
+      "public_sha256": "4699ca250ec1fdf646a3e035304a6633ebd974007091173a4818649ce86459ee",
+      "bytes": 4866,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeDataNode.hxx",
+      "upstream_sha256": "789aabee299d39d274c3f2cd82e2b57cd05a877835de8db99357adb0ae3c40f2",
+      "public_sha256": "789aabee299d39d274c3f2cd82e2b57cd05a877835de8db99357adb0ae3c40f2",
+      "bytes": 4485,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeIterator.hxx",
+      "upstream_sha256": "8ba33fa6e138d83ab2ae9b2c4bf944922612b85a66b150ba57f6fdc8f22adc22",
+      "public_sha256": "8ba33fa6e138d83ab2ae9b2c4bf944922612b85a66b150ba57f6fdc8f22adc22",
+      "bytes": 17538,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeKey.h",
+      "upstream_sha256": "016ce8d6297e4e7bedd6ff47e7887e8b523cc10dd26e24082da96a46a30c01c9",
+      "public_sha256": "016ce8d6297e4e7bedd6ff47e7887e8b523cc10dd26e24082da96a46a30c01c9",
+      "bytes": 7910,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeNode.h",
+      "upstream_sha256": "117750d2cc1e0237acc355f040b43e638aa6d90e68f6c8f0ae6c196e2b9ada4b",
+      "public_sha256": "117750d2cc1e0237acc355f040b43e638aa6d90e68f6c8f0ae6c196e2b9ada4b",
+      "bytes": 3621,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OcTreeStamped.h",
+      "upstream_sha256": "e07ae66c92c3ee479216c4b19bda6d61352c296f70af7b2d0d8edc4a933cf773",
+      "public_sha256": "e07ae66c92c3ee479216c4b19bda6d61352c296f70af7b2d0d8edc4a933cf773",
+      "bytes": 4655,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OccupancyOcTreeBase.h",
+      "upstream_sha256": "0608801e849ae465b6f8d1e721788bf4a6eb014a070f630e7c690f711ae629d8",
+      "public_sha256": "0608801e849ae465b6f8d1e721788bf4a6eb014a070f630e7c690f711ae629d8",
+      "bytes": 25113,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/OccupancyOcTreeBase.hxx",
+      "upstream_sha256": "873addb1810c21da7115a118a0275d90cb2255d5364d8f9caf5a96b61ceb8e90",
+      "public_sha256": "873addb1810c21da7115a118a0275d90cb2255d5364d8f9caf5a96b61ceb8e90",
+      "bytes": 40310,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/Pointcloud.h",
+      "upstream_sha256": "d130225265c63956bb00df060f709029f19c64630ad3229d38a06a7902e76e21",
+      "public_sha256": "d130225265c63956bb00df060f709029f19c64630ad3229d38a06a7902e76e21",
+      "bytes": 4430,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/ScanGraph.h",
+      "upstream_sha256": "88e921990dac24a799e5b17715b192399f17b9993b7180e60451109934b403a2",
+      "public_sha256": "88e921990dac24a799e5b17715b192399f17b9993b7180e60451109934b403a2",
+      "bytes": 7500,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/math/Pose6D.h",
+      "upstream_sha256": "4af7ebaaced9bdca69c11f60972a560f6581e0573b8137506076c8a84f713a15",
+      "public_sha256": "4af7ebaaced9bdca69c11f60972a560f6581e0573b8137506076c8a84f713a15",
+      "bytes": 6491,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/math/Quaternion.h",
+      "upstream_sha256": "c616a7a581eb6f768cbde56de13a1b26cfa4fd1f372803b48e2e127e3ef87336",
+      "public_sha256": "c616a7a581eb6f768cbde56de13a1b26cfa4fd1f372803b48e2e127e3ef87336",
+      "bytes": 6132,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/math/Utils.h",
+      "upstream_sha256": "0932b85c72fe58d5c3f9093d9057e5f84ddb2137df2644963792b685236c0972",
+      "public_sha256": "0932b85c72fe58d5c3f9093d9057e5f84ddb2137df2644963792b685236c0972",
+      "bytes": 2106,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/math/Vector3.h",
+      "upstream_sha256": "6c2ee59b93402f018dad9f418b1b6691b6af47814de1dee6735280f83e0ede81",
+      "public_sha256": "6c2ee59b93402f018dad9f418b1b6691b6af47814de1dee6735280f83e0ede81",
+      "bytes": 8332,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/octomap.h",
+      "upstream_sha256": "fcf765ddef9b1a627449c390fce08933e94edd2f6a94ca20cc9700fa101b49cb",
+      "public_sha256": "fcf765ddef9b1a627449c390fce08933e94edd2f6a94ca20cc9700fa101b49cb",
+      "bytes": 1875,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/octomap_deprecated.h",
+      "upstream_sha256": "106487c8fc1e34e133c6175b84684ce6d577cadb79746533e687864fd805ace5",
+      "public_sha256": "106487c8fc1e34e133c6175b84684ce6d577cadb79746533e687864fd805ace5",
+      "bytes": 2258,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/octomap_timing.h",
+      "upstream_sha256": "5c2084c5cfb0db27fa5e0c3c7f9f58a016c7e5899e95666f0adc2ea521ab51b4",
+      "public_sha256": "5c2084c5cfb0db27fa5e0c3c7f9f58a016c7e5899e95666f0adc2ea521ab51b4",
+      "bytes": 2259,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/octomap_types.h",
+      "upstream_sha256": "74ed07c3f23a72231c0cfbfd02810dc281e4114f4e15e58662a39eadc8ded231",
+      "public_sha256": "74ed07c3f23a72231c0cfbfd02810dc281e4114f4e15e58662a39eadc8ded231",
+      "bytes": 3315,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/include/octomap/octomap_utils.h",
+      "upstream_sha256": "6df1c80f37e7160196e7361032cdf82364c73f419fd6eb003f05b05c3aa3db04",
+      "public_sha256": "6df1c80f37e7160196e7361032cdf82364c73f419fd6eb003f05b05c3aa3db04",
+      "bytes": 2183,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/octomap-config.cmake.in",
+      "upstream_sha256": "51d5e6e27bf4842ad39efe343e4ee0f804883578540b86990075ca44a9701903",
+      "public_sha256": "51d5e6e27bf4842ad39efe343e4ee0f804883578540b86990075ca44a9701903",
+      "bytes": 1599,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/octomap.dox.in",
+      "upstream_sha256": "89dc5ddc3f49d136e12d052b78e892a0b539c2e39bd47775587a783d9f4ac12c",
+      "public_sha256": "89dc5ddc3f49d136e12d052b78e892a0b539c2e39bd47775587a783d9f4ac12c",
+      "bytes": 75923,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/package.xml",
+      "upstream_sha256": "98161710bf1911817765be0e261346175a1e3458ca36c13df25bff475dd480c5",
+      "public_sha256": "98161710bf1911817765be0e261346175a1e3458ca36c13df25bff475dd480c5",
+      "bytes": 852,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/share/data/mapcoll.txt",
+      "upstream_sha256": "51fb44f837b0c19b6efb3114041b083029b09b147f32b318f88041735ba345bd",
+      "public_sha256": "51fb44f837b0c19b6efb3114041b083029b09b147f32b318f88041735ba345bd",
+      "bytes": 326,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/share/data/scan.dat.bz2",
+      "upstream_sha256": "fedc1175da4a55667de328ce3df5082ea19c335375e39bd938f22060b59f61f3",
+      "public_sha256": "fedc1175da4a55667de328ce3df5082ea19c335375e39bd938f22060b59f61f3",
+      "bytes": 819611,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/share/example-project.tgz",
+      "upstream_sha256": "f3b788d4347f86808b53586e197df80ffa811314c1d2c5cce0b1417a8722f737",
+      "public_sha256": "f3b788d4347f86808b53586e197df80ffa811314c1d2c5cce0b1417a8722f737",
+      "bytes": 2124,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/AbstractOcTree.cpp",
+      "upstream_sha256": "33598283e7c6a439ee5817105790c8dc25ab996750c49639a9fe7549fb0347cb",
+      "public_sha256": "33598283e7c6a439ee5817105790c8dc25ab996750c49639a9fe7549fb0347cb",
+      "bytes": 6655,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/AbstractOccupancyOcTree.cpp",
+      "upstream_sha256": "f476eb9f45caf08cd73a756f0a98f178c103788da7f59e4412130e8deb53017f",
+      "public_sha256": "f476eb9f45caf08cd73a756f0a98f178c103788da7f59e4412130e8deb53017f",
+      "bytes": 6509,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/CMakeLists.txt",
+      "upstream_sha256": "8056b0b1e22965e9589e78b9210a767cda64ceda0ec97c0af25482d813de8542",
+      "public_sha256": "8056b0b1e22965e9589e78b9210a767cda64ceda0ec97c0af25482d813de8542",
+      "bytes": 2445,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/ColorOcTree.cpp",
+      "upstream_sha256": "f8bb38344f3277ee4755f09cc7282a0e3ee4a43d4c128ab31a7ee1b0d4774a00",
+      "public_sha256": "f8bb38344f3277ee4755f09cc7282a0e3ee4a43d4c128ab31a7ee1b0d4774a00",
+      "bytes": 9213,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/CountingOcTree.cpp",
+      "upstream_sha256": "eb550a55c150bc4c4a1118c5ffa4c9ab6b9051d5d8c45a20187768b27cac1d0c",
+      "public_sha256": "eb550a55c150bc4c4a1118c5ffa4c9ab6b9051d5d8c45a20187768b27cac1d0c",
+      "bytes": 4635,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/OcTree.cpp",
+      "upstream_sha256": "6a393badf247cbec7601ffc23a856df84743d005bc8d971ec316e99e0974d26e",
+      "public_sha256": "6a393badf247cbec7601ffc23a856df84743d005bc8d971ec316e99e0974d26e",
+      "bytes": 2210,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/OcTreeNode.cpp",
+      "upstream_sha256": "4dfb91d464e8fd069bc04445c99c556eba3176d5862eb49918d180590a95721d",
+      "public_sha256": "4dfb91d464e8fd069bc04445c99c556eba3176d5862eb49918d180590a95721d",
+      "bytes": 3180,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/OcTreeStamped.cpp",
+      "upstream_sha256": "7f7c6e6c4ddd74e7f415bb68f1aaff326a5d3878a00ef310e6d03818fb7f9777",
+      "public_sha256": "7f7c6e6c4ddd74e7f415bb68f1aaff326a5d3878a00ef310e6d03818fb7f9777",
+      "bytes": 3044,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/Pointcloud.cpp",
+      "upstream_sha256": "ceaa49a86842585ae90e11984cb46f1348336105bc2e3abd947b0a56e9714713",
+      "public_sha256": "ceaa49a86842585ae90e11984cb46f1348336105bc2e3abd947b0a56e9714713",
+      "bytes": 9606,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/ScanGraph.cpp",
+      "upstream_sha256": "7cafc69a5b2ad6a65c5448eeef71ef83a601577d407605cb4b0ff6f42b0ed8f9",
+      "public_sha256": "7cafc69a5b2ad6a65c5448eeef71ef83a601577d407605cb4b0ff6f42b0ed8f9",
+      "bytes": 18219,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/binvox2bt.cpp",
+      "upstream_sha256": "16399e271cfd0cb9b82295344445acb62e0fe00c61540b4ad02beaf5bbdb0c5a",
+      "public_sha256": "16399e271cfd0cb9b82295344445acb62e0fe00c61540b4ad02beaf5bbdb0c5a",
+      "bytes": 10994,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/bt2vrml.cpp",
+      "upstream_sha256": "ff3f2124df3f054c0cf867b617b759c959305e43f676e82291e58eb5076cd5c9",
+      "public_sha256": "ff3f2124df3f054c0cf867b617b759c959305e43f676e82291e58eb5076cd5c9",
+      "bytes": 3561,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/compare_octrees.cpp",
+      "upstream_sha256": "b82d13e9657c7f790efea6b135e11111d482e2cb8f5a80658e38b419e9e11905",
+      "public_sha256": "b82d13e9657c7f790efea6b135e11111d482e2cb8f5a80658e38b419e9e11905",
+      "bytes": 4955,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/convert_octree.cpp",
+      "upstream_sha256": "26c02cd0081f6045100d7c044445f3d911a7eb2f468a1a75e326805a53c5efb5",
+      "public_sha256": "26c02cd0081f6045100d7c044445f3d911a7eb2f468a1a75e326805a53c5efb5",
+      "bytes": 5176,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/edit_octree.cpp",
+      "upstream_sha256": "ac1920ebf1d96a95f76b918d747d3cadf2e865e1d1d7adda68f21392e943c447",
+      "public_sha256": "ac1920ebf1d96a95f76b918d747d3cadf2e865e1d1d7adda68f21392e943c447",
+      "bytes": 7373,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/eval_octree_accuracy.cpp",
+      "upstream_sha256": "d1fafbb374b472790908b77cafdbfc4b4be0e2ba2f71756e05dceb5319d3c0d3",
+      "public_sha256": "d1fafbb374b472790908b77cafdbfc4b4be0e2ba2f71756e05dceb5319d3c0d3",
+      "bytes": 6439,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/graph2tree.cpp",
+      "upstream_sha256": "c4a4faab55c219a0b889437ec17db22709c7c7d65afedabc32f78552f0b468a1",
+      "public_sha256": "c4a4faab55c219a0b889437ec17db22709c7c7d65afedabc32f78552f0b468a1",
+      "bytes": 11292,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/intersection_example.cpp",
+      "upstream_sha256": "adc00f57af54d1e65bfeda5c3b89814e3d869c7d896d4203cc8c8519620c52e5",
+      "public_sha256": "adc00f57af54d1e65bfeda5c3b89814e3d869c7d896d4203cc8c8519620c52e5",
+      "bytes": 3338,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/log2graph.cpp",
+      "upstream_sha256": "362caef60b25456899a02625d0e60c8628172253d40fb1c28662dfeb621a5aac",
+      "public_sha256": "362caef60b25456899a02625d0e60c8628172253d40fb1c28662dfeb621a5aac",
+      "bytes": 2957,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/math/CMakeLists.txt",
+      "upstream_sha256": "59653d4fa991ed4d65f99afc01f4f87ca84a26ec0af356ee3bab273acc4bedd5",
+      "public_sha256": "59653d4fa991ed4d65f99afc01f4f87ca84a26ec0af356ee3bab273acc4bedd5",
+      "bytes": 782,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/math/Pose6D.cpp",
+      "upstream_sha256": "e4eab283dd37b6d78702f6dd1690ef35d917bc6a1bc774e60742f442a205ae44",
+      "public_sha256": "e4eab283dd37b6d78702f6dd1690ef35d917bc6a1bc774e60742f442a205ae44",
+      "bytes": 4487,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/math/Quaternion.cpp",
+      "upstream_sha256": "af853735cd2a7312737fc37c9e68809cd58526c5d57236a1cd0058f21d3d22ce",
+      "public_sha256": "af853735cd2a7312737fc37c9e68809cd58526c5d57236a1cd0058f21d3d22ce",
+      "bytes": 8412,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/math/Vector3.cpp",
+      "upstream_sha256": "30510b3e61a6eab048fcac421b05659555ba946c9a1ef06ae79655ced76c9a07",
+      "public_sha256": "30510b3e61a6eab048fcac421b05659555ba946c9a1ef06ae79655ced76c9a07",
+      "bytes": 3780,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/normals_example.cpp",
+      "upstream_sha256": "9226e5ff799f778824a78cc3908e88a10f9c806bd0800519aaa2dd06ce2cda59",
+      "public_sha256": "9226e5ff799f778824a78cc3908e88a10f9c806bd0800519aaa2dd06ce2cda59",
+      "bytes": 3963,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/octree2pointcloud.cpp",
+      "upstream_sha256": "04769f8a70d6c615409f4c02486d868fcb49dd4ddec4019f6c02bb2a4aa9a0be",
+      "public_sha256": "04769f8a70d6c615409f4c02486d868fcb49dd4ddec4019f6c02bb2a4aa9a0be",
+      "bytes": 3945,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/offset_graph.cpp",
+      "upstream_sha256": "112fd027333cd3247abcaf350602cf9ff77526be7d987e23f495d4be5d8fc707",
+      "public_sha256": "112fd027333cd3247abcaf350602cf9ff77526be7d987e23f495d4be5d8fc707",
+      "bytes": 2413,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/simple_example.cpp",
+      "upstream_sha256": "9ee3b9f76dd06bda55e30863728081a44cdce5a921276fbbc1e6b6b2531f7394",
+      "public_sha256": "9ee3b9f76dd06bda55e30863728081a44cdce5a921276fbbc1e6b6b2531f7394",
+      "bytes": 3625,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/CMakeLists.txt",
+      "upstream_sha256": "12088eba78800ee97c305bb038fd82a0d980472d6ccca693aa90214871fbf128",
+      "public_sha256": "12088eba78800ee97c305bb038fd82a0d980472d6ccca693aa90214871fbf128",
+      "bytes": 2172,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/color_tree_histogram.cpp",
+      "upstream_sha256": "4655ea9ede2814b687de0881826245c2cd1df2fef9b9202ab91fa5514fd933f8",
+      "public_sha256": "4655ea9ede2814b687de0881826245c2cd1df2fef9b9202ab91fa5514fd933f8",
+      "bytes": 568,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_changedkeys.cpp",
+      "upstream_sha256": "fa100526e761db55a903bb5cf6dd83ab902b78d38d11c6ae75c2e3552d8c4bc0",
+      "public_sha256": "fa100526e761db55a903bb5cf6dd83ab902b78d38d11c6ae75c2e3552d8c4bc0",
+      "bytes": 2197,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_color_tree.cpp",
+      "upstream_sha256": "fa83e833f9962b7085f5d9c284adfe6d8bbfd4645f1c8907c0f56c2456e8b1e8",
+      "public_sha256": "fa83e833f9962b7085f5d9c284adfe6d8bbfd4645f1c8907c0f56c2456e8b1e8",
+      "bytes": 6267,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_io.cpp",
+      "upstream_sha256": "fb2880eebf2394a0f63f161c41c59f141b7ad9fcdeb000bd2823fd86db67606c",
+      "public_sha256": "fb2880eebf2394a0f63f161c41c59f141b7ad9fcdeb000bd2823fd86db67606c",
+      "bytes": 6091,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_iterators.cpp",
+      "upstream_sha256": "6224a46ea00dad104237852c4b7ba48f065d603a89661e3166600ec44263c827",
+      "public_sha256": "6224a46ea00dad104237852c4b7ba48f065d603a89661e3166600ec44263c827",
+      "bytes": 14038,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_mapcollection.cpp",
+      "upstream_sha256": "04f480a7b6dbcea1b6e0b0a89ae9bff7f34aa6c50deaab71f7ada3f423d69b76",
+      "public_sha256": "04f480a7b6dbcea1b6e0b0a89ae9bff7f34aa6c50deaab71f7ada3f423d69b76",
+      "bytes": 4625,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_pruning.cpp",
+      "upstream_sha256": "bee635aa9f731c0e7a0c3884604d80b37b6afd2fdf3cf697625937d78b2a3f69",
+      "public_sha256": "bee635aa9f731c0e7a0c3884604d80b37b6afd2fdf3cf697625937d78b2a3f69",
+      "bytes": 9193,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_raycasting.cpp",
+      "upstream_sha256": "2a13188471ee44e5945a02a6f2f2c78740ac92227884b9663b39fe89d3d6906a",
+      "public_sha256": "2a13188471ee44e5945a02a6f2f2c78740ac92227884b9663b39fe89d3d6906a",
+      "bytes": 6031,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/test_scans.cpp",
+      "upstream_sha256": "3778aadc500f9f25bcdd2418b98030cdbcd1fad66567b73adaaf1cdff703765e",
+      "public_sha256": "3778aadc500f9f25bcdd2418b98030cdbcd1fad66567b73adaaf1cdff703765e",
+      "bytes": 2629,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/testing.h",
+      "upstream_sha256": "330fd355a917f8211a2fe91a565f88cf615cc9c42a6767384596ac86d3a2c5fc",
+      "public_sha256": "330fd355a917f8211a2fe91a565f88cf615cc9c42a6767384596ac86d3a2c5fc",
+      "bytes": 1464,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/src/testing/unit_tests.cpp",
+      "upstream_sha256": "855303ccae82e5b13bcfe09b93c7ffb9d4eb7a5a1ed2bb24bdd98a7e73369fab",
+      "public_sha256": "855303ccae82e5b13bcfe09b93c7ffb9d4eb7a5a1ed2bb24bdd98a7e73369fab",
+      "bytes": 7147,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octomap/valgrind_memcheck.supp",
+      "upstream_sha256": "028cf3fc0eee10e7f118b8eb338852d144cd979bb3ce9188293a27835d07c44a",
+      "public_sha256": "028cf3fc0eee10e7f118b8eb338852d144cd979bb3ce9188293a27835d07c44a",
+      "bytes": 6546,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/CMakeLists.txt",
+      "upstream_sha256": "8dcc1099e491150d3f2348ecbf1d3725e73fd5ec21d57d2e8e401afb0f0c4825",
+      "public_sha256": "8dcc1099e491150d3f2348ecbf1d3725e73fd5ec21d57d2e8e401afb0f0c4825",
+      "bytes": 5838,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/CMakeLists_src.txt",
+      "upstream_sha256": "360473ae6da64e9a9c33de1f036e0b7bedb1afd12c34b003c0eccf8afae63ea3",
+      "public_sha256": "360473ae6da64e9a9c33de1f036e0b7bedb1afd12c34b003c0eccf8afae63ea3",
+      "bytes": 5222,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/CMakeModules/CMakeUninstall.cmake.in",
+      "upstream_sha256": "6b5c815c7a6807920aff05136297805bdeb8a70728615d4c573d0ca0b1e6387d",
+      "public_sha256": "6b5c815c7a6807920aff05136297805bdeb8a70728615d4c573d0ca0b1e6387d",
+      "bytes": 1011,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/CMakeModules/CompilerSettings.cmake",
+      "upstream_sha256": "a2deafc8bad912bacac9eddae908179b63a3cb1d3f3b332d6be54afad4db0b76",
+      "public_sha256": "a2deafc8bad912bacac9eddae908179b63a3cb1d3f3b332d6be54afad4db0b76",
+      "bytes": 1554,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/CMakeModules/FindQGLViewer.cmake",
+      "upstream_sha256": "572a6e901be4404aa40cd04ff46a8b534548754e0f69ce9875efa72ec305c092",
+      "public_sha256": "572a6e901be4404aa40cd04ff46a8b534548754e0f69ce9875efa72ec305c092",
+      "bytes": 4687,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/LICENSE.txt",
+      "upstream_sha256": "132023f95d1685ed43fecfb2b0318c96205748056973ce4dbee52d49a3102500",
+      "public_sha256": "132023f95d1685ed43fecfb2b0318c96205748056973ce4dbee52d49a3102500",
+      "bytes": 15457,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/README.md",
+      "upstream_sha256": "b5b23a0ea5d5c23e18be2d0580d313dd68b7c24d993aa0f3b8215a7d704243d2",
+      "public_sha256": "b5b23a0ea5d5c23e18be2d0580d313dd68b7c24d993aa0f3b8215a7d704243d2",
+      "bytes": 4355,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/CameraFollowMode.h",
+      "upstream_sha256": "fe6014587a97cf0e418e5e93e07202e1fa54f57ea30f2147b626a119d4897b24",
+      "public_sha256": "fe6014587a97cf0e418e5e93e07202e1fa54f57ea30f2147b626a119d4897b24",
+      "bytes": 2602,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ColorOcTreeDrawer.h",
+      "upstream_sha256": "3a1e8ce4a42c0e8c3e62006f2931d32e96f71e4e8971405ba73e3b9167fe156d",
+      "public_sha256": "3a1e8ce4a42c0e8c3e62006f2931d32e96f71e4e8971405ba73e3b9167fe156d",
+      "bytes": 1428,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/OcTreeDrawer.h",
+      "upstream_sha256": "453905b0a0a9f498bf354d362b5364b056340336045953cca64f4ca4e32b081f",
+      "public_sha256": "453905b0a0a9f498bf354d362b5364b056340336045953cca64f4ca4e32b081f",
+      "bytes": 6070,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/OcTreeRecord.h",
+      "upstream_sha256": "1aa3a2095307b5809d5c5d4d063a4605a078fea2a9b1681939f786afae255625",
+      "public_sha256": "1aa3a2095307b5809d5c5d4d063a4605a078fea2a9b1681939f786afae255625",
+      "bytes": 1289,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/PointcloudDrawer.h",
+      "upstream_sha256": "f46f27db28f4dc12cc75b3891be89719bb88ed2e4c2072dbf7d75c30445c36e9",
+      "public_sha256": "f46f27db28f4dc12cc75b3891be89719bb88ed2e4c2072dbf7d75c30445c36e9",
+      "bytes": 1537,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/SceneObject.h",
+      "upstream_sha256": "52326bd5f23acee61b2510268e1968e7bef4e1423781deb521ac052ea648d865",
+      "public_sha256": "52326bd5f23acee61b2510268e1968e7bef4e1423781deb521ac052ea648d865",
+      "bytes": 3389,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/SelectionBox.h",
+      "upstream_sha256": "55d8aef5590f951df85c75357bae78025f5af0bc239c360a1b7f4a76cb115ffd",
+      "public_sha256": "55d8aef5590f951df85c75357bae78025f5af0bc239c360a1b7f4a76cb115ffd",
+      "bytes": 1806,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/TrajectoryDrawer.h",
+      "upstream_sha256": "691d87f85c604a21b6d4bfdc88654885ee318350bd4935ee3a7d4919b98dabdb",
+      "public_sha256": "691d87f85c604a21b6d4bfdc88654885ee318350bd4935ee3a7d4919b98dabdb",
+      "bytes": 1600,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerGui.h",
+      "upstream_sha256": "c6a7efea491d9abfa92537de1ebe1f51eff1364c41a7fac543124ae85788f2f9",
+      "public_sha256": "c6a7efea491d9abfa92537de1ebe1f51eff1364c41a7fac543124ae85788f2f9",
+      "bytes": 7264,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerGui.ui",
+      "upstream_sha256": "b8f8b3e5207eaf6f670372cf9158959b65a0c556f89985e822854ee5cac718f5",
+      "public_sha256": "b8f8b3e5207eaf6f670372cf9158959b65a0c556f89985e822854ee5cac718f5",
+      "bytes": 16382,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerSettings.h",
+      "upstream_sha256": "94f5c7b15923b57f44b4fad2364c0ffd6f403343259d4e0bee23e7485c0b8ea0",
+      "public_sha256": "94f5c7b15923b57f44b4fad2364c0ffd6f403343259d4e0bee23e7485c0b8ea0",
+      "bytes": 1900,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerSettings.ui",
+      "upstream_sha256": "9bb8763862ebf91242079caf04094689dc1cbce1e985b8d86b2b4d8af54c565e",
+      "public_sha256": "9bb8763862ebf91242079caf04094689dc1cbce1e985b8d86b2b4d8af54c565e",
+      "bytes": 3621,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerSettingsPanel.h",
+      "upstream_sha256": "495b6c367e17e224357849f42ec849b339c50bb4c46ed2eeab9d8104541eb23b",
+      "public_sha256": "495b6c367e17e224357849f42ec849b339c50bb4c46ed2eeab9d8104541eb23b",
+      "bytes": 1998,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerSettingsPanel.ui",
+      "upstream_sha256": "ade70b6f791804e8adc27c609bf08bf72572f304a869fadc90e794c6526ea92a",
+      "public_sha256": "ade70b6f791804e8adc27c609bf08bf72572f304a869fadc90e794c6526ea92a",
+      "bytes": 8212,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerSettingsPanelCamera.h",
+      "upstream_sha256": "f3ab18e8037d45f50d60d2e09e43bd45e75e216892331aa24d70d94ad40dfdbc",
+      "public_sha256": "f3ab18e8037d45f50d60d2e09e43bd45e75e216892331aa24d70d94ad40dfdbc",
+      "bytes": 2782,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerSettingsPanelCamera.ui",
+      "upstream_sha256": "b12be5aec4b04bc725cdac27be44258959528e438ac77dfb1876f633b2e9dbfa",
+      "public_sha256": "b12be5aec4b04bc725cdac27be44258959528e438ac77dfb1876f633b2e9dbfa",
+      "bytes": 11406,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/include/octovis/ViewerWidget.h",
+      "upstream_sha256": "2fedcba88c25269e5afa1a9c943e4e9fe488f6be9367519fca40c0c378cadd68",
+      "public_sha256": "2fedcba88c25269e5afa1a9c943e4e9fe488f6be9367519fca40c0c378cadd68",
+      "bytes": 3694,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/octovis-config.cmake.in",
+      "upstream_sha256": "d805b71b2d4f48debcd40812adcf3e3843db50e54586101623d870828b699a37",
+      "public_sha256": "d805b71b2d4f48debcd40812adcf3e3843db50e54586101623d870828b699a37",
+      "bytes": 985,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/package.xml",
+      "upstream_sha256": "5a1d73ac2cbc845cba7a2a37b331a18fff33107eb44d342691dac9323fddfdd2",
+      "public_sha256": "5a1d73ac2cbc845cba7a2a37b331a18fff33107eb44d342691dac9323fddfdd2",
+      "bytes": 1520,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/CameraFollowMode.cpp",
+      "upstream_sha256": "0c3a2793dc38ecf38f724e47050f04cdb417593355317ab8a6a8b0e2ee4879fd",
+      "public_sha256": "0c3a2793dc38ecf38f724e47050f04cdb417593355317ab8a6a8b0e2ee4879fd",
+      "bytes": 4462,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/ColorOcTreeDrawer.cpp",
+      "upstream_sha256": "8656917faef2b477eea76e839e700802be7fc8c676c8fcbe75dfd9d954d357b6",
+      "public_sha256": "8656917faef2b477eea76e839e700802be7fc8c676c8fcbe75dfd9d954d357b6",
+      "bytes": 5902,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/OcTreeDrawer.cpp",
+      "upstream_sha256": "91167807095185d612e0757e8d9a0c95014b2b24b7db836ce552354458ba2feb",
+      "public_sha256": "91167807095185d612e0757e8d9a0c95014b2b24b7db836ce552354458ba2feb",
+      "bytes": 32862,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/PointcloudDrawer.cpp",
+      "upstream_sha256": "ba0a5102947e2b277c24ff56d36af6fcc096d120c006eab606ed657d5c0d2058",
+      "public_sha256": "ba0a5102947e2b277c24ff56d36af6fcc096d120c006eab606ed657d5c0d2058",
+      "bytes": 2980,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/SceneObject.cpp",
+      "upstream_sha256": "392fffa37ddb92b9eaf162297c20644a1525e4fea22be3c705b98b54c5ffe840",
+      "public_sha256": "392fffa37ddb92b9eaf162297c20644a1525e4fea22be3c705b98b54c5ffe840",
+      "bytes": 2531,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/SelectionBox.cpp",
+      "upstream_sha256": "dadeb0102890cc09d1c1cadd846628ade656bbcf6936d7abab482f7ea5b8bcbf",
+      "public_sha256": "dadeb0102890cc09d1c1cadd846628ade656bbcf6936d7abab482f7ea5b8bcbf",
+      "bytes": 7660,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/TrajectoryDrawer.cpp",
+      "upstream_sha256": "00a321b2bd146237ab972d91e95a110829a294558507f874e404f1307e81ba15",
+      "public_sha256": "00a321b2bd146237ab972d91e95a110829a294558507f874e404f1307e81ba15",
+      "bytes": 3490,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/ViewerGui.cpp",
+      "upstream_sha256": "3ebd8f56c063fe0c438d598ac2e2e38bb9c78a1ed3fb93afad70ce46689cb9ae",
+      "public_sha256": "3ebd8f56c063fe0c438d598ac2e2e38bb9c78a1ed3fb93afad70ce46689cb9ae",
+      "bytes": 40488,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/ViewerSettings.cpp",
+      "upstream_sha256": "c6c61cc477242773afd78850712dbdf32ffd96ecd58270a156872aa1af6105f3",
+      "public_sha256": "c6c61cc477242773afd78850712dbdf32ffd96ecd58270a156872aa1af6105f3",
+      "bytes": 1159,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/ViewerSettingsPanel.cpp",
+      "upstream_sha256": "ca1104610b6fe0753499907dc70ea6adfc061614e9305cae419b3474a515a65b",
+      "public_sha256": "ca1104610b6fe0753499907dc70ea6adfc061614e9305cae419b3474a515a65b",
+      "bytes": 3589,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/ViewerSettingsPanelCamera.cpp",
+      "upstream_sha256": "535d53342a091822dbcd983ceb7bfdb943b276c9f92a2d39bc9728e4e561675b",
+      "public_sha256": "535d53342a091822dbcd983ceb7bfdb943b276c9f92a2d39bc9728e4e561675b",
+      "bytes": 6474,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/ViewerWidget.cpp",
+      "upstream_sha256": "1ecbb089d1950bbefa3a0a39c956b4fc5867280ffe52b3178c5eb8566d9ea6e6",
+      "public_sha256": "1ecbb089d1950bbefa3a0a39c956b4fc5867280ffe52b3178c5eb8566d9ea6e6",
+      "bytes": 13457,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/.gitignore",
+      "upstream_sha256": "91915d639a54e477ecd73ba7818508cbdfb85581906b8c8583c3a6c9e94c2f5c",
+      "public_sha256": "91915d639a54e477ecd73ba7818508cbdfb85581906b8c8583c3a6c9e94c2f5c",
+      "bytes": 48,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/CHANGELOG",
+      "upstream_sha256": "90e27e395e30a0f3ce97eea3a0b12a918cb44eb0b108141414330628cd6de3c2",
+      "public_sha256": "90e27e395e30a0f3ce97eea3a0b12a918cb44eb0b108141414330628cd6de3c2",
+      "bytes": 219,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/GPL_EXCEPTION",
+      "upstream_sha256": "911d9891d535ccbd3e4c448b29fbf6713244b2e4858f87e46f291860209cd9e0",
+      "public_sha256": "911d9891d535ccbd3e4c448b29fbf6713244b2e4858f87e46f291860209cd9e0",
+      "bytes": 3228,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/INSTALL",
+      "upstream_sha256": "680c5658e3a7d5933a44434bab6d1547e1631813fbc804c0bf20132004934cb9",
+      "public_sha256": "680c5658e3a7d5933a44434bab6d1547e1631813fbc804c0bf20132004934cb9",
+      "bytes": 433,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/ImageInterface.ui",
+      "upstream_sha256": "3a50e747ee036b0175be41069cd814606629c2ff4ef4cde5593185e99804d689",
+      "public_sha256": "3a50e747ee036b0175be41069cd814606629c2ff4ef4cde5593185e99804d689",
+      "bytes": 7266,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/LICENCE",
+      "upstream_sha256": "c5951b8f7b129ac87d4b0dd5de2c4e8c628169852e503c51af3ee46bd305c8be",
+      "public_sha256": "c5951b8f7b129ac87d4b0dd5de2c4e8c628169852e503c51af3ee46bd305c8be",
+      "bytes": 54342,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/QGLViewer.pro",
+      "upstream_sha256": "3fb21fdf3b20bfb5d387459c589616d14df9ad3d607cfd2cd1191e8bcd763af1",
+      "public_sha256": "3fb21fdf3b20bfb5d387459c589616d14df9ad3d607cfd2cd1191e8bcd763af1",
+      "bytes": 7094,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/README",
+      "upstream_sha256": "df26c8767aa563d004c777d115d6bdfb146406b4453198913ba754911cc35e7b",
+      "public_sha256": "df26c8767aa563d004c777d115d6bdfb146406b4453198913ba754911cc35e7b",
+      "bytes": 1766,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/AxisAlignedBox.h",
+      "upstream_sha256": "784f2b11ac2728464ccb45dff680364ea31ef9462e7f28f47c043fdbb8465d08",
+      "public_sha256": "784f2b11ac2728464ccb45dff680364ea31ef9462e7f28f47c043fdbb8465d08",
+      "bytes": 2992,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/BSPSortMethod.cpp",
+      "upstream_sha256": "f90d7f5d48a4e3b5bdbae62c63f04508ffc128e668a5c478e0e8750c7439f2a5",
+      "public_sha256": "f90d7f5d48a4e3b5bdbae62c63f04508ffc128e668a5c478e0e8750c7439f2a5",
+      "bytes": 13716,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/BackFaceCullingOptimizer.cpp",
+      "upstream_sha256": "64fb9c1b4ad82923dc64b4d420e873ec77a2b035b3d5b40535cd5d5952920b6e",
+      "public_sha256": "64fb9c1b4ad82923dc64b4d420e873ec77a2b035b3d5b40535cd5d5952920b6e",
+      "bytes": 2921,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/EPSExporter.cpp",
+      "upstream_sha256": "5c486c1b60b1b02032344b09be5d1c00a1e30803fa2067b7ef14b021f2e59f0f",
+      "public_sha256": "5c486c1b60b1b02032344b09be5d1c00a1e30803fa2067b7ef14b021f2e59f0f",
+      "bytes": 10250,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Exporter.cpp",
+      "upstream_sha256": "df33ef5102c777c597bf4766b027bd346f33500bade3546ca963639c66021cd6",
+      "public_sha256": "df33ef5102c777c597bf4766b027bd346f33500bade3546ca963639c66021cd6",
+      "bytes": 3427,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Exporter.h",
+      "upstream_sha256": "cf4a3f297c9c0dc9f30dfce6490a2011a8681126f91d3460d5c516b1fbdc3bfa",
+      "public_sha256": "cf4a3f297c9c0dc9f30dfce6490a2011a8681126f91d3460d5c516b1fbdc3bfa",
+      "bytes": 4999,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/FIGExporter.cpp",
+      "upstream_sha256": "a7693ffa830f9fe2f9c71d7a9b4ea0258e59f14d9831c83e16ca514a27cc8f83",
+      "public_sha256": "a7693ffa830f9fe2f9c71d7a9b4ea0258e59f14d9831c83e16ca514a27cc8f83",
+      "bytes": 5841,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/NVector3.cpp",
+      "upstream_sha256": "e0a60d7e73c714eab30e05593febe194e1c79c113e34590ee04a073aba6b62ed",
+      "public_sha256": "e0a60d7e73c714eab30e05593febe194e1c79c113e34590ee04a073aba6b62ed",
+      "bytes": 5317,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/NVector3.h",
+      "upstream_sha256": "894db3173adcd868494b3bb0547f6cb7e30910f429eb7f783e455bb0fb151c3e",
+      "public_sha256": "894db3173adcd868494b3bb0547f6cb7e30910f429eb7f783e455bb0fb151c3e",
+      "bytes": 4665,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Optimizer.h",
+      "upstream_sha256": "4526b8fd490a39560be600638bf63d5f32b9b12fda7291845963ecdc0d0acea5",
+      "public_sha256": "4526b8fd490a39560be600638bf63d5f32b9b12fda7291845963ecdc0d0acea5",
+      "bytes": 2989,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/ParserGL.cpp",
+      "upstream_sha256": "8da835b7e8c923e5663eb969357a1a8def4ebb3c2e92b2d438b2f1f51d1d6fb1",
+      "public_sha256": "8da835b7e8c923e5663eb969357a1a8def4ebb3c2e92b2d438b2f1f51d1d6fb1",
+      "bytes": 12391,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/ParserGL.h",
+      "upstream_sha256": "4e870db7d88ea0d36a2ea383fc21e78422dfb5bf6ac81be98b517dfb0621eab0",
+      "public_sha256": "4e870db7d88ea0d36a2ea383fc21e78422dfb5bf6ac81be98b517dfb0621eab0",
+      "bytes": 2920,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Primitive.cpp",
+      "upstream_sha256": "4be096c068bb9b75a5bea21b2176845c6570e9ced8b6986403f937a05bfb0b88",
+      "public_sha256": "4be096c068bb9b75a5bea21b2176845c6570e9ced8b6986403f937a05bfb0b88",
+      "bytes": 4192,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Primitive.h",
+      "upstream_sha256": "cc49190eedd550ecef7049cb28a73a73b91bc6d226252a37b6e75a611f63ed99",
+      "public_sha256": "cc49190eedd550ecef7049cb28a73a73b91bc6d226252a37b6e75a611f63ed99",
+      "bytes": 6735,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/PrimitivePositioning.cpp",
+      "upstream_sha256": "b2492acee166d9d5fd704a2b7715b40978cdac9c1ee152a46fe5df0b71ca464b",
+      "public_sha256": "b2492acee166d9d5fd704a2b7715b40978cdac9c1ee152a46fe5df0b71ca464b",
+      "bytes": 19309,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/PrimitivePositioning.h",
+      "upstream_sha256": "87875f282d69956f5b9df4f236b10dc8517212dda936aadc9e99fa6fc5762f4e",
+      "public_sha256": "87875f282d69956f5b9df4f236b10dc8517212dda936aadc9e99fa6fc5762f4e",
+      "bytes": 3993,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/SortMethod.h",
+      "upstream_sha256": "be9354c91affdab3e9d16456fd1d145e8e6af41ce1f9645bec35fb50c43b844d",
+      "public_sha256": "be9354c91affdab3e9d16456fd1d145e8e6af41ce1f9645bec35fb50c43b844d",
+      "bytes": 3011,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/TopologicalSortMethod.cpp",
+      "upstream_sha256": "d88244509eeb84a9f2dd5f05be6f21f561c74e176d5e26ccffaf0d4a48222f29",
+      "public_sha256": "d88244509eeb84a9f2dd5f05be6f21f561c74e176d5e26ccffaf0d4a48222f29",
+      "bytes": 23964,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Types.h",
+      "upstream_sha256": "ee8777b728424bb5ebe6a584eceea0c2fe913172a33cda730b096fdb8cf2c498",
+      "public_sha256": "ee8777b728424bb5ebe6a584eceea0c2fe913172a33cda730b096fdb8cf2c498",
+      "bytes": 2279,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/VRender.cpp",
+      "upstream_sha256": "964e8954b326449a2fb249cb4242527d261dfab444ddbb4996aa31e9268d004c",
+      "public_sha256": "964e8954b326449a2fb249cb4242527d261dfab444ddbb4996aa31e9268d004c",
+      "bytes": 7413,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/VRender.h",
+      "upstream_sha256": "44affe5d46631e664069d8859759e24a10027a27dcc7622c5138a0de1e3c7972",
+      "public_sha256": "44affe5d46631e664069d8859759e24a10027a27dcc7622c5138a0de1e3c7972",
+      "bytes": 3811,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Vector2.cpp",
+      "upstream_sha256": "3dd7b575302fd6329edff04aa3c25cc6986c1a76441864a6df220c13b7833a8f",
+      "public_sha256": "3dd7b575302fd6329edff04aa3c25cc6986c1a76441864a6df220c13b7833a8f",
+      "bytes": 4140,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Vector2.h",
+      "upstream_sha256": "077e238eb2c9560f6e369dbc474295ba7f1bccc545d6d2e185601924bb97dc8f",
+      "public_sha256": "077e238eb2c9560f6e369dbc474295ba7f1bccc545d6d2e185601924bb97dc8f",
+      "bytes": 5582,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Vector3.cpp",
+      "upstream_sha256": "ffeba7b586a061cb6030f7c6feffcd537581d153b5a9903c66da00da596f233d",
+      "public_sha256": "ffeba7b586a061cb6030f7c6feffcd537581d153b5a9903c66da00da596f233d",
+      "bytes": 5034,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/Vector3.h",
+      "upstream_sha256": "12be0932556f582183efcd9417e884667f264b2a95cafb714266fa729cfed6e2",
+      "public_sha256": "12be0932556f582183efcd9417e884667f264b2a95cafb714266fa729cfed6e2",
+      "bytes": 6196,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/VisibilityOptimizer.cpp",
+      "upstream_sha256": "51746ba8dcb7319c2cc39c71d35708aae87ff7365efefc7319ac00c1e152b0fa",
+      "public_sha256": "51746ba8dcb7319c2cc39c71d35708aae87ff7365efefc7319ac00c1e152b0fa",
+      "bytes": 14215,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/gpc.cpp",
+      "upstream_sha256": "02e315c5716fb9a35d1f37432afcc5a5c625029dc0ba517ea197c543cfc4030a",
+      "public_sha256": "02e315c5716fb9a35d1f37432afcc5a5c625029dc0ba517ea197c543cfc4030a",
+      "bytes": 67922,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRender/gpc.h",
+      "upstream_sha256": "eea36f13019eceb9a7990ae20b4f699be19846d018883449bde111c8ccf904f0",
+      "public_sha256": "eea36f13019eceb9a7990ae20b4f699be19846d018883449bde111c8ccf904f0",
+      "bytes": 6364,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/VRenderInterface.ui",
+      "upstream_sha256": "686aa2c254d9986961bc05ba0451a072ad6e77468a4549463c14d3c6b942f9bf",
+      "public_sha256": "686aa2c254d9986961bc05ba0451a072ad6e77468a4549463c14d3c6b942f9bf",
+      "bytes": 5440,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/camera.cpp",
+      "upstream_sha256": "9ce8f9e3f4a1ae32da3af2b9f485ec4158cd65380a7290c3461c20828604c99c",
+      "public_sha256": "9ce8f9e3f4a1ae32da3af2b9f485ec4158cd65380a7290c3461c20828604c99c",
+      "bytes": 79872,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/camera.h",
+      "upstream_sha256": "9ad9b3ed65c1d2c23301eb092f0f530e40c51f2bc5604522af79657e0def2754",
+      "public_sha256": "9ad9b3ed65c1d2c23301eb092f0f530e40c51f2bc5604522af79657e0def2754",
+      "bytes": 20450,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/config.h",
+      "upstream_sha256": "f63059b5ea33180560cb12d3f276b693451ad366193cf5b6dd71004aedc1ebdc",
+      "public_sha256": "f63059b5ea33180560cb12d3f276b693451ad366193cf5b6dd71004aedc1ebdc",
+      "bytes": 3466,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/constraint.cpp",
+      "upstream_sha256": "69cabc501028bddb1c25645e7eca77cfc34e6eb4a0c87ee4bb0dc8858ba80b9c",
+      "public_sha256": "69cabc501028bddb1c25645e7eca77cfc34e6eb4a0c87ee4bb0dc8858ba80b9c",
+      "bytes": 10385,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/constraint.h",
+      "upstream_sha256": "a62e75b05beaeacca7211d6a3e4f4fb65f1f287d925b372ecfe2e0d05599d6e9",
+      "public_sha256": "a62e75b05beaeacca7211d6a3e4f4fb65f1f287d925b372ecfe2e0d05599d6e9",
+      "bytes": 14304,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/domUtils.h",
+      "upstream_sha256": "f968fe020fc077bf149e09fb07e18f7f2ad50300752a3e154c9087041be55edd",
+      "public_sha256": "f968fe020fc077bf149e09fb07e18f7f2ad50300752a3e154c9087041be55edd",
+      "bytes": 5216,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/frame.cpp",
+      "upstream_sha256": "92c576fde893b38e4ed551883fc26ea4fbaa39e64931d3e78dc575924dc1d77a",
+      "public_sha256": "92c576fde893b38e4ed551883fc26ea4fbaa39e64931d3e78dc575924dc1d77a",
+      "bytes": 36875,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/frame.h",
+      "upstream_sha256": "31183cabc80b41f3ee41e3f4e3f291fef90130f8afcb403f814d891054723441",
+      "public_sha256": "31183cabc80b41f3ee41e3f4e3f291fef90130f8afcb403f814d891054723441",
+      "bytes": 18425,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/keyFrameInterpolator.cpp",
+      "upstream_sha256": "d5938f21f52ea5297491c607399f021805f6b241d0553604d0c5f6f32d5577a9",
+      "public_sha256": "d5938f21f52ea5297491c607399f021805f6b241d0553604d0c5f6f32d5577a9",
+      "bytes": 23068,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/keyFrameInterpolator.h",
+      "upstream_sha256": "2ea35a320d3cb4641f68ea1f520106c92e9ff9e760a2bcf81a3e74e505f714a4",
+      "public_sha256": "2ea35a320d3cb4641f68ea1f520106c92e9ff9e760a2bcf81a3e74e505f714a4",
+      "bytes": 13603,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/manipulatedCameraFrame.cpp",
+      "upstream_sha256": "11820d7f549d596505b6086a70652edb35c41de052dade3b14ac2ca0d9932e7c",
+      "public_sha256": "11820d7f549d596505b6086a70652edb35c41de052dade3b14ac2ca0d9932e7c",
+      "bytes": 15965,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/manipulatedCameraFrame.h",
+      "upstream_sha256": "a1a0d82c9ee5b4d7a9413f1a58ab079ec4e8d89de636fa8d9571b33c867ce3b8",
+      "public_sha256": "a1a0d82c9ee5b4d7a9413f1a58ab079ec4e8d89de636fa8d9571b33c867ce3b8",
+      "bytes": 9398,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/manipulatedFrame.cpp",
+      "upstream_sha256": "f8fcf4deb217bd92471d74798ea232bf353bef265688a2b74cedd4bdf2d2c0b4",
+      "public_sha256": "f8fcf4deb217bd92471d74798ea232bf353bef265688a2b74cedd4bdf2d2c0b4",
+      "bytes": 18749,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/manipulatedFrame.h",
+      "upstream_sha256": "558e99e403f04c6970c5f7e45aedd862072e9fdb8b3d316724be54a3de3c317d",
+      "public_sha256": "558e99e403f04c6970c5f7e45aedd862072e9fdb8b3d316724be54a3de3c317d",
+      "bytes": 14207,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/mouseGrabber.cpp",
+      "upstream_sha256": "28e9d4eb104dfb737328812a3b6da31997939a3a6e1aba46c5a988450a4c99da",
+      "public_sha256": "28e9d4eb104dfb737328812a3b6da31997939a3a6e1aba46c5a988450a4c99da",
+      "bytes": 2856,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/mouseGrabber.h",
+      "upstream_sha256": "392ba57171da8c66fb4076b80cae53bb686fa2df2b9913f3ea7774eff93301de",
+      "public_sha256": "392ba57171da8c66fb4076b80cae53bb686fa2df2b9913f3ea7774eff93301de",
+      "bytes": 11050,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/qglviewer-icon.xpm",
+      "upstream_sha256": "1290cee961c2f5954838c3ff4f16c58e75695e925bf4878df2c62f6a9aba00e1",
+      "public_sha256": "1290cee961c2f5954838c3ff4f16c58e75695e925bf4878df2c62f6a9aba00e1",
+      "bytes": 24562,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/qglviewer.cpp",
+      "upstream_sha256": "fdbb1cc6cf85b87b70548f4b7aab5e801538e9d2040ca32792aaf6f423227d00",
+      "public_sha256": "fdbb1cc6cf85b87b70548f4b7aab5e801538e9d2040ca32792aaf6f423227d00",
+      "bytes": 142290,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/qglviewer.h",
+      "upstream_sha256": "f0fe80aa8d15e6f2e0f882983a3943d149735ecbab1e3acb36388da03eed70d1",
+      "public_sha256": "f0fe80aa8d15e6f2e0f882983a3943d149735ecbab1e3acb36388da03eed70d1",
+      "bytes": 54377,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/qglviewer.icns",
+      "upstream_sha256": "ef28ef67ae4238f49ca728460b084a3bff9e10e7c19e28f85ada1c03f81d0a56",
+      "public_sha256": "ef28ef67ae4238f49ca728460b084a3bff9e10e7c19e28f85ada1c03f81d0a56",
+      "bytes": 185404,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/qglviewer_fr.qm",
+      "upstream_sha256": "58cc3f2d8827eb0308486867d258e5de7079c940eaba0f2c760049b46fa789b9",
+      "public_sha256": "58cc3f2d8827eb0308486867d258e5de7079c940eaba0f2c760049b46fa789b9",
+      "bytes": 14815,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/qglviewer_fr.ts",
+      "upstream_sha256": "9509ac993b50f44d43263fe8eac9374d8ae72f6842ca6be518a2a8e9363beffe",
+      "public_sha256": "9509ac993b50f44d43263fe8eac9374d8ae72f6842ca6be518a2a8e9363beffe",
+      "bytes": 22747,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/quaternion.cpp",
+      "upstream_sha256": "6063d184afd12d97ffe755a98af7fdf0ae955642639327bbfff2c44f40cfc5cc",
+      "public_sha256": "6063d184afd12d97ffe755a98af7fdf0ae955642639327bbfff2c44f40cfc5cc",
+      "bytes": 17379,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/quaternion.h",
+      "upstream_sha256": "edbc81382bf3081cc794ee78c0e609f5befec2cbc44a5a4df322690a00a228d9",
+      "public_sha256": "edbc81382bf3081cc794ee78c0e609f5befec2cbc44a5a4df322690a00a228d9",
+      "bytes": 10761,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/saveSnapshot.cpp",
+      "upstream_sha256": "0e5c623f52ee719b97d082decc573887d00a17c416edf072eb4cd733d8030244",
+      "public_sha256": "0e5c623f52ee719b97d082decc573887d00a17c416edf072eb4cd733d8030244",
+      "bytes": 21279,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/vec.cpp",
+      "upstream_sha256": "70df62adf94fe56f73751b14013b87e6bdd87bf603039f5caf000e6ca7e565c7",
+      "public_sha256": "70df62adf94fe56f73751b14013b87e6bdd87bf603039f5caf000e6ca7e565c7",
+      "bytes": 5296,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/extern/QGLViewer/vec.h",
+      "upstream_sha256": "7c8a96e60c48ae0c8b78009a8aa1ff49613917c181981c4f63d4754209f4d0be",
+      "public_sha256": "7c8a96e60c48ae0c8b78009a8aa1ff49613917c181981c4f63d4754209f4d0be",
+      "bytes": 10657,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/icons/LICENSE.txt",
+      "upstream_sha256": "be94be3b13dca6ce3b93e6b6d524383bd80a8a804e3ecd08c2f6f0474ebe6af3",
+      "public_sha256": "be94be3b13dca6ce3b93e6b6d524383bd80a8a804e3ecd08c2f6f0474ebe6af3",
+      "bytes": 225,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/icons/lgpl-3.0.txt",
+      "upstream_sha256": "9ccf26cfe845e0eb8bb58053e47366e7ab6b697ae010f7650978d4b71b7d1fc1",
+      "public_sha256": "9ccf26cfe845e0eb8bb58053e47366e7ab6b697ae010f7650978d4b71b7d1fc1",
+      "bytes": 7637,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/icons.qrc",
+      "upstream_sha256": "167ba2da7809b7fb812e143b82717960ed82897f474123e63c2e5462690a8f80",
+      "public_sha256": "167ba2da7809b7fb812e143b82717960ed82897f474123e63c2e5462690a8f80",
+      "bytes": 1019,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/octovis/src/main.cpp",
+      "upstream_sha256": "66482eb5ed5fa001cbb3a3795b8c5c79ed15158d5bf4826d04cd0104e8fcfd13",
+      "public_sha256": "66482eb5ed5fa001cbb3a3795b8c5c79ed15158d5bf4826d04cd0104e8fcfd13",
+      "bytes": 1621,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/scripts/increase_version.py",
+      "upstream_sha256": "5295adec15fab9650ade8caefbae3496ad849a3b3f760caa3a418394a566799a",
+      "public_sha256": "5295adec15fab9650ade8caefbae3496ad849a3b3f760caa3a418394a566799a",
+      "bytes": 3451,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/src/octomap/scripts/travis_build_jobs.sh",
+      "upstream_sha256": "c70a641fdfcb3716ba171f74445feebb28167a0d182fcfb0d2f04ae9c475fb8c",
+      "public_sha256": "c70a641fdfcb3716ba171f74445feebb28167a0d182fcfb0d2f04ae9c475fb8c",
+      "bytes": 453,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/octomap-python/tests/octomap_test.py",
+      "upstream_sha256": "ca33c6f534c958a11ce0a5c091efaecce1f5c7e4bd26000f46d53076acce03aa",
+      "public_sha256": "ca33c6f534c958a11ce0a5c091efaecce1f5c7e4bd26000f46d53076acce03aa",
+      "bytes": 6452,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/.gitignore",
+      "upstream_sha256": "5288402307a7676a298363cb980f8a681ab6a4a373dddfe931a948f34ebc5483",
+      "public_sha256": "5288402307a7676a298363cb980f8a681ab6a4a373dddfe931a948f34ebc5483",
+      "bytes": 1252,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/CHANGELOG.md",
+      "upstream_sha256": "fac40c8f3d5b79384383022aa25e0dc32e3bcb75b9a37fa48fefc3c7a3e41369",
+      "public_sha256": "fac40c8f3d5b79384383022aa25e0dc32e3bcb75b9a37fa48fefc3c7a3e41369",
+      "bytes": 1949,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/LICENSE.txt",
+      "upstream_sha256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227",
+      "public_sha256": "0ae0485a5bd37a63e63603596417e4eb0e653334fa6c7f932ca3a0e85d4af227",
+      "bytes": 35148,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/README.md",
+      "upstream_sha256": "fd7d2491be2cbcf958e551b01d118e22ddea0e5863e1aa63e0c6df84ab4e11e5",
+      "public_sha256": "fd7d2491be2cbcf958e551b01d118e22ddea0e5863e1aa63e0c6df84ab4e11e5",
+      "bytes": 3727,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/docs/Makefile",
+      "upstream_sha256": "86442ed8da30aa360e2b34b9766ccf97169749bf00d587e58736539ee923d27c",
+      "public_sha256": "86442ed8da30aa360e2b34b9766ccf97169749bf00d587e58736539ee923d27c",
+      "bytes": 822,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/docs/source/conf.py",
+      "upstream_sha256": "81aafa47b3f2cbb2126daae97aecef0b59f1b0401d10d5d609c2cb00993677be",
+      "public_sha256": "81aafa47b3f2cbb2126daae97aecef0b59f1b0401d10d5d609c2cb00993677be",
+      "bytes": 6349,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/docs/source/implementation.rst",
+      "upstream_sha256": "3bfc6ff49ad5671c2b3077325aa8a0db02e6710aa160066df9908e662590bf13",
+      "public_sha256": "3bfc6ff49ad5671c2b3077325aa8a0db02e6710aa160066df9908e662590bf13",
+      "bytes": 6479,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/docs/source/index.rst",
+      "upstream_sha256": "7f307bdda4c38306e795995577c2d24d20b61106f3bb2645187a52020bb14cd9",
+      "public_sha256": "7f307bdda4c38306e795995577c2d24d20b61106f3bb2645187a52020bb14cd9",
+      "bytes": 1765,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/docs/source/tutorial.rst",
+      "upstream_sha256": "5cfbf5166657536848e772493c61e84fdbac7763d9c39eca72e4e90594aebaea",
+      "public_sha256": "5cfbf5166657536848e772493c61e84fdbac7763d9c39eca72e4e90594aebaea",
+      "bytes": 3394,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/docs_requirements.txt",
+      "upstream_sha256": "1f0ccc10a15ac1b46bb5480986fdecb314b34a2f22359c8a33c9b4a9584cd637",
+      "public_sha256": "1f0ccc10a15ac1b46bb5480986fdecb314b34a2f22359c8a33c9b4a9584cd637",
+      "bytes": 98,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/conversion_lanelet.py",
+      "upstream_sha256": "bf23829426f061802b1db5cfe27cd737404c9a1c8dff52a913a1ebd62e73d946",
+      "public_sha256": "bf23829426f061802b1db5cfe27cd737404c9a1c8dff52a913a1ebd62e73d946",
+      "bytes": 13096,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/conversion_lanelet_network.py",
+      "upstream_sha256": "7333805d07c007ee811707d4c85c0a7fd49c41c0c5f9cde0aee7716948d3314f",
+      "public_sha256": "7333805d07c007ee811707d4c85c0a7fd49c41c0c5f9cde0aee7716948d3314f",
+      "bytes": 41262,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/converter.py",
+      "upstream_sha256": "09f7835ccb38eca0c0a31b0e097aad27ab8b961ac6352080f5a9443f071b237b",
+      "public_sha256": "09f7835ccb38eca0c0a31b0e097aad27ab8b961ac6352080f5a9443f071b237b",
+      "bytes": 9088,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/io/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/io/gui.py",
+      "upstream_sha256": "eee1177a230f01008d00e9cdda664ffa828ba2af4ca00ad9be80af5f92a49a43",
+      "public_sha256": "eee1177a230f01008d00e9cdda664ffa828ba2af4ca00ad9be80af5f92a49a43",
+      "bytes": 7623,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/io/opendrive_convert.py",
+      "upstream_sha256": "0eae9ef706e32221fc0982e1827dce3bb794f73d8287df7305db35e4b0de7512",
+      "public_sha256": "0eae9ef706e32221fc0982e1827dce3bb794f73d8287df7305db35e4b0de7512",
+      "bytes": 3407,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/io/osm_convert.py",
+      "upstream_sha256": "e12af07058225a5ed79bf5962f32342e17bac3985cd2fb8480044b45d55fe165",
+      "public_sha256": "e12af07058225a5ed79bf5962f32342e17bac3985cd2fb8480044b45d55fe165",
+      "bytes": 4659,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/io/viewer.py",
+      "upstream_sha256": "43e537bb7ad4a6a50df6ef4d0a86b0452c4a7f9f1e1149f53017e1bc2e4f805a",
+      "public_sha256": "43e537bb7ad4a6a50df6ef4d0a86b0452c4a7f9f1e1149f53017e1bc2e4f805a",
+      "bytes": 14241,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/io/visualize_commonroad.py",
+      "upstream_sha256": "51f299accf5104a8fc771c79a7ffef3118755811baa1ec1fa863060e74528ead",
+      "public_sha256": "51f299accf5104a8fc771c79a7ffef3118755811baa1ec1fa863060e74528ead",
+      "bytes": 1662,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/network.py",
+      "upstream_sha256": "c62b17fe4a0be3891fbf13eb890a7d9627890e5ca74c396e1c9ef130c08b844e",
+      "public_sha256": "c62b17fe4a0be3891fbf13eb890a7d9627890e5ca74c396e1c9ef130c08b844e",
+      "bytes": 19336,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/eulerspiral.py",
+      "upstream_sha256": "de754a5e276d7f41cf624aac92b9e9a49ffa043c0d0a736656318cad0b77334a",
+      "public_sha256": "de754a5e276d7f41cf624aac92b9e9a49ffa043c0d0a736656318cad0b77334a",
+      "bytes": 2538,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/geometry.py",
+      "upstream_sha256": "bd2ecb1d9563a5b9f4cf30e81973acdf4cc1a24b39a1dcd6781442f62d9e0dbb",
+      "public_sha256": "bd2ecb1d9563a5b9f4cf30e81973acdf4cc1a24b39a1dcd6781442f62d9e0dbb",
+      "bytes": 6852,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/junction.py",
+      "upstream_sha256": "ca96020471080a44bc7dc6b26cc9767485613422e5fe3d9aee0dd7d191c6094e",
+      "public_sha256": "ca96020471080a44bc7dc6b26cc9767485613422e5fe3d9aee0dd7d191c6094e",
+      "bytes": 3689,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/opendrive.py",
+      "upstream_sha256": "3cc2ca37111e3be4d1758940d74a82fa7e02712ee8b3c0c4bb070dc1366b5734",
+      "public_sha256": "3cc2ca37111e3be4d1758940d74a82fa7e02712ee8b3c0c4bb070dc1366b5734",
+      "bytes": 2134,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/road.py",
+      "upstream_sha256": "14c9e51657075618b54968cd560b9fb92885cb92d42bc0b112f6eb82675bcf7c",
+      "public_sha256": "14c9e51657075618b54968cd560b9fb92885cb92d42bc0b112f6eb82675bcf7c",
+      "bytes": 2396,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/roadElevationProfile.py",
+      "upstream_sha256": "241f53d8e16c9fd0ecfa8f1b26621ee3565f9129b3e92453ebfbe2e86f257a86",
+      "public_sha256": "241f53d8e16c9fd0ecfa8f1b26621ee3565f9129b3e92453ebfbe2e86f257a86",
+      "bytes": 1972,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/roadLanes.py",
+      "upstream_sha256": "4f11e64a9020a8a2a5d76ccf30b24a1133767778d83b776f9f34aca7d080b577",
+      "public_sha256": "4f11e64a9020a8a2a5d76ccf30b24a1133767778d83b776f9f34aca7d080b577",
+      "bytes": 7406,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/roadLateralProfile.py",
+      "upstream_sha256": "5b5007804ac41c9a2c944e399b85edf3177718828622122ddac66d0fc1a91f59",
+      "public_sha256": "5b5007804ac41c9a2c944e399b85edf3177718828622122ddac66d0fc1a91f59",
+      "bytes": 3914,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/roadLink.py",
+      "upstream_sha256": "13c293416af9ea3ce82d776b6c3d060243c54e4d0d0aafe3dfb568ae624f8cf5",
+      "public_sha256": "13c293416af9ea3ce82d776b6c3d060243c54e4d0d0aafe3dfb568ae624f8cf5",
+      "bytes": 5431,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/roadPlanView.py",
+      "upstream_sha256": "2b1f660bba5f65d9693c9cc5de8041bfc8750bcfdebff9263ca7ae271d95034c",
+      "public_sha256": "2b1f660bba5f65d9693c9cc5de8041bfc8750bcfdebff9263ca7ae271d95034c",
+      "bytes": 8501,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/road_record.py",
+      "upstream_sha256": "e3ead9e4a14f41dfc3787d8394e0d2f6a7fc467573b256e1da803db9e011d794",
+      "public_sha256": "e3ead9e4a14f41dfc3787d8394e0d2f6a7fc467573b256e1da803db9e011d794",
+      "bytes": 1453,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/elements/roadtype.py",
+      "upstream_sha256": "0f891d76795132bade6526622f151e7b804757bdcacd3ca52bfe1431c0d7b805",
+      "public_sha256": "0f891d76795132bade6526622f151e7b804757bdcacd3ca52bfe1431c0d7b805",
+      "bytes": 2044,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/opendriveparser/parser.py",
+      "upstream_sha256": "4273c68be88df85f588ef9702adc1e1da267d3b4030766e7a5466eb0f78fd8b4",
+      "public_sha256": "4273c68be88df85f588ef9702adc1e1da267d3b4030766e7a5466eb0f78fd8b4",
+      "bytes": 17530,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/osm/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/osm/lanelet2osm.py",
+      "upstream_sha256": "7f7ddcbfeae6885acb5fd43675cf6313a0716a5ccbe4bd2b5cb67bde02b9a6a2",
+      "public_sha256": "7f7ddcbfeae6885acb5fd43675cf6313a0716a5ccbe4bd2b5cb67bde02b9a6a2",
+      "bytes": 11891,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/osm/osm.py",
+      "upstream_sha256": "49cff9608a3a078f718c9cc2d886a1d179ccca26d48f8197e88f5a6d9966c7a5",
+      "public_sha256": "49cff9608a3a078f718c9cc2d886a1d179ccca26d48f8197e88f5a6d9966c7a5",
+      "bytes": 3939,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/osm/osm2lanelet.py",
+      "upstream_sha256": "1c27034fc627f2383a83b8f1599fd42a7a8caadd342a4b8add681871af07eebf",
+      "public_sha256": "1c27034fc627f2383a83b8f1599fd42a7a8caadd342a4b8add681871af07eebf",
+      "bytes": 22345,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/osm/parser.py",
+      "upstream_sha256": "4be1bc832ceb38a24f94e126c953f50c3221dfc47d445041b26034ac40927b71",
+      "public_sha256": "4be1bc832ceb38a24f94e126c953f50c3221dfc47d445041b26034ac40927b71",
+      "bytes": 1801,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/plane_elements/__init__.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/plane_elements/border.py",
+      "upstream_sha256": "0ba640cde198f2ff017f567d464dcc375f3f75e10702d13e53ced76cc8520693",
+      "public_sha256": "0ba640cde198f2ff017f567d464dcc375f3f75e10702d13e53ced76cc8520693",
+      "bytes": 4087,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/plane_elements/plane.py",
+      "upstream_sha256": "0779ce840df777f4db442aebe155b32d5306bc59dc0fc62e9464ecb61f58d1f4",
+      "public_sha256": "0779ce840df777f4db442aebe155b32d5306bc59dc0fc62e9464ecb61f58d1f4",
+      "bytes": 14969,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/plane_elements/plane_group.py",
+      "upstream_sha256": "24cae3b8bec6358905635b6fa2b7da7dc3a6fa210b76c709cd2d62774bd8d7a7",
+      "public_sha256": "24cae3b8bec6358905635b6fa2b7da7dc3a6fa210b76c709cd2d62774bd8d7a7",
+      "bytes": 15904,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/opendrive2lanelet/utils.py",
+      "upstream_sha256": "1a5f72d660ec0e769ccb764533702d95e06c77c330b89984a445b8c9cf12de5d",
+      "public_sha256": "1a5f72d660ec0e769ccb764533702d95e06c77c330b89984a445b8c9cf12de5d",
+      "bytes": 1083,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/pylintrc",
+      "upstream_sha256": "a2c0c100613ca4c8e9813487ce18eea92fccd0f154e0a75c4330dc6cd249c122",
+      "public_sha256": "a2c0c100613ca4c8e9813487ce18eea92fccd0f154e0a75c4330dc6cd249c122",
+      "bytes": 328,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/requirements.txt",
+      "upstream_sha256": "6e6f91913ff11f6a53db474f555a6847f540c2bab74d2919b8d3256bf4af13b7",
+      "public_sha256": "6e6f91913ff11f6a53db474f555a6847f540c2bab74d2919b8d3256bf4af13b7",
+      "bytes": 138,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/setup.py",
+      "upstream_sha256": "70c449866009aede6ad58160a30de81290fb79435d7ecb0c044a2c7c662d7a3c",
+      "public_sha256": "70c449866009aede6ad58160a30de81290fb79435d7ecb0c044a2c7c662d7a3c",
+      "bytes": 1758,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/ThirdParty/opendrive2lanelet/tox.ini",
+      "upstream_sha256": "c3f545beb725e94137f7e176cccc046a11558468628b378abaa539d647e4a3ad",
+      "public_sha256": "c3f545beb725e94137f7e176cccc046a11558468628b378abaa539d647e4a3ad",
+      "bytes": 1255,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/client/__init__.py",
+      "upstream_sha256": "cba94621f789e91a8e570264cc761c0d5b73e210c0fc06ce237b403a5ad3eff1",
+      "public_sha256": "cba94621f789e91a8e570264cc761c0d5b73e210c0fc06ce237b403a5ad3eff1",
+      "bytes": 165,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/client/agent.py",
+      "upstream_sha256": "470071667bf6b61bf0bf1e09bf7240557895339cab9f446544fd7eee85126a23",
+      "public_sha256": "470071667bf6b61bf0bf1e09bf7240557895339cab9f446544fd7eee85126a23",
+      "bytes": 2197,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/client/change_weather.py",
+      "upstream_sha256": "8979069ada87f353a73dabb80e60e58ce7b7c5c6e6609d9e0baf2b8ff5d9a115",
+      "public_sha256": "8979069ada87f353a73dabb80e60e58ce7b7c5c6e6609d9e0baf2b8ff5d9a115",
+      "bytes": 6255,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/client/client.py",
+      "upstream_sha256": "df247381c2f905128ce9fe6ca5e4fa4d942796fb102757377c98d56b66a62e8f",
+      "public_sha256": "3a26a3750efbce17d53be4101e43d71d45599f5a487224dd68e6e31f9140bdfd",
+      "bytes": 14183,
+      "modified": true
+    },
+    {
+      "path": "vendor/rss_occlusion/client/dynamic_weather.py",
+      "upstream_sha256": "a47c73416b611f14c49d6cc3511f28b681b8ddfc4497b5c948f620cb36de1cd7",
+      "public_sha256": "a47c73416b611f14c49d6cc3511f28b681b8ddfc4497b5c948f620cb36de1cd7",
+      "bytes": 4638,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/client/gui.py",
+      "upstream_sha256": "d383e07f62bc238d9b95acdc7d7923be65c63ad50f4ccdcf60a48339ad0ee020",
+      "public_sha256": "d383e07f62bc238d9b95acdc7d7923be65c63ad50f4ccdcf60a48339ad0ee020",
+      "bytes": 10792,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/client/input_control.py",
+      "upstream_sha256": "6e4636b763d2d387147239af1eae1460e2f13277808a12f80a37c9ed2ed10771",
+      "public_sha256": "6e4636b763d2d387147239af1eae1460e2f13277808a12f80a37c9ed2ed10771",
+      "bytes": 7331,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/client/prase_args.py",
+      "upstream_sha256": "5ee29b9b425ddee91f28e7e118322e817f4f4f06d0456c5466f17d8eb4363f23",
+      "public_sha256": "5ee29b9b425ddee91f28e7e118322e817f4f4f06d0456c5466f17d8eb4363f23",
+      "bytes": 5746,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/Town01.xodr",
+      "upstream_sha256": "f32779a0a52d6eea1eaf7245b3210b012dfabd8b80bd75cf79a7ab69896fa522",
+      "public_sha256": "f32779a0a52d6eea1eaf7245b3210b012dfabd8b80bd75cf79a7ab69896fa522",
+      "bytes": 973109,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/__init__.py",
+      "upstream_sha256": "9e18668185204383c9ee63e7d338806062bfe9673278aabda1c296e175a9f8c7",
+      "public_sha256": "9e18668185204383c9ee63e7d338806062bfe9673278aabda1c296e175a9f8c7",
+      "bytes": 144,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/map_test.py",
+      "upstream_sha256": "a7864bca7a15a2589d093174c0afd031579260deb3fb84c49c83ec04b6a9a2c4",
+      "public_sha256": "a7864bca7a15a2589d093174c0afd031579260deb3fb84c49c83ec04b6a9a2c4",
+      "bytes": 1026,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/map_viewer.py",
+      "upstream_sha256": "66f9ff957d12a9c22aac028dd6309031ab050035126864f84d38241855db276c",
+      "public_sha256": "66f9ff957d12a9c22aac028dd6309031ab050035126864f84d38241855db276c",
+      "bytes": 51054,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/occupancy_map.py",
+      "upstream_sha256": "4a4a1eb8ac41fdf878fb0cee62ca5ac2604a6558059ed404c8ebd212cbcb3b39",
+      "public_sha256": "4a4a1eb8ac41fdf878fb0cee62ca5ac2604a6558059ed404c8ebd212cbcb3b39",
+      "bytes": 10973,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/plane_map.py",
+      "upstream_sha256": "1a6d3fdee59b280b2715f7dfe34581adfeff00e34a2ea1ca1926309b389b15b1",
+      "public_sha256": "0a2344ec19706a532cf4171bc8a37059d1b8575a01f7771b3c26ffe868ac453c",
+      "bytes": 9202,
+      "modified": true
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/road_network.py",
+      "upstream_sha256": "ebaba653025f06a3e21d19a1218e1f9617953ada6ecfcdec4f01f338c3940046",
+      "public_sha256": "ebaba653025f06a3e21d19a1218e1f9617953ada6ecfcdec4f01f338c3940046",
+      "bytes": 16508,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/mapping/utils.py",
+      "upstream_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/__init__.py",
+      "upstream_sha256": "05cefb4c6d8b2cfb53a30d29c80b8d1cfbb8731560f56aed47f72e0d823af60b",
+      "public_sha256": "05cefb4c6d8b2cfb53a30d29c80b8d1cfbb8731560f56aed47f72e0d823af60b",
+      "bytes": 167,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/debugger.py",
+      "upstream_sha256": "b7f4e0d5045c897d8ddc4beb62e775f107ea902d37b6314fecf00759621524fb",
+      "public_sha256": "b7f4e0d5045c897d8ddc4beb62e775f107ea902d37b6314fecf00759621524fb",
+      "bytes": 2843,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/evasive_planner.py",
+      "upstream_sha256": "50faae30957aca2ff456888681201f71cc0065c04477454ddc664704497ac78a",
+      "public_sha256": "50faae30957aca2ff456888681201f71cc0065c04477454ddc664704497ac78a",
+      "bytes": 10189,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/hybrid_game.py",
+      "upstream_sha256": "50c37ad16922b120e4d7cf0c37f90d64033ce6f4ecd3218ea1ec01bc7d8ffbd3",
+      "public_sha256": "50c37ad16922b120e4d7cf0c37f90d64033ce6f4ecd3218ea1ec01bc7d8ffbd3",
+      "bytes": 9747,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/lattice/__init__.py",
+      "upstream_sha256": "741c89bf3f032cd5305017734aa19d51e83fab02db55e8559e54586e029c7a33",
+      "public_sha256": "741c89bf3f032cd5305017734aa19d51e83fab02db55e8559e54586e029c7a33",
+      "bytes": 69,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/lattice/lattice.py",
+      "upstream_sha256": "e57307c73846e3da5b88e7018b98531d64b58288ca8eb09c4724ed711854ba87",
+      "public_sha256": "e57307c73846e3da5b88e7018b98531d64b58288ca8eb09c4724ed711854ba87",
+      "bytes": 5535,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/lattice/trajectory.py",
+      "upstream_sha256": "b411b0e0ac6100fe0f389264fb5d62bdad689bd89bdb9ecb0fab0f89ee265697",
+      "public_sha256": "b411b0e0ac6100fe0f389264fb5d62bdad689bd89bdb9ecb0fab0f89ee265697",
+      "bytes": 5481,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/route.py",
+      "upstream_sha256": "1d868ffff7bb3e591b98725d9b4ed09125d95d10c92092de1c97d45652a5fd99",
+      "public_sha256": "1d868ffff7bb3e591b98725d9b4ed09125d95d10c92092de1c97d45652a5fd99",
+      "bytes": 9903,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/search/A_star.py",
+      "upstream_sha256": "8408804683a7cf3ab45793d56a2102e4990f72c359bc68949ac76f81f7a79dcf",
+      "public_sha256": "8408804683a7cf3ab45793d56a2102e4990f72c359bc68949ac76f81f7a79dcf",
+      "bytes": 12686,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/search/__init__.py",
+      "upstream_sha256": "380fd78455d8346a354253d451f5a33c337c5e5bea163ec6acce1be1ee4d50ab",
+      "public_sha256": "380fd78455d8346a354253d451f5a33c337c5e5bea163ec6acce1be1ee4d50ab",
+      "bytes": 74,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/planning/search/interactive_planner.py",
+      "upstream_sha256": "56f85665dc831d86b98304d3ab11a5f8fa43bab0e459e66139fea58bca65e463",
+      "public_sha256": "56f85665dc831d86b98304d3ab11a5f8fa43bab0e459e66139fea58bca65e463",
+      "bytes": 6797,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/__init__.py",
+      "upstream_sha256": "e33cacc4243d113554f3378f879e6c283c046e10dd93ed1c173b90a2e5eaf4ed",
+      "public_sha256": "e33cacc4243d113554f3378f879e6c283c046e10dd93ed1c173b90a2e5eaf4ed",
+      "bytes": 70,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/dangzerzone_vis.py",
+      "upstream_sha256": "c6261b391a5db49a04158437f7a77286f02fa115ad7ef607c3552035c52e0394",
+      "public_sha256": "c6261b391a5db49a04158437f7a77286f02fa115ad7ef607c3552035c52e0394",
+      "bytes": 5083,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/info_space.py",
+      "upstream_sha256": "663906e21a6e69fe39537bbd194316fe7520ad02536a9498fad3feb066b79642",
+      "public_sha256": "663906e21a6e69fe39537bbd194316fe7520ad02536a9498fad3feb066b79642",
+      "bytes": 4102,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/object_utils.py",
+      "upstream_sha256": "6ece873bc986fdab8c507cce5f66b730b4540a9be4ab50721aca8862d1ab83ae",
+      "public_sha256": "6ece873bc986fdab8c507cce5f66b730b4540a9be4ab50721aca8862d1ab83ae",
+      "bytes": 13088,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/reachable_set.py",
+      "upstream_sha256": "7023bc57116020b8db039c7507a0a88bec4555a0e9d7459fdc3873a245f6fca2",
+      "public_sha256": "7023bc57116020b8db039c7507a0a88bec4555a0e9d7459fdc3873a245f6fca2",
+      "bytes": 8118,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/shadow.py",
+      "upstream_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+      "public_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+      "bytes": 3719,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/shadow_utils.py",
+      "upstream_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+      "public_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+      "bytes": 51237,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/state_checker.py",
+      "upstream_sha256": "99a0046921ddf6992db1ac0f7dfc1fd3fecebb38c4d7f19d7c11339e5b80f244",
+      "public_sha256": "99a0046921ddf6992db1ac0f7dfc1fd3fecebb38c4d7f19d7c11339e5b80f244",
+      "bytes": 83462,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/test_intersection.py",
+      "upstream_sha256": "a388451c4820928e78758b0ebbaa93535f0a1d7cb2234d40ba34aedc42a25f74",
+      "public_sha256": "a388451c4820928e78758b0ebbaa93535f0a1d7cb2234d40ba34aedc42a25f74",
+      "bytes": 2510,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/risk_analysis/visibility_checker.py",
+      "upstream_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+      "public_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+      "bytes": 6167,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/__init__.py",
+      "upstream_sha256": "dd7a34b79380b8e8e795e5156e53749f0ecd6561d6072df0b29467f3c2c716be",
+      "public_sha256": "dd7a34b79380b8e8e795e5156e53749f0ecd6561d6072df0b29467f3c2c716be",
+      "bytes": 284,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/camera_module.py",
+      "upstream_sha256": "f82d0cdd17c0a41fc1c9ccd3598f4b21b4ebdd369e93e1f9cb3f7360d3e426d6",
+      "public_sha256": "cebcb7dc1455122613fce44af94ab0a7ab798ee4a878f667a670b9c7ad8e0695",
+      "bytes": 9646,
+      "modified": true
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/collision_module.py",
+      "upstream_sha256": "55e79ae26483e2e7e82dbeec1c00873ff5e53bae6ce1707e24cb7db01f546e91",
+      "public_sha256": "55e79ae26483e2e7e82dbeec1c00873ff5e53bae6ce1707e24cb7db01f546e91",
+      "bytes": 1755,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/gnss_module.py",
+      "upstream_sha256": "c9328ac9cc6e38cd4a7ed8c6a53f4c2611f3f183d9dd08d30cde93a158343dc4",
+      "public_sha256": "c9328ac9cc6e38cd4a7ed8c6a53f4c2611f3f183d9dd08d30cde93a158343dc4",
+      "bytes": 1101,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/imu_module.py",
+      "upstream_sha256": "ed51ce43f969c8a772f352d581bf41509e3f69ee5f0a883461b9a1faec121c0b",
+      "public_sha256": "ed51ce43f969c8a772f352d581bf41509e3f69ee5f0a883461b9a1faec121c0b",
+      "bytes": 1609,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/laneinvasion_module.py",
+      "upstream_sha256": "f8ad47247731f7c697ce86f97ed817f53353e4cac0cf199648dc27aef9a5231e",
+      "public_sha256": "f8ad47247731f7c697ce86f97ed817f53353e4cac0cf199648dc27aef9a5231e",
+      "bytes": 1120,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/lidar_module.py",
+      "upstream_sha256": "38da14bb290a6492534e44526a85400aa8e8ee4bbe48663a808efdce8edb339a",
+      "public_sha256": "8b09e49a950d91ea4be49fc41c53dec35ae64ee57bb7b4e0ff56711be4eeb7d1",
+      "bytes": 10015,
+      "modified": true
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/radar_module.py",
+      "upstream_sha256": "deab79211fcaced7072c1daf9cd1498aa0eba5719749ef1ed0ee133cf35d9518",
+      "public_sha256": "deab79211fcaced7072c1daf9cd1498aa0eba5719749ef1ed0ee133cf35d9518",
+      "bytes": 2471,
+      "modified": false
+    },
+    {
+      "path": "vendor/rss_occlusion/sensing/sensor.py",
+      "upstream_sha256": "f29d8c68a58a2de279e907bd37a30785974a688b584ad8e4dff64d7d8e33d63b",
+      "public_sha256": "f29d8c68a58a2de279e907bd37a30785974a688b584ad8e4dff64d7d8e33d63b",
+      "bytes": 409,
+      "modified": false
+    }
+  ]
+}

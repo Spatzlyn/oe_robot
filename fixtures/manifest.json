@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1213,
+      "sha256": "df3415f791aad828be79a55864daebe051236700e28e3a4651d10362509f340e"
+    },
+    {
+      "path": "audit/controls/fill_one_query__original.json",
+      "bytes": 6702,
+      "sha256": "2844306914d870a885eb24f72d7a88570d2e6c2b09f7c6695b9d92d577245d85"
+    },
+    {
+      "path": "audit/controls/normal_duplicate__original.json",
+      "bytes": 6116,
+      "sha256": "595e89b12d779b80a4162d53bb62b48775cc3d97315f10d291ae67b59be5f82b"
+    },
+    {
+      "path": "audit/far/results.json",
+      "bytes": 3643503,
+      "sha256": "e85d4ffb25b7014173f3293ac2622cd183313fd55057ce7395b429039d30a6f2"
+    },
+    {
+      "path": "audit/near/results.json",
+      "bytes": 5979212,
+      "sha256": "3b078f65022dc920702c351da888b9527554d56b5d95c7fe0988d438b5760035"
+    },
+    {
+      "path": "audit/trace/summary.json",
+      "bytes": 312,
+      "sha256": "eab3db9a52c226f46af33267f82232e4fc5bec3f5c61a85e8a1320e51881f3be"
+    },
+    {
+      "path": "checker/Town01.xodr",
+      "bytes": 973108,
+      "sha256": "97a7f6ac67812567e5c8ee0599cd823b23f80f30f3f97c502212e38b72e2b709"
+    },
+    {
+      "path": "checker/cycle_0005.pkl",
+      "bytes": 57355,
+      "sha256": "e77fbd9891e36e8ad2dabc452155340249cebad4de5954071952895aac3f233c"
+    },
+    {
+      "path": "checker/pair_566.pkl",
+      "bytes": 197601,
+      "sha256": "90008c57a79a49cd79fe91be016c68d78ce97bae1a42fbf6b67f50abdc401e1f"
+    },
+    {
+      "path": "controlled/implementation_states.pkl",
+      "bytes": 57183,
+      "sha256": "fe5b28c26e5d60ef0223276a0c94d473c744c958d4b7187f706d7974c71b0e89"
+    },
+    {
+      "path": "controlled/reference.pkl",
+      "bytes": 806007,
+      "sha256": "2b138c7453e1db3a90011c329aa6fb79f4a560a68605c8fff4631d8d909739b0"
+    },
+    {
+      "path": "map/Town01_intersection2_reconstructed.ot.gz",
+      "bytes": 14064381,
+      "sha256": "368d4a85b65d97a8266ace08f21d282b4dcd0a8c0daf64242e481bc632bdee43"
+    },
+    {
+      "path": "map/map_manifest.json",
+      "bytes": 488,
+      "sha256": "361ac40e974960a02cd4b35b9cabfb62839f8b7f2d7f7067f8af46e181f46fa2"
+    },
+    {
+      "path": "pruning/development/D_template_000.json",
+      "bytes": 111991,
+      "sha256": "b482287b516c2ddfafcf19b093bfacb3cdcfbcad9f785d45e18b02a185aebe30"
+    },
+    {
+      "path": "pruning/development/D_template_012.json",
+      "bytes": 841529,
+      "sha256": "e4f9a4251cec222c65ae88bc0853dacc69b7c72a7c193f901abc1fde587c30a0"
+    }
+  ]
+}

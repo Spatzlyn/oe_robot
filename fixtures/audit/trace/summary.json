@@ -1,0 +1,17 @@
+{
+  "key": [
+    1,
+    2
+  ],
+  "first_job_input_interval": [
+    2,
+    2.5
+  ],
+  "first_job_mature_output": null,
+  "rejected_input_interval": [
+    2,
+    15
+  ],
+  "interpretation": "A searched key persists even when its earlier job leaves no mature coverage.",
+  "non_nested_intervals_necessary": false
+}

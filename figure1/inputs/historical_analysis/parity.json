@@ -1,0 +1,11 @@
+{
+  "development_v1_vs_logger_v3_steps": true,
+  "development_vs_confirmation_depth": true,
+  "development_vs_confirmation_poses": true,
+  "local_same_prefix_before_t2": true,
+  "local_same_target_epoch_prior": true,
+  "all_traced_plain_outputs": true,
+  "native_resolution_same_prefix_before_t3_5": true,
+  "native_resolution_same_prior_at_t3_5": true,
+  "native_resolution_same_sensor_arrays": true
+}

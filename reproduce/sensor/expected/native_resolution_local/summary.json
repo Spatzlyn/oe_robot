@@ -1,0 +1,13 @@
+[
+  {
+    "case": "v0.5_g-0.5",
+    "method": "single_admission",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [],
+    "unresolved_times": [],
+    "applied": 1,
+    "native_rejects": 16,
+    "error": null
+  }
+]

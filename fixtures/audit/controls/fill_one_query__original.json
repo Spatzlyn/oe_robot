@@ -1,0 +1,361 @@
+{
+  "summary": {
+    "fixture": "fill_one_query",
+    "mode": "original",
+    "reference_at_4": 293,
+    "missing_at_4": 0,
+    "final_shadows": 1,
+    "same_finite_reference_as_base": true,
+    "scope": "same finite sets does not prove continuous-set equality",
+    "terminated": true
+  },
+  "steps": [
+    {
+      "t": 0.0,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.0,
+            "t_out": 0.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "reference_count": 496,
+      "position_missing": 0
+    },
+    {
+      "t": 0.5,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.0,
+            "t_out": 0.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "reference_count": 384,
+      "position_missing": 0
+    },
+    {
+      "t": 1.0,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.0,
+            "t_out": 1.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "reference_count": 339,
+      "position_missing": 0
+    },
+    {
+      "t": 1.5,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.0,
+            "t_out": 1.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "reference_count": 365,
+      "position_missing": 0
+    },
+    {
+      "t": 2.0,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.0,
+            "t_out": 2.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "reference_count": 385,
+      "position_missing": 0
+    },
+    {
+      "t": 2.5,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.0,
+            "t_out": 2.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "reference_count": 379,
+      "position_missing": 0
+    },
+    {
+      "t": 3.0,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.0,
+            "ds_out": 1.0,
+            "t_in": 3.0,
+            "t_out": 3.0,
+            "ds_in_hist": [
+              [
+                13.0
+              ]
+            ],
+            "t_in_hist": [
+              [
+                0.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.0,
+            "t_out": 3.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "reference_count": 371,
+      "position_missing": 0
+    },
+    {
+      "t": 3.5,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.5,
+            "t_in": 0.0,
+            "t_out": 3.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            11.5
+          ]
+        }
+      ],
+      "reference_count": 329,
+      "position_missing": 0
+    },
+    {
+      "t": 4.0,
+      "shadows": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 4.0,
+            "t_in": 0.0,
+            "t_out": 4.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            11.0
+          ]
+        }
+      ],
+      "reference_count": 293,
+      "position_missing": 0
+    }
+  ],
+  "fields": {
+    "0.0": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-13/4",
+        "10"
+      ]
+    ],
+    "0.5": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-13/4",
+        "10"
+      ]
+    ],
+    "1.0": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-13/4",
+        "10"
+      ]
+    ],
+    "1.5": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-13/4",
+        "10"
+      ]
+    ],
+    "2.0": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-13/4",
+        "10"
+      ]
+    ],
+    "2.5": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-13/4",
+        "10"
+      ]
+    ],
+    "3.0": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-13/4",
+        "-7/4"
+      ],
+      [
+        "-5/4",
+        "10"
+      ]
+    ],
+    "3.5": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-15/4",
+        "10"
+      ]
+    ],
+    "4.0": [
+      [
+        "-20",
+        "-59/4"
+      ],
+      [
+        "-17/4",
+        "10"
+      ]
+    ]
+  }
+}

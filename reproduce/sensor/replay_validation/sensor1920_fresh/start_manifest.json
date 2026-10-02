@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-02T11:46:27.744241Z",
+  "command": [
+    "python",
+    "reproduce/sensor/run_sensor.py",
+    "--resolution",
+    "1920",
+    "--methods",
+    "original,single_admission",
+    "--output",
+    "<OUTPUT>"
+  ],
+  "device": "CPU",
+  "harness_sha256": "12963872737e145d764c9ad07f50fb322dacb8320560260f938a03c3352c9870",
+  "protocol_sha256": "0906b38a668c87297f7a75a98f394ecbdf1496ff34755e7e29df8bbd583b5fa8",
+  "native": {
+    "shadow_utils.py": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "visibility_checker.py": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "shadow.py": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0"
+  },
+  "python": "3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 06:08:21) \n[GCC 9.4.0]",
+  "source_revision": "2b6b06637850b406cfbeab926a3dedc01edad91e",
+  "scope": "Fresh CPU analytic rendering and native update replay of a historical synthetic fixture, not a new scene or checker run."
+}

@@ -1,0 +1,43 @@
+{
+  "utc": "2026-09-24T15:40:19.240442Z",
+  "config": {
+    "id": "v0.5_g-0.5",
+    "velocity": 0.5,
+    "gap": -0.5
+  },
+  "target": {
+    "t": 2.0,
+    "shadow": {
+      "risk_bound": false,
+      "parent": 999,
+      "root": {
+        "type": "InOutBound",
+        "id": 1,
+        "ds_in": 14.5,
+        "ds_out": 1.5,
+        "t_in": 1.5,
+        "t_out": 2.0,
+        "ds_in_hist": null,
+        "t_in_hist": null,
+        "children": []
+      },
+      "leaf_depth": []
+    }
+  },
+  "methods": [
+    "original",
+    "single_admission",
+    "admission_off",
+    "mature_only_off",
+    "mature_guard"
+  ],
+  "predictions": {
+    "single_admission": "witness position recovers at t2; later epochs may fail independently",
+    "admission_off": "target omission absent; full soundness not claimed",
+    "mature_only_off": "target omission remains because admission unchanged",
+    "mature_guard": "target omission absent within conservative supported/fallback behavior"
+  },
+  "selection": "first positive lowest-velocity scene in frozen grid; causal replay, not held-out validation",
+  "input_sha256": "e78cdaa6f1884fde31785383bd0ad29c40100c1c624a08629a22ec9555402950",
+  "harness_sha256": "872fff4343cbd960473e285c71d7ddb63a201246416ecb385da4153c5c66f094"
+}

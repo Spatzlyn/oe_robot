@@ -1,0 +1,218 @@
+{
+  "schema": "anonymous-artifact-transformation.v1",
+  "new_native_runs": 0,
+  "historical_archive_sha256": "762ed82b70268b468a81ba1145ccdd49748523afd45932a506fbe746871e80c5",
+  "public_archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
+  "files": 651,
+  "binary_npz_files_unchanged": 13,
+  "changes": [
+    {
+      "path": "configs/rss-pip-lock.txt",
+      "historical_sha256": "b4fd294f6717786d7959807b94cb3559e9f261cf282294c306eafe9593c673c1",
+      "public_sha256": "028b7245a57fd87b215bbd084d5d3d9b6c953b105b65f77a5feee151f892a086",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "runs/semantic_action_check_serialization_v3/provenance_supplement.json",
+      "historical_sha256": "6aec252fe45df6416501f5bffa6553fd4cfed6fa22fa9beb4ece4538620c65f0",
+      "public_sha256": "d42e0ac5e7fff019630cf224a72ec8441586aa2584df3c8b130b3915c4ec7761",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "runs/semantic_action_far_control_v2/provenance_supplement.json",
+      "historical_sha256": "66134dd87775deb87e0c4728bfa867b5f46edfbfe4ddf3048e683a85637adaa7",
+      "public_sha256": "17c30566a9a3151b42accad00bcafcd13480c887fd7135236b01d5b0440dd62d",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "runs/semantic_controls_v1/provenance_supplement.json",
+      "historical_sha256": "37b173b1003370a90e5b817d4501921674cfc4a4c7e9d745333f1fa9a50a159c",
+      "public_sha256": "0bfb647ba84316fdc77525df0a5cccafe9dd7626c704c3a41388b1cd2d1c66f5",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "runs/semantic_manuscript_audit_v1/provenance_supplement.json",
+      "historical_sha256": "04eb43ce26f14c48b44a9251ce23c9998eb330b1ecda8e78ea01293458cde588",
+      "public_sha256": "8a6dbeda545323c532ba270c80ad4d3a76f32c4e73f152613fcd969a6bc46052",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "runs/semantic_minimal_trace_v2/provenance_supplement.json",
+      "historical_sha256": "faf51f6cad80b9562a2c32b6863955a0a4af8e82befff8cce77fd24c006253f7",
+      "public_sha256": "d8c0e5753506e8c16c9b02d450e5e1fee4a1099463cdbb82604de0e952887594",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "runs/semantic_small_graph_v2/provenance_supplement.json",
+      "historical_sha256": "52dcea7e1d059b070d3707fcc419aa06393f252144c322676cf58077a70badf8",
+      "public_sha256": "6c272b62de769e5443fcd06a6d20703e43831e9a57d149f72c339d8f29ce981d",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_freeze_v3.json",
+      "historical_sha256": "52959e0a9b135248777c9765b51350a26ecb1c8c12256451c053704292dfe62c",
+      "public_sha256": "696999313cd8b96fea9fbe97f869cc0a447ef4e3f8e940c303126720285735bf",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/source_executed.py",
+      "historical_sha256": "f501420e251f55dee74eefd944c9d22818a99fcb5b257de29a79f37791f890cb",
+      "public_sha256": "8e44d918307913ba3e960d4f1dfcc86f0d9ae5bd840d84c6ccf4da41cf5cc94a",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/start_manifest.json",
+      "historical_sha256": "208d18f95ebf0c15d21295ed075bad90709f8a1d207cf2b157e4227cbf107301",
+      "public_sha256": "434e62ba2571b2524dc88f446f82afd78928d77a03408a14672c617fd7c81911",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/source_executed.py",
+      "historical_sha256": "558effd06ffff9aa579badbe0bae61a84d92da1cf0a58796a100e2af3c98107b",
+      "public_sha256": "be9fb829ec0440360739663508194c13b4d47a350ff75c8acaaddb17d6ec0dd4",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/start_manifest.json",
+      "historical_sha256": "a42198195e4883bfcb7655621d0db10d27f36c268580faebdd114902dae5dcd3",
+      "public_sha256": "60f7d76828bf09605373da089aff2fcbdda3c65b428775527e39a494bcc14e7b",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/measurement_change_v2.json",
+      "historical_sha256": "f289fa36e56526a03a216a39ed996e82feb693173aa890f61a00896d08458458",
+      "public_sha256": "259efe17da8634c33befc20d3b9177b33e4ec0cafdf11063573f77cda27b6639",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/source_executed.py",
+      "historical_sha256": "7e8eb83a94206122fd4a391738abda25e8b3f9e09ce13fe80d86a22a83c51b34",
+      "public_sha256": "5b65d7fa629d88936088bca7bc2b21e049383fa8815b444b80a28d1314af7cc7",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/start_manifest.json",
+      "historical_sha256": "c07e877592afca68e4d7a1ed4e4fc1cc92b0e1c12a883954e558f5f1d763d64b",
+      "public_sha256": "5c027fa5981e9bf8992ec0003e96ec9f5f319a01cff4f2ae8987bf571da030d9",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/source_executed.py",
+      "historical_sha256": "7e8eb83a94206122fd4a391738abda25e8b3f9e09ce13fe80d86a22a83c51b34",
+      "public_sha256": "5b65d7fa629d88936088bca7bc2b21e049383fa8815b444b80a28d1314af7cc7",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/start_manifest.json",
+      "historical_sha256": "bb87b74dc50deb036d3b1c3a62a33f1c3bf4839506ba8cff86f8328688e3690f",
+      "public_sha256": "a6db85f107f48b5db435ddb6daea4ce283667d6a1f6c9c73a4c296cd1828f834",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local_protocol.json",
+      "historical_sha256": "b3bca6326441a2818557e21e2c4604b774728410ad96bf1ec0a54e6ea0053dc2",
+      "public_sha256": "b5a74e07ca77d2d62175acbb74a0ca4db54b95cab118b09c0e58cdebcb8a2c34",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_protocol.json",
+      "historical_sha256": "93da8ee949d3c301b12a4f79f7e78e67a46b7b7237c38c502d730d877c287449",
+      "public_sha256": "1e406da760b7c54049128b1ad842b34acba26524beb3398182347dc9b72b23e4",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/c1/run_sensor.py",
+      "historical_sha256": "7e8eb83a94206122fd4a391738abda25e8b3f9e09ce13fe80d86a22a83c51b34",
+      "public_sha256": "5b65d7fa629d88936088bca7bc2b21e049383fa8815b444b80a28d1314af7cc7",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/d1/artifact_hashes.json",
+      "historical_sha256": "1a4c5a3e478fe76102e0ea54b8ad163ebe29eed7f74fafbba9f1da5875938ff5",
+      "public_sha256": "40776fa3722436fb4891d769225642bad73a8dbd87f08bc27a1841ec6dbcd06c",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/d1/package_lock.txt",
+      "historical_sha256": "b4fd294f6717786d7959807b94cb3559e9f261cf282294c306eafe9593c673c1",
+      "public_sha256": "028b7245a57fd87b215bbd084d5d3d9b6c953b105b65f77a5feee151f892a086",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/d1/report.md",
+      "historical_sha256": "0088631106c5ca1c4c46eff04e94e23ffb33561fef5d922f5e5cd2ebd051de35",
+      "public_sha256": "111d9600b91c0433ea9e817612fe69f217fc92c5d37cfb592c89de23b76ba1cf",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/inputs/SPAIS_C1_reaudit_synthesis_and_paper_direction_2026-09-24.md",
+      "historical_sha256": "e596e1c5f0c21b37e63f98e5a9961806294171ff01b6847f6cf521050608b28a",
+      "public_sha256": "0784462c5419f4c1a4134cc2024fda0a37c97fa823560ba7f425d64f221f2c48",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/inputs/provenance.json",
+      "historical_sha256": "c59aac66284cbda991840677df280db788a4ba299cee0fecfd4851721a4d3635",
+      "public_sha256": "f34365fec4eaeb1c61d734d0ca3f8ff42f20e7ade996ec7ad405290900454a21",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/inputs/rss_pip_freeze.txt",
+      "historical_sha256": "b4fd294f6717786d7959807b94cb3559e9f261cf282294c306eafe9593c673c1",
+      "public_sha256": "028b7245a57fd87b215bbd084d5d3d9b6c953b105b65f77a5feee151f892a086",
+      "identity_scrubbed": true,
+      "referenced_hashes_recomputed": false
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json",
+      "historical_sha256": "2f30966df0c96033fef1b227ad2bfd03f46ab70fef80b488a7387d2c9e5564c7",
+      "public_sha256": "b35f86b7f659bfd118db65e490135bca0d9cb9ff97ba83cbe5b8f643a6450d57",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1.json",
+      "historical_sha256": "b922e765b9b83c5dbf398c4ee53a120436f698407d6e2dc2c2f1e47a6328a3a7",
+      "public_sha256": "0fb3ba4967c9abe28407f579297d009716d63d63d89b77b895f100e1ce1354b9",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1_snapshot.json",
+      "historical_sha256": "a4dcb04ce0674aa5811e4a4a7d292a3a8121e2324f67691348f399e127c8b61d",
+      "public_sha256": "1adaa94a0023b40e3425e8079aa4d33035554eb7dad9921a2f9ddb92bd7a65f6",
+      "identity_scrubbed": false,
+      "referenced_hashes_recomputed": true
+    }
+  ],
+  "hash_rewrite_iterations": 3,
+  "scientific_values": "No numerical scientific measurements, forests, actions, witnesses or verdicts edited.",
+  "portable_source_path": "Archived sensor harness source uses OE_ROBOT_SOURCE_ROOT or current directory; offline validation does not execute it.",
+  "original_evidence": "Untouched outside this public artifact.",
+  "limitation": "The public archive hash is intentionally different from the historical private archive."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "private_identity_string_hits": [],
+  "input_manifests": [
+    {
+      "manifest": "figure1/source_manifest.json",
+      "files": 27,
+      "passed": true
+    },
+    {
+      "manifest": "reproduce/sensor/public_manifest.json",
+      "files": 109,
+      "passed": true
+    }
+  ],
+  "npz_archives_checked": 18,
+  "new_native_clean_replay_checks": {
+    "sensor640": 76,
+    "sensor1920": 76
+  },
+  "saved_sensor_checks": 345,
+  "figure_checks": 93,
+  "public_native_runs": {
+    "traced": 6,
+    "plain": 6,
+    "updates": 108,
+    "clean_env_traced": 4,
+    "clean_env_plain": 4,
+    "clean_env_updates": 72
+  },
+  "scope": "No new condition, same-scene checker, collision or completion claim."
+}

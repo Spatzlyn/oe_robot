@@ -1,0 +1,521 @@
+{
+  "id": "single_admission_3p5",
+  "method": "single_admission",
+  "time_s": 3.5,
+  "camera_xyz": [
+    -2.25,
+    -10,
+    1.7
+  ],
+  "output_shadow_count": 6,
+  "full_step": {
+    "t": 3.5,
+    "ego_x": -2.25,
+    "wrapper_reinitialization": false,
+    "prior": [
+      {
+        "risk_bound": true,
+        "parent": null,
+        "root": {
+          "type": "InOutBound",
+          "id": 999,
+          "ds_in": 15.0,
+          "ds_out": 14.0,
+          "t_in": 0.0,
+          "t_out": 3.0,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.0,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 0.5,
+          "t_in": 2.5,
+          "t_out": 3.0,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.0,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0.0,
+          "t_in": 3.0,
+          "t_out": 3.0,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          13.5
+        ]
+      }
+    ],
+    "final": [
+      {
+        "risk_bound": true,
+        "parent": null,
+        "root": {
+          "type": "InOutBound",
+          "id": 999,
+          "ds_in": 15.0,
+          "ds_out": 14.0,
+          "t_in": 0.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.5,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              1.0,
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0,
+              2.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          12.5
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "shadow": 0,
+        "lane": 999,
+        "lo": 14.0,
+        "hi": 15.0,
+        "node_type": "InOutBound",
+        "implicit_tail": false,
+        "risk_bound": true
+      },
+      {
+        "shadow": 1,
+        "lane": 1,
+        "lo": 1.0,
+        "hi": 1.5,
+        "node_type": "InOutBound",
+        "implicit_tail": false,
+        "risk_bound": false
+      },
+      {
+        "shadow": 2,
+        "lane": 1,
+        "lo": 0.5,
+        "hi": 1.0,
+        "node_type": "InOutBound",
+        "implicit_tail": false,
+        "risk_bound": false
+      },
+      {
+        "shadow": 3,
+        "lane": 1,
+        "lo": 1.5,
+        "hi": 2.0,
+        "node_type": "InOutBound",
+        "implicit_tail": false,
+        "risk_bound": false
+      },
+      {
+        "shadow": 4,
+        "lane": 1,
+        "lo": 0.0,
+        "hi": 1.0,
+        "node_type": "InOutBound",
+        "implicit_tail": false,
+        "risk_bound": false
+      },
+      {
+        "shadow": 5,
+        "lane": 1,
+        "lo": 1.0,
+        "hi": 13.5,
+        "node_type": "InOutBound",
+        "implicit_tail": false,
+        "risk_bound": false
+      }
+    ],
+    "risky_lane": [
+      1,
+      2
+    ],
+    "witness": {
+      "body_ds": [
+        8,
+        11
+      ],
+      "body_y": [
+        -0.5,
+        0.5
+      ],
+      "body_z": [
+        0,
+        1.5
+      ],
+      "stationary_v": 0,
+      "stationary_a": 0,
+      "panel_intersection_x": [
+        2.6309523809523805,
+        4.723684210526315
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true,
+      "horizontal_margin": 0.776315789473685,
+      "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+    },
+    "witness_status": "witness_position_present"
+  },
+  "union": [
+    {
+      "lane": 1,
+      "ds": [
+        0.0,
+        13.5
+      ],
+      "world_polyline": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.5,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.5,
+          0.0,
+          0.0
+        ],
+        [
+          2.0,
+          0.0,
+          0.0
+        ],
+        [
+          2.5,
+          0.0,
+          0.0
+        ],
+        [
+          3.0,
+          0.0,
+          0.0
+        ],
+        [
+          3.5,
+          0.0,
+          0.0
+        ],
+        [
+          4.0,
+          0.0,
+          0.0
+        ],
+        [
+          4.5,
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.5,
+          0.0,
+          0.0
+        ],
+        [
+          6.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.5,
+          0.0,
+          0.0
+        ],
+        [
+          7.0,
+          0.0,
+          0.0
+        ],
+        [
+          7.5,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.5,
+          0.0,
+          0.0
+        ],
+        [
+          9.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.5,
+          0.0,
+          0.0
+        ],
+        [
+          10.0,
+          0.0,
+          0.0
+        ],
+        [
+          10.5,
+          0.0,
+          0.0
+        ],
+        [
+          11.0,
+          0.0,
+          0.0
+        ],
+        [
+          11.5,
+          0.0,
+          0.0
+        ],
+        [
+          12.0,
+          0.0,
+          0.0
+        ],
+        [
+          12.5,
+          0.0,
+          0.0
+        ],
+        [
+          13.0,
+          0.0,
+          0.0
+        ],
+        [
+          13.5,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "lane": 999,
+      "ds": [
+        14.0,
+        15.0
+      ],
+      "world_polyline": [
+        [
+          0.0,
+          -4.0,
+          0.0
+        ],
+        [
+          0.0,
+          -4.5,
+          0.0
+        ],
+        [
+          0.0,
+          -5.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "witness_front_xyz": [
+    8,
+    0,
+    0
+  ],
+  "witness_front_in_output": true
+}

@@ -1,0 +1,141 @@
+{
+  "schema": "anonymous.figure.inputs.v1",
+  "scope": "Public sanitized input copies; hashes apply to distributed bytes.",
+  "files": [
+    {
+      "bundle_path": "inputs/analyze_sensor.py",
+      "bytes": 8964,
+      "sha256": "b904238b62e356b7979e019455af2df56c2d3b1682b9fc29929e3e6bc10c65a2"
+    },
+    {
+      "bundle_path": "inputs/helpers/common.py",
+      "bytes": 4099,
+      "sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab"
+    },
+    {
+      "bundle_path": "inputs/historical_analysis/body_sensor_noninterference.json",
+      "bytes": 3497,
+      "sha256": "500f8abe451deb0562a4a39c3e4dea52503457d925925b35d136fc2aaa6c11d8"
+    },
+    {
+      "bundle_path": "inputs/historical_analysis/parity.json",
+      "bytes": 403,
+      "sha256": "832e4d1237618f85cad4e63a20d7203affd35b1c9ef71fbb808181e490cc1f82"
+    },
+    {
+      "bundle_path": "inputs/historical_package_lock.txt",
+      "bytes": 2662,
+      "sha256": "31a55368488f7b429c87755ac3b0d13860da727b171b9e51184fea821b803233"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/completion.json",
+      "bytes": 112,
+      "sha256": "4321068c60ee6aeb9644e587df070f39da425fc7f3dd289c5133b0e2aabdfc89"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/depth.npz",
+      "bytes": 527990,
+      "sha256": "487062cf4d004b11b6598e45aad0f3fd7cf9b882487bdf010c05a87cc28ab87b"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/original.json",
+      "bytes": 436520,
+      "sha256": "d64b4791895a8acc22e1d932dadaac4797b42172ef5cd2a683f1ead1d6c08864"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/original_plain.json",
+      "bytes": 57469,
+      "sha256": "3bbf17bbb39404f9896689bb1f474bec22df69b50d8b1ae54ba6ab623b6f54f7"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/scene.json",
+      "bytes": 14560,
+      "sha256": "0897ba21ee8686dc3b9816003e9ef18cc5d0ef65432581f3b4851ef0d3cbb58b"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/sensor_poses.json",
+      "bytes": 11503,
+      "sha256": "cf999515e286ea05415890ff59d52a2fe179103def2cdd121431c7590132e29d"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/source_executed.py",
+      "bytes": 12481,
+      "sha256": "8b9062d8c98a8ebe005a243e6047daf7fd2f43fde308d1bbf24e80e3f3e0dcee"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_control/start_manifest.json",
+      "bytes": 985,
+      "sha256": "ebc186c5f2f016267298ba57ee632556252186f494d9346de315b47c28cf91b1"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/completion.json",
+      "bytes": 112,
+      "sha256": "e24919755e76e1d8298d08d8678cfa039737747d0d2d93e0d30951c9e47e770e"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/depth.npz",
+      "bytes": 527990,
+      "sha256": "487062cf4d004b11b6598e45aad0f3fd7cf9b882487bdf010c05a87cc28ab87b"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/scene.json",
+      "bytes": 14560,
+      "sha256": "0897ba21ee8686dc3b9816003e9ef18cc5d0ef65432581f3b4851ef0d3cbb58b"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/sensor_poses.json",
+      "bytes": 11503,
+      "sha256": "cf999515e286ea05415890ff59d52a2fe179103def2cdd121431c7590132e29d"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/single_admission.json",
+      "bytes": 446858,
+      "sha256": "a2289740dc37344aed01a46fb81e4fc82eb86df18e201fac48b751602bab9159"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/single_admission_plain.json",
+      "bytes": 58963,
+      "sha256": "b69e0c594289010580830e6bc28b814a18096c2c96172bd0f2b9048a7dbaad45"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/source_executed.py",
+      "bytes": 12481,
+      "sha256": "8b9062d8c98a8ebe005a243e6047daf7fd2f43fde308d1bbf24e80e3f3e0dcee"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local/start_manifest.json",
+      "bytes": 989,
+      "sha256": "1782ed771f49bd1bfcdb3e72fd2e90fca0b5147efdfc14dcc43cab8d627936d0"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_local_protocol.json",
+      "bytes": 1524,
+      "sha256": "b3bca6326441a2818557e21e2c4604b774728410ad96bf1ec0a54e6ea0053dc2"
+    },
+    {
+      "bundle_path": "inputs/native_resolution_protocol.json",
+      "bytes": 1176,
+      "sha256": "93da8ee949d3c301b12a4f79f7e78e67a46b7b7237c38c502d730d877c287449"
+    },
+    {
+      "bundle_path": "inputs/native_source/shadow.py",
+      "bytes": 3719,
+      "sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0"
+    },
+    {
+      "bundle_path": "inputs/native_source/shadow_utils.py",
+      "bytes": 51237,
+      "sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2"
+    },
+    {
+      "bundle_path": "inputs/native_source/visibility_checker.py",
+      "bytes": 6167,
+      "sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b"
+    },
+    {
+      "bundle_path": "inputs/protocol_v1.md",
+      "bytes": 4037,
+      "sha256": "383e0ccec9f87ccf860d111f6ea77f4baf47542cf5e3917f1858303acf327526"
+    }
+  ]
+}

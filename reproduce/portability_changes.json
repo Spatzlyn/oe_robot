@@ -1,0 +1,190 @@
+[
+  {
+    "source": "analysis/semantic_coverage/small_graph.py",
+    "source_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "public": "reproduce/_common/small_graph.py",
+    "public_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "change": "byte-identical"
+  },
+  {
+    "source": "analysis/semantic_coverage/reference.py",
+    "source_sha256": "8d214b4233555ef1e3dc9670f1a2e00bc3da1b2f5b2a2d7ae47b0a5578bdf499",
+    "public": "reproduce/_common/reference.py",
+    "public_sha256": "8d214b4233555ef1e3dc9670f1a2e00bc3da1b2f5b2a2d7ae47b0a5578bdf499",
+    "change": "byte-identical"
+  },
+  {
+    "source": "analysis/semantic_coverage/common.py",
+    "source_sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
+    "public": "reproduce/_common/common.py",
+    "public_sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
+    "change": "byte-identical"
+  },
+  {
+    "source": "analysis/semantic_coverage/conservative_reduction.py",
+    "source_sha256": "0ab64200412d5f034ee6d877eaee6c29405fcc7807479eb31fe035d42d880499",
+    "public": "reproduce/_common/conservative_reduction.py",
+    "public_sha256": "0ab64200412d5f034ee6d877eaee6c29405fcc7807479eb31fe035d42d880499",
+    "change": "byte-identical"
+  },
+  {
+    "source": "scripts/rss_checkpoint.py",
+    "source_sha256": "8086db4fb9aeefca9543f438db97741efbbcaf5d75182cea3152219a80d6b321",
+    "public": "reproduce/_common/rss_checkpoint.py",
+    "public_sha256": "8086db4fb9aeefca9543f438db97741efbbcaf5d75182cea3152219a80d6b321",
+    "change": "byte-identical"
+  },
+  {
+    "source": "scripts/rss_mechanism_diagnostics.py",
+    "source_sha256": "77ae248855f29cebb42e248975a08a80569f322765a2da617519fef45b8593dc",
+    "public": "reproduce/_common/rss_mechanism_diagnostics.py",
+    "public_sha256": "77ae248855f29cebb42e248975a08a80569f322765a2da617519fef45b8593dc",
+    "change": "byte-identical"
+  },
+  {
+    "source": "scripts/rss_trace.py",
+    "source_sha256": "25e33f51f903861365845e746eadb23ef2e011ecc2bbc10e5e058018aae44a57",
+    "public": "reproduce/_common/rss_trace.py",
+    "public_sha256": "25e33f51f903861365845e746eadb23ef2e011ecc2bbc10e5e058018aae44a57",
+    "change": "byte-identical"
+  },
+  {
+    "source": "scripts/rss_shadow_key_control.py",
+    "source_sha256": "af2374761661723062ab47006ebb7bb3db7b95c2b6026526032ffe5f79e19a8b",
+    "public": "reproduce/_common/rss_shadow_key_control.py",
+    "public_sha256": "af2374761661723062ab47006ebb7bb3db7b95c2b6026526032ffe5f79e19a8b",
+    "change": "byte-identical"
+  },
+  {
+    "source": "analysis/semantic_coverage/run_small_graph.py",
+    "source_sha256": "d38df55cb077f4d5b78fede73bb5a06cfb705ba7113266c7d6a06111cacbc574",
+    "public": "reproduce/controlled/run_small_graph.py",
+    "public_sha256": "45947103c645b77b3e76f599883273d10d157c491f91b4c5ce40c202fce3e1bb",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "analysis/semantic_coverage/trace_minimum.py",
+    "source_sha256": "9b980a8c0d39608a6752d75f279460eaba5311014260cf1e081de3ea2a6afbae",
+    "public": "reproduce/controlled/trace_minimum.py",
+    "public_sha256": "9b980a8c0d39608a6752d75f279460eaba5311014260cf1e081de3ea2a6afbae",
+    "change": "byte-identical"
+  },
+  {
+    "source": "analysis/semantic_coverage/check_actions.py",
+    "source_sha256": "ed2e762b633ea0eee25b64699ce59d37b425a58eccdc682c337c79d51a43edf7",
+    "public": "reproduce/checker/check_actions.py",
+    "public_sha256": "a14ec1e226fec3426a0fe2c3ced8aa4f5d53e9dbc5dab24cddc60802609b0095",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "send/SPAIS_reaudit/sufficiency/run_sufficiency.py",
+    "source_sha256": "15c3632a6a5f0cb0d2d91b48efbc4cb06f5c00fb527dbaf57fac40663b04ff0f",
+    "public": "reproduce/repairs/run_sufficiency.py",
+    "public_sha256": "7988d9a7deac702390048be0ed9a35eb03e5a996f155f91151958b636a84eb11",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "send/SPAIS_reaudit/boundaries/run_boundaries.py",
+    "source_sha256": "69a1d1d56ac711551560ca6bcdabff5c4569b81566ccd9014f6096b15d0485bb",
+    "public": "reproduce/pruning/run_boundaries.py",
+    "public_sha256": "2cc1554987ec8827ab5ce71461165fb9dd49e7998663de4d771b2ff1a5ed5749",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "send/SPAIS_reaudit/boundaries/run_mature_only_ablation.py",
+    "source_sha256": "669a9717b12e5f67a9544a45da799ac0345c455b5c9abb805408f224cd33874f",
+    "public": "reproduce/pruning/run_mature_only_ablation.py",
+    "public_sha256": "cc681a5078d7c016cd8959d6f704d0dd2d1620483d35123802f6c6d8bcd1b966",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "send/SPAIS_C1_native_sensor_validation/d1/run_native_search.py",
+    "source_sha256": "bef3719dadb348b7f95208ca861deb7ac7fa6d55370acca06fca4336fe0d1ea4",
+    "public": "reproduce/pruning/run_native_search.py",
+    "public_sha256": "f0e105bafbb8763d85721bd6516231cc35367ed5b327d2983916c8b7e23f0ad4",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "send/SPAIS_C1_native_sensor_validation/d1/audit_representative.py",
+    "source_sha256": "e7120aa43f7c14b98012650c1b3393b3edb68a4b7447920e936a465bc414633a",
+    "public": "reproduce/pruning/audit_representative.py",
+    "public_sha256": "b75013400c55b4be88d2808ecd15d0dd1cff0f48174f536999bbe5987bff6a7d",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "send/SPAIS_C1_native_sensor_validation/d1/wrapper_initialization_check/run_check.py",
+    "source_sha256": "66b89cc0b3537061f231d92c43c2d158cf1220ac76798dbdf3d02726555697bd",
+    "public": "reproduce/pruning/run_wrapper_check.py",
+    "public_sha256": "8e57f8c780b6f320d987bcaf7e1c3c93da8f97d4e860f4eef2129a515be3b6c4",
+    "change": "portable paths/output location only"
+  },
+  {
+    "source": "runs/pair_mechanism_context_v1/pair_566.pkl",
+    "source_sha256": "90008c57a79a49cd79fe91be016c68d78ce97bae1a42fbf6b67f50abdc401e1f",
+    "public": "fixtures/checker/pair_566.pkl",
+    "public_sha256": "90008c57a79a49cd79fe91be016c68d78ce97bae1a42fbf6b67f50abdc401e1f",
+    "change": "byte-identical"
+  },
+  {
+    "source": "runs/d05_trucks_nearer_original_seed0/planning_inputs/cycle_0005.pkl",
+    "source_sha256": "e77fbd9891e36e8ad2dabc452155340249cebad4de5954071952895aac3f233c",
+    "public": "fixtures/checker/cycle_0005.pkl",
+    "public_sha256": "e77fbd9891e36e8ad2dabc452155340249cebad4de5954071952895aac3f233c",
+    "change": "byte-identical"
+  },
+  {
+    "source": "runs/d05_trucks_nearer_original_seed0/planning_inputs/Town01.xodr",
+    "source_sha256": "97a7f6ac67812567e5c8ee0599cd823b23f80f30f3f97c502212e38b72e2b709",
+    "public": "fixtures/checker/Town01.xodr",
+    "public_sha256": "97a7f6ac67812567e5c8ee0599cd823b23f80f30f3f97c502212e38b72e2b709",
+    "change": "byte-identical"
+  },
+  {
+    "source": "runs/semantic_small_graph_v2/reference.pkl",
+    "source_sha256": "2b138c7453e1db3a90011c329aa6fb79f4a560a68605c8fff4631d8d909739b0",
+    "public": "fixtures/controlled/reference.pkl",
+    "public_sha256": "2b138c7453e1db3a90011c329aa6fb79f4a560a68605c8fff4631d8d909739b0",
+    "change": "byte-identical"
+  },
+  {
+    "source": "runs/semantic_small_graph_v2/implementation_states.pkl",
+    "source_sha256": "fe5b28c26e5d60ef0223276a0c94d473c744c958d4b7187f706d7974c71b0e89",
+    "public": "fixtures/controlled/implementation_states.pkl",
+    "public_sha256": "fe5b28c26e5d60ef0223276a0c94d473c744c958d4b7187f706d7974c71b0e89",
+    "change": "byte-identical"
+  },
+  {
+    "source": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_000.json",
+    "source_sha256": "b482287b516c2ddfafcf19b093bfacb3cdcfbcad9f785d45e18b02a185aebe30",
+    "public": "fixtures/pruning/development/D_template_000.json",
+    "public_sha256": "b482287b516c2ddfafcf19b093bfacb3cdcfbcad9f785d45e18b02a185aebe30",
+    "change": "byte-identical"
+  },
+  {
+    "source": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_012.json",
+    "source_sha256": "e4f9a4251cec222c65ae88bc0853dacc69b7c72a7c193f901abc1fde587c30a0",
+    "public": "fixtures/pruning/development/D_template_012.json",
+    "public_sha256": "e4f9a4251cec222c65ae88bc0853dacc69b7c72a7c193f901abc1fde587c30a0",
+    "change": "byte-identical"
+  },
+  {
+    "source": "scripts/audit_rss_continuations.py::digest",
+    "public": "reproduce/_common/audit_rss_continuations.py",
+    "change": "Copied unchanged digest helper only; unrelated continuation audit omitted.",
+    "public_sha256": "c6ae38f6107dd997e55aff7db45b8491dc555c402eee5005c0b440520e5021ba"
+  },
+  {
+    "source": "analysis/semantic_coverage/verify_controls.py",
+    "source_sha256": "66e627a2b1fd47aecb6981e162d3b88b1854352731c0e4f896338c7fb78d8798",
+    "public": "reproduce/controlled/verify_controls.py",
+    "public_sha256": "2414ae1685aec284f246c7a9becbb4f50c8388e4b85e6b35031b3fcb847ab18a",
+    "change": "Portable paths; revision literal for vendor snapshot; external replay directory support. Scientific functions and assertions unchanged."
+  },
+  {
+    "source": "analysis/semantic_coverage/audit_manuscript.py",
+    "source_sha256": "9d6db7a3b2e014c1f539e0ad577a5cee96764ec746e56e8ef5deb7fafe37633d",
+    "public": "reproduce/controlled/audit_manuscript.py",
+    "public_sha256": "cc42e573990aaef2555e9e6f475cb5970cbfadc97943f5e3ab21bb2790784aa3",
+    "change": "Portable paths; revision literal for vendor snapshot; external replay directory support. Scientific functions and assertions unchanged."
+  }
+]

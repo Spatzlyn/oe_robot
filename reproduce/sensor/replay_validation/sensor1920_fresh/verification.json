@@ -1,0 +1,322 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "native_source_hashes",
+      "passed": true
+    },
+    {
+      "name": "scene_equals_saved",
+      "passed": true
+    },
+    {
+      "name": "poses_equal_saved",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_00",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_01",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_02",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_03",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_04",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_05",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_06",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_07",
+      "passed": true
+    },
+    {
+      "name": "rendered_depth_equals_saved/frame_08",
+      "passed": true
+    },
+    {
+      "name": "original/completed",
+      "passed": true
+    },
+    {
+      "name": "original/instrumentation_parity",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/steps",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/events",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/visibility_queries",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/status",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/error",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/method_source",
+      "passed": true
+    },
+    {
+      "name": "original/equals_historical/trace_source",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=0.0",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=0.0",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=0.5",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=0.5",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=1.0",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=1.0",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=1.5",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=1.5",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=2.0",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=2.0",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=2.5",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=2.5",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=3.0",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=3.0",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=3.5",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=3.5",
+      "passed": true
+    },
+    {
+      "name": "original/independent_body_hidden/t=4.0",
+      "passed": true
+    },
+    {
+      "name": "original/typed_decoder_matches_record/t=4.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/completed",
+      "passed": true
+    },
+    {
+      "name": "single_admission/instrumentation_parity",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/steps",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/events",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/visibility_queries",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/status",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/error",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/method_source",
+      "passed": true
+    },
+    {
+      "name": "single_admission/equals_historical/trace_source",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=0.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=0.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=0.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=0.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=1.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=1.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=1.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=1.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=2.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=2.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=2.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=2.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=3.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=3.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=3.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=3.5",
+      "passed": true
+    },
+    {
+      "name": "single_admission/independent_body_hidden/t=4.0",
+      "passed": true
+    },
+    {
+      "name": "single_admission/typed_decoder_matches_record/t=4.0",
+      "passed": true
+    },
+    {
+      "name": "paired/prefix_steps_equal",
+      "passed": true
+    },
+    {
+      "name": "paired/target_prior_equal",
+      "passed": true
+    },
+    {
+      "name": "paired/exactly_one_target_grant",
+      "passed": true
+    },
+    {
+      "name": "paired/one_admission_observation/original",
+      "passed": true
+    },
+    {
+      "name": "paired/one_admission_observation/single_admission",
+      "passed": true
+    },
+    {
+      "name": "paired/event_prefix_through_target_equal",
+      "passed": true
+    },
+    {
+      "name": "paired/original_target_absent",
+      "passed": true
+    },
+    {
+      "name": "paired/intervened_target_present",
+      "passed": true
+    }
+  ],
+  "failed": 0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "traced_sequences": 2,
+  "plain_sequences": 2,
+  "native_update_calls": 36,
+  "synthetic_scene_conditions": 1,
+  "observation_epochs_per_sequence": 9,
+  "checker_queries": 0,
+  "gpu_used": false,
+  "timing_scope": "No performance benchmark or realtime deadline inference."
+}

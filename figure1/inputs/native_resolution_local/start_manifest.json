@@ -1,0 +1,21 @@
+{
+  "utc": "2026-09-24T15:45:18.760711Z",
+  "command": [
+    "reproduce/sensor/expected/run_sensor.py",
+    "--output",
+    "reproduce/sensor/expected/native_resolution_local",
+    "--confirm",
+    "reproduce/sensor/expected/native_resolution_local_protocol.json",
+    "--native-resolution"
+  ],
+  "device": "CPU",
+  "harness_sha256": "8b9062d8c98a8ebe005a243e6047daf7fd2f43fde308d1bbf24e80e3f3e0dcee",
+  "protocol_sha256": "383e0ccec9f87ccf860d111f6ea77f4baf47542cf5e3917f1858303acf327526",
+  "native": {
+    "shadow_utils.py": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "visibility_checker.py": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "shadow.py": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0"
+  },
+  "historical_harness_sha256": "7e8eb83a94206122fd4a391738abda25e8b3f9e09ce13fe80d86a22a83c51b34",
+  "public_copy_note": "Only private paths/package source locations sanitized; native results unchanged."
+}

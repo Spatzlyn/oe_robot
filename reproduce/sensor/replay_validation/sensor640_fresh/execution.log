@@ -1,0 +1,5 @@
+pygame 2.1.2 (SDL 2.0.16, Python 3.7.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+{"method": "original", "status": "completed", "instrumentation_parity": true, "omissions": [2.0, 3.5, 4.0], "semantic_unresolved": [], "intervention_applications": 0}
+{"method": "single_admission", "status": "completed", "instrumentation_parity": true, "omissions": [3.5, 4.0], "semantic_unresolved": [], "intervention_applications": 1}
+{"status": "passed", "checks": 76, "failed": 0}

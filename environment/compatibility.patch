@@ -1,0 +1,86 @@
+diff --git a/client/client.py b/client/client.py
+index 5fb5f5e..12834de 100644
+--- a/client/client.py
++++ b/client/client.py
+@@ -90,7 +90,7 @@ class SynchronousClient(object):
+         self.world.set_weather(carla.WeatherParameters.ClearNoon)
+         #set_weather(self.world, self.args)
+         settings = self.world.get_settings()
+-        self.traffic_manager = self.client.get_trafficmanager(8000)
++        self.traffic_manager = self.client.get_trafficmanager(getattr(args, "traffic_manager_port", 8000))
+         self.traffic_manager.set_synchronous_mode(True)
+         settings.fixed_delta_seconds = self.dt
+         settings.synchronous_mode = True
+@@ -130,7 +130,7 @@ class SynchronousClient(object):
+             spawn_point = pose
+             
+         self.ego = self.world.spawn_actor(ego_bp, spawn_point)
+-        self.ego.set_autopilot(autopilot)
++        self.ego.set_autopilot(autopilot, self.traffic_manager.get_port())
+         self.ego_id = self.ego.id
+ 
+         # set up a spectator camera
+@@ -362,4 +362,4 @@ if __name__ == "__main__":
+             client.render()
+         
+     finally:
+-        client.destroy()
+\ No newline at end of file
++        client.destroy()
+diff --git a/mapping/plane_map.py b/mapping/plane_map.py
+index 85264c9..60a966d 100644
+--- a/mapping/plane_map.py
++++ b/mapping/plane_map.py
+@@ -8,7 +8,8 @@ import carla
+ #from mapping.road_network import RoadNetwork
+ 
+ import matplotlib
+-matplotlib.use('TKAgg')#conflict with opencv due to Qt issue
++import os
++matplotlib.use(os.environ.get('MPLBACKEND', 'TKAgg'))  # headless compatibility only
+ import matplotlib.pyplot as plt 
+ 
+ from client import SynchronousClient, PraseArgs
+@@ -305,4 +306,3 @@ if __name__ == "__main__":
+ 
+     
+ 
+-
+diff --git a/sensing/camera_module.py b/sensing/camera_module.py
+index 0328d6e..c8de7a9 100644
+--- a/sensing/camera_module.py
++++ b/sensing/camera_module.py
+@@ -152,6 +152,7 @@ class DepthCamera(CameraBase):
+         raw_data = raw_data[:, :, :3].astype(np.float64)
+         depth = (raw_data[:,:,2]+raw_data[:,:,1]*256+raw_data[:,:,0]*256*256)/(256*256*256-1)*1000
+         self.image = depth # depth in meter
++        self.ready_frame = data.frame  # publish only after the decoded image is ready
+         
+     def update_visualizer(self):
+         if self.vis_name is not None and (self.image is not None):
+@@ -287,4 +288,4 @@ if __name__ == "__main__":
+         vehicle.destroy()
+         depth.destroy()
+         semantic.destroy()
+-        
+\ No newline at end of file
++        
+diff --git a/sensing/lidar_module.py b/sensing/lidar_module.py
+index 4c8bebb..e348b33 100644
+--- a/sensing/lidar_module.py
++++ b/sensing/lidar_module.py
+@@ -181,6 +181,7 @@ class Lidar(SensorBase):
+         int_color = LABEL_COLORS[labels]
+         self.vis_points.points = o3d.utility.Vector3dVector(self.point_cloud)
+         self.vis_points.colors = o3d.utility.Vector3dVector(int_color)
++        self.ready_frame = raw_pointcloud.frame  # data and metadata are now complete
+                
+     def setup_visualizer(self, name = 'Lidar', width=540, height=540):
+         """ function to setup open3d Visualizer for the lidar data"""
+@@ -274,4 +275,4 @@ if __name__ == "__main__":
+         lidar.destroy()
+         
+         
+-        
+\ No newline at end of file
++        

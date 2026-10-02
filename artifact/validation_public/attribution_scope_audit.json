@@ -1,0 +1,203 @@
+{
+  "target_time": 0.25,
+  "variants": [
+    {
+      "variant": "original_v2_trace",
+      "target_time": 0.25,
+      "source": "send/SPAIS_C1_native_sensor_validation/d1/representative_attribution/original_v2_trace.json",
+      "prefix_update_times": [
+        0
+      ],
+      "exact_prefix_parity": true,
+      "exact_target_input_parity": true,
+      "exact_observation_schedule_parity": true,
+      "independently_decoded_intervals": {
+        "2": [
+          [
+            0,
+            0.0
+          ]
+        ],
+        "3": [
+          [
+            0,
+            0.0
+          ]
+        ]
+      },
+      "position_membership": [
+        false,
+        false
+      ],
+      "supported_cause_scope": "D_template_000 at t=0.25, lane2/3 only; subsequent epochs are not same-prefix attributions"
+    },
+    {
+      "variant": "admission_only_off_at_target",
+      "target_time": 0.25,
+      "source": "send/SPAIS_C1_native_sensor_validation/d1/representative_attribution/admission_only_off_at_target.json",
+      "prefix_update_times": [
+        0
+      ],
+      "exact_prefix_parity": true,
+      "exact_target_input_parity": true,
+      "exact_observation_schedule_parity": true,
+      "independently_decoded_intervals": {
+        "2": [
+          [
+            0,
+            0.0
+          ]
+        ],
+        "3": [
+          [
+            0,
+            0.0
+          ]
+        ]
+      },
+      "position_membership": [
+        false,
+        false
+      ],
+      "supported_cause_scope": "D_template_000 at t=0.25, lane2/3 only; subsequent epochs are not same-prefix attributions"
+    },
+    {
+      "variant": "visited_only_off_at_target",
+      "target_time": 0.25,
+      "source": "send/SPAIS_C1_native_sensor_validation/d1/representative_attribution/visited_only_off_at_target.json",
+      "prefix_update_times": [
+        0
+      ],
+      "exact_prefix_parity": true,
+      "exact_target_input_parity": true,
+      "exact_observation_schedule_parity": true,
+      "independently_decoded_intervals": {
+        "2": [
+          [
+            0,
+            0.0
+          ],
+          [
+            0,
+            0.0
+          ],
+          [
+            0.0,
+            15.0
+          ]
+        ],
+        "3": [
+          [
+            0,
+            0.0
+          ],
+          [
+            0,
+            0.0
+          ],
+          [
+            3.0,
+            15.0
+          ]
+        ]
+      },
+      "position_membership": [
+        true,
+        true
+      ],
+      "supported_cause_scope": "D_template_000 at t=0.25, lane2/3 only; subsequent epochs are not same-prefix attributions"
+    },
+    {
+      "variant": "mature_only_off_at_target",
+      "target_time": 0.25,
+      "source": "send/SPAIS_C1_native_sensor_validation/d1/representative_attribution/mature_only_off_at_target.json",
+      "prefix_update_times": [
+        0
+      ],
+      "exact_prefix_parity": true,
+      "exact_target_input_parity": true,
+      "exact_observation_schedule_parity": true,
+      "independently_decoded_intervals": {
+        "2": [
+          [
+            0,
+            0.0
+          ]
+        ],
+        "3": [
+          [
+            0,
+            0.0
+          ]
+        ]
+      },
+      "position_membership": [
+        false,
+        false
+      ],
+      "supported_cause_scope": "D_template_000 at t=0.25, lane2/3 only; subsequent epochs are not same-prefix attributions"
+    }
+  ],
+  "adjudicated_witness_times": [
+    [
+      "D_template_000",
+      0.25,
+      2
+    ],
+    [
+      "D_template_000",
+      0.25,
+      3
+    ]
+  ],
+  "later_D000_unresolved_witness_times": [
+    {
+      "case": "D_template_000",
+      "t": 0.5,
+      "lane": 2,
+      "cause": "unresolved",
+      "evidence": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_000.json"
+    },
+    {
+      "case": "D_template_000",
+      "t": 0.5,
+      "lane": 3,
+      "cause": "unresolved",
+      "evidence": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_000.json"
+    },
+    {
+      "case": "D_template_000",
+      "t": 0.75,
+      "lane": 2,
+      "cause": "unresolved",
+      "evidence": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_000.json"
+    },
+    {
+      "case": "D_template_000",
+      "t": 0.75,
+      "lane": 3,
+      "cause": "unresolved",
+      "evidence": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_000.json"
+    },
+    {
+      "case": "D_template_000",
+      "t": 1.0,
+      "lane": 2,
+      "cause": "unresolved",
+      "evidence": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_000.json"
+    },
+    {
+      "case": "D_template_000",
+      "t": 1.0,
+      "lane": 3,
+      "cause": "unresolved",
+      "evidence": "send/SPAIS_C1_native_sensor_validation/d1/development/D_template_000.json"
+    }
+  ],
+  "cause_counts": {
+    "unresolved": 102,
+    "visited_suppression_representative": 2
+  },
+  "condition_count_interpretation": "1 missing condition has at least one adjudicated target; 34 have none. The first condition also contains 6 unresolved witness-times.",
+  "new_native_runs": 0
+}

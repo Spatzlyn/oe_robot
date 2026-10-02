@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-09-24T15:42:05.429526+00:00",
+  "phase": "posthoc representative causal audit, not heldout validation",
+  "case": "D_template_000",
+  "case_sha256": "b482287b516c2ddfafcf19b093bfacb3cdcfbcad9f785d45e18b02a185aebe30",
+  "target_t": 0.25,
+  "reason": "First ordered stationary witness absence; no mature rejection at target. Native old root starts at lane end and reports visited lane1; following predicted lane1 roots carry branch witnesses. Test visited-lane suppression separately from admission.",
+  "variants": [
+    "original_v2_trace",
+    "admission_only_off_at_target",
+    "visited_only_off_at_target",
+    "mature_only_off_at_target"
+  ],
+  "fixed": "same native genesis, visibility schedule, dynamics, epoch0; compare target predicted input digest before update and full prior forest equality",
+  "positive_attribution": "visited-only restores independently feasible branch witness while admission/mature-only do not; log target skipped work + retained whole coverage",
+  "limits": "Representative one condition only; 34other condition causes remain unadjudicated; no claim of natural sensor occurrence or D1 mature omission.",
+  "public_portability_note": "Historical protocol retained; paths and hashes of packaged helper copies updated for portable replay. No new held-out designation or scientific threshold change."
+}

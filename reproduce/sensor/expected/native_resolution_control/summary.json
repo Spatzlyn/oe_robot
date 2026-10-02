@@ -1,0 +1,26 @@
+[
+  {
+    "case": "v0.5_g-0.5",
+    "method": "original",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [
+      3.5
+    ],
+    "unresolved_times": [],
+    "applied": 0,
+    "native_rejects": 15,
+    "error": null
+  },
+  {
+    "case": "v0.5_g-0.5",
+    "method": "admission_off",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [],
+    "unresolved_times": [],
+    "applied": 0,
+    "native_rejects": 31,
+    "error": null
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "experiment": "controlled",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "summary.json",
+        "expected_sha256": "45d30b4a3f385cafbe183dddb453d1e2b536960015d409956a21bf0e529c8f83",
+        "actual_sha256": "45d30b4a3f385cafbe183dddb453d1e2b536960015d409956a21bf0e529c8f83",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "controlled-trace",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "summary.json",
+        "expected_sha256": "978ad6710f50406ba06c1bbac1256b462f7b9490f8ae5e22bf70ef4e9647275f",
+        "actual_sha256": "978ad6710f50406ba06c1bbac1256b462f7b9490f8ae5e22bf70ef4e9647275f",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "controlled-controls",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "summary.json",
+        "expected_sha256": "f919e52e03195738d3ca5a03b82f5f21f3464cb70b4d048955c89389cc285c2a",
+        "actual_sha256": "f919e52e03195738d3ca5a03b82f5f21f3464cb70b4d048955c89389cc285c2a",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "controlled-audit",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "observation_equivalence.json",
+        "expected_sha256": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
+        "actual_sha256": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
+        "passed": true
+      },
+      {
+        "file": "velocity_audit.json",
+        "expected_sha256": "459cb37442e19eba81cdd0374022c2a9a959bf6a13dfb97c036106eb1b7a681d",
+        "actual_sha256": "459cb37442e19eba81cdd0374022c2a9a959bf6a13dfb97c036106eb1b7a681d",
+        "passed": true
+      },
+      {
+        "file": "geometry_audit.json",
+        "expected_sha256": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e",
+        "actual_sha256": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "checker-near",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "results.json",
+        "expected_sha256": "86991cdba3da2c429812ef57dc5b85f5dc041b965ac3ed5707631dce17fe6334",
+        "actual_sha256": "86991cdba3da2c429812ef57dc5b85f5dc041b965ac3ed5707631dce17fe6334",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "checker-far",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "results.json",
+        "expected_sha256": "40080b909fc9c43d3c569f6cdb7a68c33c3f26ef241d2242ffaab2c78a185b75",
+        "actual_sha256": "40080b909fc9c43d3c569f6cdb7a68c33c3f26ef241d2242ffaab2c78a185b75",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "repairs",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "summary.json",
+        "expected_sha256": "99ee111baa8d842d2c8f85c8c9f5e5a6a03fab8279f40f26251f343a6ab0dd65",
+        "actual_sha256": "99ee111baa8d842d2c8f85c8c9f5e5a6a03fab8279f40f26251f343a6ab0dd65",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "pruning-development",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "development/results.json",
+        "expected_sha256": "5734f0054245c206a0ee4e543f950100b470c04a86382c563f8469b4f5b0b5b8",
+        "actual_sha256": "5734f0054245c206a0ee4e543f950100b470c04a86382c563f8469b4f5b0b5b8",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "pruning-validation",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "validation/results.json",
+        "expected_sha256": "f9a2653918dbd4890583c963637508e2dad97e746dc1a2e7773b75a537f393e5",
+        "actual_sha256": "f9a2653918dbd4890583c963637508e2dad97e746dc1a2e7773b75a537f393e5",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "pruning-mature-only",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "mature_only_ablation/D1_subset_fork__mature_only_off.json",
+        "expected_sha256": "55537f0f24257ecc0f26d0693319afaf2596d8b11929ccb105df53d7e0d7361b",
+        "actual_sha256": "55537f0f24257ecc0f26d0693319afaf2596d8b11929ccb105df53d7e0d7361b",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "native-search",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "development_summary.json",
+        "expected_sha256": "080044a8f69618523829a4a08d6622a95a1ebda089ed97a972bb7b7fedb2b525",
+        "actual_sha256": "080044a8f69618523829a4a08d6622a95a1ebda089ed97a972bb7b7fedb2b525",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "native-attribution",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "representative_attribution/summary.json",
+        "expected_sha256": "b0ea92a500841392a03faec881cf08eb6ba1ccc7a70d51f7acd0980fc41bfc5e",
+        "actual_sha256": "b0ea92a500841392a03faec881cf08eb6ba1ccc7a70d51f7acd0980fc41bfc5e",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  },
+  {
+    "experiment": "native-wrapper",
+    "status": "passed",
+    "comparisons": [
+      {
+        "file": "summary.json",
+        "expected_sha256": "783a43ce49bfa9b7d203195f90eacdab661a0a6277c3a29a35d27ae697582ab9",
+        "actual_sha256": "783a43ce49bfa9b7d203195f90eacdab661a0a6277c3a29a35d27ae697582ab9",
+        "passed": true
+      }
+    ],
+    "scope": "Scientific-output comparison; not host-independent timing, full continuous soundness, or physical collision measurement."
+  }
+]

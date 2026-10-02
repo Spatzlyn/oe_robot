@@ -1,0 +1,20 @@
+{
+  "utc": "2026-09-24T15:40:56.488840Z",
+  "command": [
+    "reproduce/sensor/expected/run_sensor.py",
+    "--output",
+    "reproduce/sensor/expected/confirmation_v3",
+    "--confirm",
+    "reproduce/sensor/expected/confirmation_freeze_v3.json"
+  ],
+  "device": "CPU",
+  "harness_sha256": "77866ac420e4a57afa4fc60ebfd2c757ae64586f0f2375a50ff9a03655d64ae9",
+  "protocol_sha256": "383e0ccec9f87ccf860d111f6ea77f4baf47542cf5e3917f1858303acf327526",
+  "native": {
+    "shadow_utils.py": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "visibility_checker.py": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "shadow.py": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0"
+  },
+  "historical_harness_sha256": "f501420e251f55dee74eefd944c9d22818a99fcb5b257de29a79f37791f890cb",
+  "public_copy_note": "Path-sanitized historical source; outputs and method behavior unchanged."
+}

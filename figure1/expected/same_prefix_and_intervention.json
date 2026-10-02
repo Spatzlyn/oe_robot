@@ -1,0 +1,2880 @@
+{
+  "prefix_times_s": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0
+  ],
+  "target_time_s": 3.5,
+  "prefix_steps_sha256": "f83bdc23c5e2b962d932cdd9bffc28b9babf850f646b8f7c618b766041774fb2",
+  "target_prior_sha256": "0d741bf744cb5c8443fd26922aedf10b697a1b6395e1b4b51a3129d0089271a8",
+  "exact_event_prefix_count": 482,
+  "exact_event_prefix_sha256": "4162e4f47383a96f8edd3b12d22e8383a120b65658b0c73a8e1fd5e609357099",
+  "target_event_indices_zero_based": [
+    481,
+    481
+  ],
+  "intervention_applied": [
+    {
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    }
+  ],
+  "target_original_event": {
+    "stage": "admission_observed",
+    "t": 3.5,
+    "shadow": {
+      "risk_bound": false,
+      "parent": 999,
+      "root": {
+        "type": "InOutBound",
+        "id": 1,
+        "ds_in": 13.5,
+        "ds_out": 1.0,
+        "t_in": 3.0,
+        "t_out": 3.5,
+        "ds_in_hist": null,
+        "t_in_hist": null,
+        "children": []
+      },
+      "leaf_depth": []
+    },
+    "native_would_reject": true,
+    "keys": [
+      [
+        1,
+        1.0
+      ],
+      [
+        1,
+        0.5
+      ],
+      [
+        1,
+        1.5
+      ],
+      [
+        2,
+        2.5
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "local_followup_events": [
+    {
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        1,
+        1.0
+      ]
+    },
+    {
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          12.5
+        ]
+      },
+      "children": [],
+      "visited": []
+    },
+    {
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          12.5
+        ]
+      },
+      "rejected": false
+    }
+  ],
+  "original_target_epoch_events": [
+    {
+      "global_index": 440,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": true,
+        "parent": null,
+        "root": {
+          "type": "InOutBound",
+          "id": 999,
+          "ds_in": 15.0,
+          "ds_out": 14.0,
+          "t_in": 0.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      }
+    },
+    {
+      "global_index": 443,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": true,
+        "parent": null,
+        "root": {
+          "type": "InOutBound",
+          "id": 999,
+          "ds_in": 15.0,
+          "ds_out": 14.0,
+          "t_in": 0.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 444,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": false,
+      "keys": []
+    },
+    {
+      "global_index": 445,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": false,
+      "keys": []
+    },
+    {
+      "global_index": 446,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      }
+    },
+    {
+      "global_index": 447,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "key": [
+        1,
+        1.0
+      ]
+    },
+    {
+      "global_index": 448,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "children": [],
+      "visited": []
+    },
+    {
+      "global_index": 449,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 450,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 0.5,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      }
+    },
+    {
+      "global_index": 451,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 0.5,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "key": [
+        1,
+        0.5
+      ]
+    },
+    {
+      "global_index": 453,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 0.5,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.5,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              1.0,
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0,
+              2.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.5,
+            "t_out": 3.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                2.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 454,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.5,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              1.0,
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0,
+              2.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 455,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "global_index": 456,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      }
+    },
+    {
+      "global_index": 457,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "key": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "global_index": 458,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "children": [],
+      "visited": []
+    },
+    {
+      "global_index": 459,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 460,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 2.5,
+          "t_out": 3.5,
+          "children": [
+            {
+              "type": "InBound",
+              "id": 1,
+              "ds_in": 13.5,
+              "t_in": 3.0,
+              "ds_in_hist": null,
+              "t_in_hist": null,
+              "children": []
+            }
+          ]
+        },
+        "leaf_depth": [
+          13.5
+        ]
+      }
+    },
+    {
+      "global_index": 461,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 2.5,
+          "t_out": 3.5,
+          "children": [
+            {
+              "type": "InBound",
+              "id": 1,
+              "ds_in": 13.5,
+              "t_in": 3.0,
+              "ds_in_hist": null,
+              "t_in_hist": null,
+              "children": []
+            }
+          ]
+        },
+        "leaf_depth": [
+          13.5
+        ]
+      },
+      "key": [
+        2,
+        2.5
+      ]
+    },
+    {
+      "global_index": 463,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 2.5,
+          "t_out": 3.5,
+          "children": [
+            {
+              "type": "InBound",
+              "id": 1,
+              "ds_in": 13.5,
+              "t_in": 3.0,
+              "ds_in_hist": null,
+              "t_in_hist": null,
+              "children": []
+            }
+          ]
+        },
+        "leaf_depth": [
+          13.5
+        ]
+      },
+      "mature": null,
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 13.5,
+            "ds_out": 0,
+            "t_in": 3.0,
+            "t_out": 3.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 464,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": false,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ]
+      ]
+    },
+    {
+      "global_index": 465,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "global_index": 466,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        1,
+        0
+      ]
+    },
+    {
+      "global_index": 468,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "OutBound",
+            "id": 1,
+            "ds_out": 1.0,
+            "t_out": 3.5,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 469,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 470,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 1.0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "global_index": 471,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "global_index": 472,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        2,
+        0
+      ]
+    },
+    {
+      "global_index": 474,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": null,
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "OutBound",
+            "id": 1,
+            "ds_out": 0,
+            "t_out": 3.5,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": [
+        2
+      ]
+    },
+    {
+      "global_index": 475,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "global_index": 476,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "global_index": 477,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        1,
+        0
+      ]
+    },
+    {
+      "global_index": 479,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              12.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              3.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 13.5,
+            "ds_out": 1.0,
+            "t_in": 3.0,
+            "t_out": 3.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 480,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              12.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              3.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "rejected": true
+    },
+    {
+      "global_index": 481,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ],
+  "local_target_epoch_events": [
+    {
+      "global_index": 440,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": true,
+        "parent": null,
+        "root": {
+          "type": "InOutBound",
+          "id": 999,
+          "ds_in": 15.0,
+          "ds_out": 14.0,
+          "t_in": 0.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      }
+    },
+    {
+      "global_index": 443,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": true,
+        "parent": null,
+        "root": {
+          "type": "InOutBound",
+          "id": 999,
+          "ds_in": 15.0,
+          "ds_out": 14.0,
+          "t_in": 0.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 444,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": false,
+      "keys": []
+    },
+    {
+      "global_index": 445,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": false,
+      "keys": []
+    },
+    {
+      "global_index": 446,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      }
+    },
+    {
+      "global_index": 447,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "key": [
+        1,
+        1.0
+      ]
+    },
+    {
+      "global_index": 448,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "children": [],
+      "visited": []
+    },
+    {
+      "global_index": 449,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              1.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 450,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 0.5,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      }
+    },
+    {
+      "global_index": 451,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 0.5,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "key": [
+        1,
+        0.5
+      ]
+    },
+    {
+      "global_index": 453,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 0.5,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.5,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              1.0,
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0,
+              2.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.5,
+            "t_out": 3.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                2.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 454,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.5,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              1.0,
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0,
+              2.5
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 455,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.5,
+          "ds_out": 1.0,
+          "t_in": 2.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              0.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              2.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "global_index": 456,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      }
+    },
+    {
+      "global_index": 457,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "key": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "global_index": 458,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "children": [],
+      "visited": []
+    },
+    {
+      "global_index": 459,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 2.0,
+          "ds_out": 1.5,
+          "t_in": 1.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          0.5
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 460,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 2.5,
+          "t_out": 3.5,
+          "children": [
+            {
+              "type": "InBound",
+              "id": 1,
+              "ds_in": 13.5,
+              "t_in": 3.0,
+              "ds_in_hist": null,
+              "t_in_hist": null,
+              "children": []
+            }
+          ]
+        },
+        "leaf_depth": [
+          13.5
+        ]
+      }
+    },
+    {
+      "global_index": 461,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 2.5,
+          "t_out": 3.5,
+          "children": [
+            {
+              "type": "InBound",
+              "id": 1,
+              "ds_in": 13.5,
+              "t_in": 3.0,
+              "ds_in_hist": null,
+              "t_in_hist": null,
+              "children": []
+            }
+          ]
+        },
+        "leaf_depth": [
+          13.5
+        ]
+      },
+      "key": [
+        2,
+        2.5
+      ]
+    },
+    {
+      "global_index": 463,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 2.5,
+          "t_out": 3.5,
+          "children": [
+            {
+              "type": "InBound",
+              "id": 1,
+              "ds_in": 13.5,
+              "t_in": 3.0,
+              "ds_in_hist": null,
+              "t_in_hist": null,
+              "children": []
+            }
+          ]
+        },
+        "leaf_depth": [
+          13.5
+        ]
+      },
+      "mature": null,
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 13.5,
+            "ds_out": 0,
+            "t_in": 3.0,
+            "t_out": 3.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 464,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": false,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ]
+      ]
+    },
+    {
+      "global_index": 465,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "global_index": 466,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        1,
+        0
+      ]
+    },
+    {
+      "global_index": 468,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "OutBound",
+            "id": 1,
+            "ds_out": 1.0,
+            "t_out": 3.5,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 469,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "rejected": false
+    },
+    {
+      "global_index": 470,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 1.0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "global_index": 471,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "global_index": 472,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        2,
+        0
+      ]
+    },
+    {
+      "global_index": 474,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 2,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": null,
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "OutBound",
+            "id": 1,
+            "ds_out": 0,
+            "t_out": 3.5,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": [
+        2
+      ]
+    },
+    {
+      "global_index": 475,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "OutBound",
+          "id": 1,
+          "ds_out": 0,
+          "t_out": 3.5,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "global_index": 476,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "global_index": 477,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        1,
+        0
+      ]
+    },
+    {
+      "global_index": 479,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              12.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              3.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "children": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 13.5,
+            "ds_out": 1.0,
+            "t_in": 3.0,
+            "t_out": 3.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": []
+        }
+      ],
+      "visited": []
+    },
+    {
+      "global_index": 480,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 1.0,
+          "ds_out": 0.0,
+          "t_in": 3.5,
+          "t_out": 3.5,
+          "ds_in_hist": [
+            [
+              12.5
+            ]
+          ],
+          "t_in_hist": [
+            [
+              3.0
+            ]
+          ],
+          "children": []
+        },
+        "leaf_depth": [
+          1.0
+        ]
+      },
+      "rejected": true
+    },
+    {
+      "global_index": 481,
+      "stage": "admission_observed",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "native_would_reject": true,
+      "keys": [
+        [
+          1,
+          1.0
+        ],
+        [
+          1,
+          0.5
+        ],
+        [
+          1,
+          1.5
+        ],
+        [
+          2,
+          2.5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "global_index": 482,
+      "stage": "pop",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      }
+    },
+    {
+      "global_index": 483,
+      "stage": "key_registered",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "key": [
+        1,
+        1.0
+      ]
+    },
+    {
+      "global_index": 484,
+      "stage": "primitive_return",
+      "t": 3.5,
+      "input": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": []
+      },
+      "mature": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          12.5
+        ]
+      },
+      "children": [],
+      "visited": []
+    },
+    {
+      "global_index": 485,
+      "stage": "mature_test",
+      "t": 3.5,
+      "shadow": {
+        "risk_bound": false,
+        "parent": 999,
+        "root": {
+          "type": "InOutBound",
+          "id": 1,
+          "ds_in": 13.5,
+          "ds_out": 1.0,
+          "t_in": 3.0,
+          "t_out": 3.5,
+          "ds_in_hist": null,
+          "t_in_hist": null,
+          "children": []
+        },
+        "leaf_depth": [
+          12.5
+        ]
+      },
+      "rejected": false
+    }
+  ],
+  "depth_frames": [
+    {
+      "frame": "frame_00",
+      "time_s": 0.0,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "d9867c463512d2527440b93fc6cf8ae88bf8244d9fb789283b648104912c883b",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_01",
+      "time_s": 0.5,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "b3981e0c28ff6115702a182153cd8d703f2ed966c671137b3e8eae4291b0fad5",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_02",
+      "time_s": 1.0,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "783e8360f72e12b5253d4a5c8614ce5fa8b9a3f0e369614222b83e86cc5ec33f",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_03",
+      "time_s": 1.5,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "567d0bef983bca295859bb8b37ace43ea7582b0e22da2aa353184cb80fb1b1fa",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_04",
+      "time_s": 2.0,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "fcc2de3e7d928418230042fdbaf6dfa975f975e079f6597f8fb5a7c5e9fd4ed3",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_05",
+      "time_s": 2.5,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "d64268e32db09908d22dae9580c78e06a28fc3978a14de972adb7c379ba28fe6",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_06",
+      "time_s": 3.0,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "31403c17d8e5d24ecc256b953372b1a78203d7b6c9b9dc390c5f7c5b1fcb03a0",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_07",
+      "time_s": 3.5,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "eafc5ef434cc2f601aaa9ca9433e5923c906bcb2de91bdfa85e5012cc01e58f9",
+      "original_equals_local": true
+    },
+    {
+      "frame": "frame_08",
+      "time_s": 4.0,
+      "shape": [
+        4,
+        1080,
+        1920
+      ],
+      "dtype": "float32",
+      "array_sha256": "5e9262ba49e6a962abb8b1379c904a1a6237e55883943e2765276813a4a5e301",
+      "original_equals_local": true
+    }
+  ],
+  "scope": "Same saved scene/poses/depth arrays and exact native execution prefix through the target admission observation. Only that queued candidate is granted once. No new run."
+}

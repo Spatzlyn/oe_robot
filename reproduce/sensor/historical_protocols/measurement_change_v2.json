@@ -1,0 +1,7 @@
+{
+  "utc": "2026-09-24T15:40:19.240442Z",
+  "change": "Passive key_registered event now matches native source whitespace; admission-OFF now logs native hypothetical predicate. Original run native output/method/input unchanged. development_v1 traces and source retained.",
+  "parity_required": "All nine output epochs and statuses from chosen development Original vs confirmation Original, plus traced/plain for every method.",
+  "old_source_sha256": "558effd06ffff9aa579badbe0bae61a84d92da1cf0a58796a100e2af3c98107b",
+  "new_source_sha256": "872fff4343cbd960473e285c71d7ddb63a201246416ecb385da4153c5c66f094"
+}

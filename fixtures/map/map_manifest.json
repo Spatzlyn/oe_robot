@@ -1,0 +1,9 @@
+{
+  "filename": "Town01_intersection2_reconstructed.ot.gz",
+  "compressed_bytes": 14064381,
+  "compressed_sha256": "368d4a85b65d97a8266ace08f21d282b4dcd0a8c0daf64242e481bc632bdee43",
+  "uncompressed_filename": "Town01_intersection2_reconstructed.ot",
+  "uncompressed_bytes": 129840532,
+  "uncompressed_sha256": "67f2f2c79857e28babab777188969a0beb278e282ab242e3e9d802bcb9a5650e",
+  "scope": "Reconstructed OctoMap used by the separate checker fixture. No empty-map fallback is allowed."
+}

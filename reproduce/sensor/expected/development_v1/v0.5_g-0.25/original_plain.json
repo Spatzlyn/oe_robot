@@ -1,0 +1,1682 @@
+{
+  "config": {
+    "id": "v0.5_g-0.25",
+    "velocity": 0.5,
+    "gap": -0.25
+  },
+  "method": "original",
+  "traced": false,
+  "status": "completed",
+  "error": null,
+  "steps": [
+    {
+      "t": 0.0,
+      "ego_x": -4.0,
+      "wrapper_reinitialization": true,
+      "prior": [],
+      "final": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 0.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.5,
+            "ds_out": 3.5,
+            "t_in": 0.0,
+            "t_out": 0.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 999,
+          "lo": 13.0,
+          "hi": 14.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": true
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 3.5,
+          "hi": 15.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          1.7142857142857135,
+          3.894736842105263
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 1.6052631578947372,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witness_position_present"
+    },
+    {
+      "t": 0.5,
+      "ego_x": -3.75,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 0.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.5,
+            "ds_out": 3.5,
+            "t_in": 0.0,
+            "t_out": 0.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 0.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.5,
+            "ds_out": 1.5,
+            "t_in": 0.5,
+            "t_out": 0.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.5,
+            "t_out": 0.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 999,
+          "lo": 13.0,
+          "hi": 14.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": true
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 1.5,
+          "hi": 2.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 2,
+          "lane": 1,
+          "lo": 3.0,
+          "hi": 15.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          1.845238095238095,
+          4.013157894736842
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 1.4868421052631584,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witness_position_present"
+    },
+    {
+      "t": 1.0,
+      "ego_x": -3.5,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 0.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.5,
+            "ds_out": 1.5,
+            "t_in": 0.5,
+            "t_out": 0.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 15.0,
+            "ds_out": 3.0,
+            "t_in": 0.5,
+            "t_out": 0.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 1.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.5,
+            "ds_out": 1.5,
+            "t_in": 0.5,
+            "t_out": 1.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 14.5,
+            "ds_out": 2.5,
+            "t_in": 1.0,
+            "t_out": 1.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 999,
+          "lo": 13.0,
+          "hi": 14.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": true
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 1.5,
+          "hi": 2.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 2,
+          "lane": 1,
+          "lo": 2.5,
+          "hi": 14.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          1.9761904761904763,
+          4.13157894736842
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 1.3684210526315796,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witness_position_present"
+    },
+    {
+      "t": 1.5,
+      "ego_x": -3.25,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 1.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.5,
+            "ds_out": 1.5,
+            "t_in": 0.5,
+            "t_out": 1.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 14.5,
+            "ds_out": 2.5,
+            "t_in": 1.0,
+            "t_out": 1.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 1.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.0,
+            "ds_out": 1.5,
+            "t_in": 1.5,
+            "t_out": 1.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.0,
+            "ds_out": 1.0,
+            "t_in": 1.5,
+            "t_out": 1.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 14.5,
+            "ds_out": 2.5,
+            "t_in": 1.5,
+            "t_out": 1.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 999,
+          "lo": 13.0,
+          "hi": 14.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": true
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 1.5,
+          "hi": 2.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 2,
+          "lane": 1,
+          "lo": 1.0,
+          "hi": 2.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 3,
+          "lane": 1,
+          "lo": 2.5,
+          "hi": 14.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          2.1071428571428568,
+          4.25
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 1.25,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witness_position_present"
+    },
+    {
+      "t": 2.0,
+      "ego_x": -3.0,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 14.0,
+            "ds_out": 13.0,
+            "t_in": 0.0,
+            "t_out": 1.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.0,
+            "ds_out": 1.5,
+            "t_in": 1.5,
+            "t_out": 1.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 2.0,
+            "ds_out": 1.0,
+            "t_in": 1.5,
+            "t_out": 1.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 14.5,
+            "ds_out": 2.5,
+            "t_in": 1.5,
+            "t_out": 1.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 13.5,
+            "ds_out": 13.0,
+            "t_in": 2.0,
+            "t_out": 2.0,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                0.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.0,
+            "t_out": 2.0,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                1.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 0.5,
+            "t_in": 2.0,
+            "t_out": 2.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 999,
+          "lo": 13.0,
+          "hi": 13.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": true
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 1.0,
+          "hi": 1.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 2,
+          "lane": 1,
+          "lo": 0.5,
+          "hi": 1.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          2.238095238095238,
+          4.368421052631579
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 1.1315789473684212,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witnessed_omission"
+    },
+    {
+      "t": 2.5,
+      "ego_x": -2.75,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 13.5,
+            "ds_out": 13.0,
+            "t_in": 2.0,
+            "t_out": 2.0,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                0.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.0,
+            "t_out": 2.0,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                1.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 0.5,
+            "t_in": 2.0,
+            "t_out": 2.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 13.5,
+            "ds_out": 13.0,
+            "t_in": 2.0,
+            "t_out": 2.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                0.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.0,
+            "t_out": 2.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                1.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 0.5,
+            "t_in": 2.0,
+            "t_out": 2.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 14.0,
+            "ds_out": 2.0,
+            "t_in": 2.5,
+            "t_out": 2.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 999,
+          "lo": 13.0,
+          "hi": 13.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": true
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 1.0,
+          "hi": 1.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 2,
+          "lane": 1,
+          "lo": 0.5,
+          "hi": 1.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 3,
+          "lane": 1,
+          "lo": 2.0,
+          "hi": 14.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          2.3690476190476186,
+          4.4868421052631575
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 1.0131578947368425,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witness_position_present"
+    },
+    {
+      "t": 3.0,
+      "ego_x": -2.5,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": true,
+          "parent": null,
+          "root": {
+            "type": "InOutBound",
+            "id": 999,
+            "ds_in": 13.5,
+            "ds_out": 13.0,
+            "t_in": 2.0,
+            "t_out": 2.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                0.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.0,
+            "t_out": 2.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                1.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 0.5,
+            "t_in": 2.0,
+            "t_out": 2.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 14.0,
+            "ds_out": 2.0,
+            "t_in": 2.5,
+            "t_out": 2.5,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.0,
+            "t_out": 3.0,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                1.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 0.5,
+            "t_in": 2.0,
+            "t_out": 3.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 13.5,
+            "ds_out": 1.5,
+            "t_in": 3.0,
+            "t_out": 3.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 1,
+          "lo": 1.0,
+          "hi": 1.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 0.5,
+          "hi": 1.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 2,
+          "lane": 1,
+          "lo": 1.5,
+          "hi": 13.5,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          2.5,
+          4.605263157894736
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 0.8947368421052637,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witness_position_present"
+    },
+    {
+      "t": 3.5,
+      "ego_x": -2.25,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 1.0,
+            "t_in": 2.0,
+            "t_out": 3.0,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                1.5
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.5,
+            "ds_out": 0.5,
+            "t_in": 2.0,
+            "t_out": 3.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 13.5,
+            "ds_out": 1.5,
+            "t_in": 3.0,
+            "t_out": 3.0,
+            "ds_in_hist": null,
+            "t_in_hist": null,
+            "children": []
+          },
+          "leaf_depth": [
+            12.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.0,
+            "ds_out": 0.5,
+            "t_in": 3.5,
+            "t_out": 3.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                2.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.0,
+            "ds_out": 0.0,
+            "t_in": 3.5,
+            "t_out": 3.5,
+            "ds_in_hist": [
+              [
+                12.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                3.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 1,
+          "lo": 0.5,
+          "hi": 1.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          2.6309523809523805,
+          4.723684210526315
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 0.776315789473685,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witnessed_omission"
+    },
+    {
+      "t": 4.0,
+      "ego_x": -2.0,
+      "wrapper_reinitialization": false,
+      "prior": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.0,
+            "ds_out": 0.5,
+            "t_in": 3.5,
+            "t_out": 3.5,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                2.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.0,
+            "ds_out": 0.0,
+            "t_in": 3.5,
+            "t_out": 3.5,
+            "ds_in_hist": [
+              [
+                12.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                3.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        }
+      ],
+      "final": [
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.0,
+            "ds_out": 0.5,
+            "t_in": 3.5,
+            "t_out": 4.0,
+            "ds_in_hist": [
+              [
+                0.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                2.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            0.5
+          ]
+        },
+        {
+          "risk_bound": false,
+          "parent": 999,
+          "root": {
+            "type": "InOutBound",
+            "id": 1,
+            "ds_in": 1.0,
+            "ds_out": 0.0,
+            "t_in": 3.5,
+            "t_out": 4.0,
+            "ds_in_hist": [
+              [
+                12.5
+              ]
+            ],
+            "t_in_hist": [
+              [
+                3.0
+              ]
+            ],
+            "children": []
+          },
+          "leaf_depth": [
+            1.0
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "shadow": 0,
+          "lane": 1,
+          "lo": 0.5,
+          "hi": 1.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        },
+        {
+          "shadow": 1,
+          "lane": 1,
+          "lo": 0.0,
+          "hi": 1.0,
+          "node_type": "InOutBound",
+          "implicit_tail": false,
+          "risk_bound": false
+        }
+      ],
+      "risky_lane": [
+        1,
+        2
+      ],
+      "witness": {
+        "body_ds": [
+          8,
+          11
+        ],
+        "body_y": [
+          -0.5,
+          0.5
+        ],
+        "body_z": [
+          0,
+          1.5
+        ],
+        "stationary_v": 0,
+        "stationary_a": 0,
+        "panel_intersection_x": [
+          2.761904761904762,
+          4.842105263157895
+        ],
+        "panel_intersection_z": [
+          0.8052631578947369,
+          1.6047619047619048
+        ],
+        "all_body_hidden": true,
+        "horizontal_margin": 0.6578947368421053,
+        "proof": "Fractional-affine ray/screen intersection extrema occur at rectangle endpoints; strict bounds inside right opaque panel. Same bounds over linear camera segment follow from affine dependence on camera x."
+      },
+      "witness_status": "witnessed_omission"
+    }
+  ],
+  "events": [],
+  "visibility_queries": [],
+  "intervention_applied": [],
+  "method_source": "def _update_shadow(self, unprocessed_shadow_queue, visibility_checker, sensor_data, sensor_pose, t):\n\n    mature_shadow_list = []\n    mature_shadow_map = {}\n\n    def add_shadow_to_dict(shadow):\n        id = shadow.root.id\n        if shadow.risk_bound:\n            ds = shadow.root.ds_in\n        else:\n            ds = shadow.root.ds_out\n        if id not in mature_shadow_map:\n            mature_shadow_map[id] = []\n\n        heapq.heappush(mature_shadow_map[id], (ds, shadow))\n\n\n    def check_repeate(shadow2check):\n        id = shadow2check.root.id\n        if id not in mature_shadow_map:\n            return False\n        else:\n            shadow_list = mature_shadow_map[id]\n            if shadow2check.risk_bound:\n                return self._check_repeated_fwd_shadow(shadow2check, shadow_list)\n            else:\n                return self._check_repeated_bwd_shadow(shadow2check, shadow_list)\n\n\n\n    # avoid repeating\n    fwd_visited_lane = [] # only lanes searched from beginning to end is put in this list\n    fwd_searched_begin = []\n\n    bwd_visited_lane = [] # only lanes searched from beginning to end is put in this list\n    bwd_searched_begin = []\n\n\n    while not unprocessed_shadow_queue.empty():\n        cur_shadow = unprocessed_shadow_queue.get()\n        bound_lane_id = cur_shadow.root.id\n\n        # if true, update the shadow from the inbound towards out bound\n        # else, update the shadow from the out bound towards in bound \n        if cur_shadow.risk_bound:\n\n            if bound_lane_id in fwd_visited_lane:\n                continue\n\n            if self.route.in_ego_path(cur_shadow.root.id):\n                mature_shadow, new_shadow_list, visited_lanes = self._update_fwd_shadow(cur_shadow, visibility_checker, sensor_data, sensor_pose, t)\n                fwd_visited_lane.extend(visited_lanes)\n\n                fwd_searched_begin.append((cur_shadow.root.id, cur_shadow.root.ds_in))\n                # if a mature shadow has been formed\n                if mature_shadow is not None:\n                    if not check_repeate(mature_shadow):\n                        mature_shadow_list.append(mature_shadow)\n                        add_shadow_to_dict(mature_shadow)\n                        # if isinstance(mature_shadow.root, InOutBound):\n                        #     print(\"find fwd io\", t, mature_shadow.root.id, mature_shadow.root.ds_out, mature_shadow.root.t_out, mature_shadow.root.ds_in,  mature_shadow.root.t_in)\n                        # else:\n                        #     print(\"find fwd\", t, mature_shadow.root.id, mature_shadow.root.ds_in, mature_shadow.root.t_in, mature_shadow.leaf_depth)\n\n                for new_shadow in new_shadow_list:\n                    if new_shadow.risk_bound:\n                        new_shadow_begin = (new_shadow.root.id, new_shadow.root.ds_in)\n                        if new_shadow_begin not in fwd_searched_begin:\n                            unprocessed_shadow_queue.put(new_shadow)\n                    else:\n                        new_shadow_begin = (new_shadow.root.id, new_shadow.root.ds_out)\n                        if new_shadow_begin not in bwd_searched_begin:\n                            unprocessed_shadow_queue.put(new_shadow)\n\n        else:\n            #print(\"start search at\", cur_shadow.root.id, cur_shadow.root.ds_out)\n            if bound_lane_id in bwd_visited_lane:\n                #print(\"visited\")\n                continue\n\n\n            # TODO:\n            # discard the backward shadow if it is no longer a risk\n            if self.route.in_ego_path(cur_shadow.parent_id):\n\n                bwd_searched_begin.append((cur_shadow.root.id, cur_shadow.root.ds_out))\n                mature_shadow, new_shadow_list, visited_lanes = self._update_bwd_shadow(cur_shadow, visibility_checker, sensor_data, sensor_pose, t)\n                #print(\"finish search \", visited_lanes)\n                bwd_visited_lane.extend(visited_lanes)\n\n\n                if mature_shadow is not None:\n                    # same shadow has already be processed, discard\n                    if not check_repeate(mature_shadow):\n                        # if isinstance(mature_shadow.root, InOutBound):\n                        #     print(\"find bwd io\", t, mature_shadow.root.id, mature_shadow.root.ds_out, mature_shadow.root.t_out, mature_shadow.root.ds_in,  mature_shadow.root.t_in)\n                        # else:\n                        #     print(\"find bwd\", t, mature_shadow.root.id, mature_shadow.root.ds_out, mature_shadow.root.t_out, mature_shadow.leaf_depth)\n                        mature_shadow_list.append(mature_shadow)\n                        add_shadow_to_dict(mature_shadow)\n                    #else:\n                        #print(\"repeat\", mature_shadow.root.id, mature_shadow.root.ds_out)\n                # append new shadow to the queue                  \n                for new_shadow in new_shadow_list:\n                    new_shadow_begin = (new_shadow.root.id, new_shadow.root.ds_out)\n                    if new_shadow_begin not in bwd_searched_begin:\n                        unprocessed_shadow_queue.put(new_shadow)\n\n    #print(len(mature_shadow_list))                 \n    return mature_shadow_map, mature_shadow_list\n",
+  "trace_source": null
+}

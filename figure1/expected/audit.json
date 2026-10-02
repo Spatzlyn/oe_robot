@@ -1,0 +1,389 @@
+{
+  "check_count": 93,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "source_sha256:inputs/analyze_sensor.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/helpers/common.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/historical_analysis/body_sensor_noninterference.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/historical_analysis/parity.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/historical_package_lock.txt",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/completion.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/original.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/scene.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/source_executed.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_control/start_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/completion.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/scene.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/single_admission.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/single_admission_plain.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/source_executed.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local/start_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_local_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_resolution_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_source/shadow.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_source/shadow_utils.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/native_source/visibility_checker.py",
+      "passed": true
+    },
+    {
+      "name": "source_sha256:inputs/protocol_v1.md",
+      "passed": true
+    },
+    {
+      "name": "scene_identical_bytes",
+      "passed": true
+    },
+    {
+      "name": "poses_identical_bytes",
+      "passed": true
+    },
+    {
+      "name": "same_harness",
+      "passed": true
+    },
+    {
+      "name": "native_resolution",
+      "passed": true
+    },
+    {
+      "name": "same_frame_keys",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_00",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_01",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_02",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_03",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_04",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_05",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_06",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_07",
+      "passed": true
+    },
+    {
+      "name": "depth_array_equal:frame_08",
+      "passed": true
+    },
+    {
+      "name": "steps_before_3p5_equal",
+      "passed": true
+    },
+    {
+      "name": "target_prior_equal",
+      "passed": true
+    },
+    {
+      "name": "original_no_grant",
+      "passed": true
+    },
+    {
+      "name": "single_grant_at_3p5",
+      "passed": true
+    },
+    {
+      "name": "grant_matches_frozen_target",
+      "passed": true
+    },
+    {
+      "name": "original_completed",
+      "passed": true
+    },
+    {
+      "name": "original_traced_plain_parity",
+      "passed": true
+    },
+    {
+      "name": "original_unique_target_event",
+      "passed": true
+    },
+    {
+      "name": "single_admission_completed",
+      "passed": true
+    },
+    {
+      "name": "single_admission_traced_plain_parity",
+      "passed": true
+    },
+    {
+      "name": "single_admission_unique_target_event",
+      "passed": true
+    },
+    {
+      "name": "event_prefix_through_target_equal",
+      "passed": true,
+      "original_event_index": 481,
+      "local_event_index": 481,
+      "equal_events": 482
+    },
+    {
+      "name": "original_target_would_reject",
+      "passed": true
+    },
+    {
+      "name": "local_target_next_event_pop",
+      "passed": true
+    },
+    {
+      "name": "no_method_change_beyond_single_grant",
+      "passed": true
+    },
+    {
+      "name": "original_harness_hash",
+      "passed": true
+    },
+    {
+      "name": "original_native_source:shadow_utils.py",
+      "passed": true
+    },
+    {
+      "name": "original_native_source:visibility_checker.py",
+      "passed": true
+    },
+    {
+      "name": "original_native_source:shadow.py",
+      "passed": true
+    },
+    {
+      "name": "single_admission_harness_hash",
+      "passed": true
+    },
+    {
+      "name": "single_admission_native_source:shadow_utils.py",
+      "passed": true
+    },
+    {
+      "name": "single_admission_native_source:visibility_checker.py",
+      "passed": true
+    },
+    {
+      "name": "single_admission_native_source:shadow.py",
+      "passed": true
+    },
+    {
+      "name": "original_3p5_archived_membership",
+      "passed": true
+    },
+    {
+      "name": "original_3p5_body_feasible",
+      "passed": true
+    },
+    {
+      "name": "original_3p5_no_implicit_tail",
+      "passed": true
+    },
+    {
+      "name": "single_admission_3p5_archived_membership",
+      "passed": true
+    },
+    {
+      "name": "single_admission_3p5_body_feasible",
+      "passed": true
+    },
+    {
+      "name": "single_admission_3p5_no_implicit_tail",
+      "passed": true
+    },
+    {
+      "name": "original_4p0_archived_membership",
+      "passed": true
+    },
+    {
+      "name": "original_4p0_body_feasible",
+      "passed": true
+    },
+    {
+      "name": "original_4p0_no_implicit_tail",
+      "passed": true
+    },
+    {
+      "name": "expected_membership_order",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:0.0",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:0.0",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:0.5",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:0.5",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:1.0",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:1.0",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:1.5",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:1.5",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:2.0",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:2.0",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:2.5",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:2.5",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:3.0",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:3.0",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:3.5",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:3.5",
+      "passed": true
+    },
+    {
+      "name": "independent_body_occlusion:4.0",
+      "passed": true
+    },
+    {
+      "name": "analytic_certificate_matches_saved:4.0",
+      "passed": true
+    },
+    {
+      "name": "historical_pixel_noninterference",
+      "passed": true
+    }
+  ],
+  "new_native_runs": 0,
+  "new_sensor_sequences": 0,
+  "source_sequences_reused": 2,
+  "selected_snapshots": 3,
+  "paired_same_time_comparisons": 1,
+  "independent_scenes": 1,
+  "gpu_used": false,
+  "original_source_files_modified": false
+}

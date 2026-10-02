@@ -1,0 +1,1303 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "controlled_replay/reference.pkl",
+      "passed": true
+    },
+    {
+      "check": "controlled_replay/implementation_states.pkl",
+      "passed": true
+    },
+    {
+      "check": "controlled_replay/summary",
+      "passed": true
+    },
+    {
+      "check": "controlled_clean/reference.pkl",
+      "passed": true
+    },
+    {
+      "check": "controlled_clean/implementation_states.pkl",
+      "passed": true
+    },
+    {
+      "check": "controlled_clean/summary",
+      "passed": true
+    },
+    {
+      "check": "checker_near/all_checks",
+      "passed": true
+    },
+    {
+      "check": "checker_near/metrics_except_empty_geometry_encoding",
+      "passed": true
+    },
+    {
+      "check": "checker_near_clean/all_checks",
+      "passed": true
+    },
+    {
+      "check": "checker_near_clean/metrics_except_empty_geometry_encoding",
+      "passed": true
+    },
+    {
+      "check": "checker-far/all_checks",
+      "passed": true
+    },
+    {
+      "check": "checker-far/metrics_except_empty_geometry_encoding",
+      "passed": true
+    },
+    {
+      "check": "controlled-trace/summary",
+      "passed": true
+    },
+    {
+      "check": "controlled-controls/summary",
+      "passed": true
+    },
+    {
+      "check": "controlled-audit/observation_equivalence.json",
+      "passed": true
+    },
+    {
+      "check": "controlled-audit/velocity_audit.json",
+      "passed": true
+    },
+    {
+      "check": "controlled-audit/geometry_audit.json",
+      "passed": true
+    },
+    {
+      "check": "repairs/55_semantic_and_workload_rows",
+      "passed": true
+    },
+    {
+      "check": "repairs/completed",
+      "passed": true
+    },
+    {
+      "check": "constructed/development",
+      "passed": true
+    },
+    {
+      "check": "constructed/validation",
+      "passed": true
+    },
+    {
+      "check": "constructed/mature_only",
+      "passed": true
+    },
+    {
+      "check": "native-search/256_summary",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_211.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_010.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_085__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_008.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_169.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_016__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_225.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_109.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_050.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_142.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_159.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_235.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_208.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_068.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_063.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_116.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_013__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_054.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_074.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_026.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_064.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_069.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_086__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_052.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_187.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_007__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_034.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_231.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_018.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_237.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_030.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_032.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_075.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_202.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_089__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_031.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_213.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_190.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_001.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_009.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_224.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_008.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_009.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_203.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_103.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_083.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_130.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_238.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_214.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_094.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_198.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_003.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_192.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_077.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_010__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_028__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_106.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_173.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_239.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_193.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_208__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_154.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_164__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_000.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_221.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_079.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_172.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_143.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_181.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_010.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_015.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_016.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_110__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_222.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_023.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_148.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_019__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_194__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_042.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_132.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_194.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_168.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_108.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_235__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_135.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_098.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_138.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_044.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_048.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_014.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_062.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_014.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_081.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_191.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_021__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_210.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_174.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_101.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_021.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_115.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_137__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_137.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_203__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_090.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_060.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_158.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_236.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_175.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_057.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_001.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_102.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_027__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_126__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_011.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_013.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_141.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_134.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_120.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_045.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_147__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_056.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_163.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_066.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_227.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_233.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_104.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_150.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_007.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_033.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_205.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_107.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_024.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_145.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_236__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_197.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_218.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_014__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_186.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_067.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_153.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_117.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_078.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_043.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_027.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_126.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_006.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_209.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_002.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_093__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_082.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_189.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_177.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_200__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_049.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_041.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_006.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_002.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_204.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_121.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_184.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_092.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_114.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_129.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_088.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_084.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_005.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_188.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_146.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_113.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_019.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_151.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_012__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_229.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_226.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_139.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_022.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_123.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_111.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_152.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_182.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_156.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_180.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_051.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_100__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_167.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_012.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_020.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_196.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_093.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_077__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_128.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_216.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_000.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_230.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_029.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_092__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_096.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_219.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_007.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_171__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_058__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_055.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_080.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_040.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_099.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_038.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_153__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_149.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_155.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_144.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_015__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_147.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_017.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_073.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_112.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_115__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_170.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_148__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_131.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_028.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_046.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_223.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_037.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_003.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_113__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_178.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_081__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_085.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_140.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_228.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_061.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_100.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_076.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_091.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_036.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_122.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_125.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_199.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_232.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_070.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_110.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_212.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_089.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_015.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_161.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_118.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_133.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_023__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_142__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_179.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_217.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_160.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_059.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_087.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_200.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_013.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_157.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_220.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_183.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_004.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_065.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_166.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_086.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_071.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_039.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_136.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_127.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_005.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_171.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_176.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_185.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_195.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_124.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_222__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_059__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_058.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_072.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_164.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_035.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_165.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_119.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_105.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_011.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_004.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_025.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_095.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_097.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_215.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_030__plain.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_template_012.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_047.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_234.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_201.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_206.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_207.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_053.json",
+      "passed": true
+    },
+    {
+      "check": "native-search/raw/D_seeded_162.json",
+      "passed": true
+    },
+    {
+      "check": "native-attribution/4_arms",
+      "passed": true
+    },
+    {
+      "check": "native-wrapper/2_conditions",
+      "passed": true
+    }
+  ],
+  "passed": 322,
+  "failed": 0,
+  "new_scientific_conditions": 0,
+  "native_gpu_used": false,
+  "initial_setup_failure": "First import attempt lacked PYGLET_HEADLESS=true; failed before any experiment output. Fixed launcher environment; failure retained in private audit.",
+  "parity_exceptions": [
+    "Near checker: existing logger serializes empty intersection as GeometryCollection instead of empty Polygon; after canonicalizing only empty geometry, all metrics match. Verdict arrays match without normalization.",
+    "New checker summary explicitly records offset=0 and background removal=False absent in historical near summary.",
+    "Timing and Python allocation measures are rerun-specific; semantic outputs and workload counters are compared separately."
+  ]
+}

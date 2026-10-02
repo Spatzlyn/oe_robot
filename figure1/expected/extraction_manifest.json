@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-02T11:41:11.137791+00:00",
+  "command": [
+    "python",
+    "figure1/build_figure.py",
+    "--out",
+    "<OUTPUT>"
+  ],
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:13:31) [GCC 14.3.0]",
+  "executable": "python",
+  "platform": "Linux-5.4.0-216-generic-x86_64-with-glibc2.31",
+  "numpy": "2.2.6",
+  "matplotlib": "3.10.8",
+  "source_manifest_sha256": "62c79a3c9acf9612900ff0ddcd00a278f88cd101e170b0c1a47d19cecdcaba63",
+  "figure_script_sha256": "07540f363f12e70b855eeea5c2a3aaa3a9abdd826e917d0b26ef1991f283aa76",
+  "native_runs": 0,
+  "device": "CPU",
+  "source_inputs_modified": false,
+  "historical_settings": [
+    "../inputs/native_resolution_control/start_manifest.json",
+    "../inputs/native_resolution_local/start_manifest.json",
+    "../inputs/native_resolution_protocol.json",
+    "../inputs/native_resolution_local_protocol.json"
+  ],
+  "image_settings": {
+    "main_width_in": 7.15,
+    "main_height_in": 3.55,
+    "main_width_mm": 181.61,
+    "secondary_width_in": 3.5,
+    "secondary_height_in": 3.6,
+    "png_dpi": 300,
+    "minimum_main_font_pt": 8,
+    "minimum_secondary_font_pt": 7.7,
+    "svg_text_editable": true,
+    "pdf_fonttype": 42,
+    "output_stroke_width_pt": 6.2,
+    "output_stroke_is_not_physical_lateral_extent": true
+  },
+  "display_limits": {
+    "world_x": [
+      -4.8,
+      15.2
+    ],
+    "world_y": [
+      -11.2,
+      2.8
+    ],
+    "equal_aspect": true,
+    "road_context_cropped": true,
+    "all_returned_output_fully_visible": true
+  },
+  "scope": "Offline extraction from two existing saved sequences in one synthetic scene. Three snapshots; one same-time paired comparison. No new experiment or independent scene."
+}

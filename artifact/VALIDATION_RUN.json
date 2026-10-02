@@ -1,0 +1,45 @@
+{
+  "schema": "public-offline-execution.v1",
+  "command": [
+    "python",
+    "artifact/validate_offline_v3.py",
+    "--artifact",
+    "artifact",
+    "--output",
+    "/tmp/oe_robot_offline_check"
+  ],
+  "working_directory": "repository root",
+  "python": "3.13.12",
+  "device": "CPU",
+  "gpu_used": false,
+  "new_native_runs": 0,
+  "completed": true,
+  "checks": 22565,
+  "failed": 0,
+  "output_records": {
+    "outputs": 1410,
+    "events": 828,
+    "queries": 180,
+    "witness_definitions": 4
+  },
+  "cause_scope": {
+    "locally_attributed_witness_times": 2,
+    "unresolved_witness_times": 102,
+    "total_missing_witness_times": 104
+  },
+  "source_sha256": "dea28ffca27c80724ff32419f4aa088023c7d93ca7461bc883360520b290dccc",
+  "archive_sha256": "43339345e53fe8ec7ed642b72305f830bd9a3cc12351b8f0b9568f40681766dc",
+  "wall_clock_runtime": "not_recorded",
+  "private_negative_control": {
+    "purpose": "Validator must fail on inconsistent expected data",
+    "changed_expected_count_in_private_copy": true,
+    "exit_code": 1,
+    "checks_failed": 1,
+    "public_scientific_data_changed": false
+  },
+  "not_experiment_denominators": [
+    "checks",
+    "numeric scalars",
+    "manifest entries"
+  ]
+}

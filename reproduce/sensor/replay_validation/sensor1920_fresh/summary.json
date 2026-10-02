@@ -1,0 +1,20 @@
+[
+  {
+    "method": "original",
+    "status": "completed",
+    "instrumentation_parity": true,
+    "omissions": [
+      3.5
+    ],
+    "semantic_unresolved": [],
+    "intervention_applications": 0
+  },
+  {
+    "method": "single_admission",
+    "status": "completed",
+    "instrumentation_parity": true,
+    "omissions": [],
+    "semantic_unresolved": [],
+    "intervention_applications": 1
+  }
+]

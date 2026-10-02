@@ -1,0 +1,6 @@
+rule,case,rule_conclusion,independent_result,failure_mode,evidence
+empty_output,R-sensor640/t2,no_flag,feasible designated position absent,false_reassurance,confirmation_v3/v0.5_g-0.5/original.json#steps/4
+representative_exists,R-sensor1920/t3.5,preserved,"ds8 absent despite short [1,1.5] retained",false_reassurance,native_resolution_control/v0.5_g-0.5/original.json
+final_only,R-sensor1920/t4,present,t3.5 absent; t4 present,misses_intermediate_omission,native_resolution_control/v0.5_g-0.5/original.json
+rejection_is_loss,V3_alternate_owner,harmful_omission,both feasible designated branch positions retained in whole union,false_harm_attribution,send/SPAIS_reaudit/boundaries/validation/V3_alternate_owner__original.json
+patch_consensus,B-velocity/t1,semantics_correct,feasible v=10 exceeds shared native cap sqrt(97),false_reassurance,runs/semantic_manuscript_audit_v1/velocity_audit.json

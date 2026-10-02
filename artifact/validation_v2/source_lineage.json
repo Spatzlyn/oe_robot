@@ -1,0 +1,282 @@
+[
+  {
+    "role": "old/analysis/semantic_coverage/small_graph.py",
+    "archived_path": "runs/semantic_small_graph_v2/small_graph.py",
+    "actual_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "recorded_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "status": "matched"
+  },
+  {
+    "role": "old/analysis/semantic_coverage/reference.py",
+    "archived_path": "runs/semantic_small_graph_v2/reference.py",
+    "actual_sha256": "8d214b4233555ef1e3dc9670f1a2e00bc3da1b2f5b2a2d7ae47b0a5578bdf499",
+    "recorded_sha256": "8d214b4233555ef1e3dc9670f1a2e00bc3da1b2f5b2a2d7ae47b0a5578bdf499",
+    "status": "matched"
+  },
+  {
+    "role": "old/analysis/semantic_coverage/conservative_reduction.py",
+    "archived_path": "runs/semantic_small_graph_v2/conservative_reduction.py",
+    "actual_sha256": "8522af6bffa90c4c04342e15cb5d21ca82ea8986e9266ce172d43937fb19c2df",
+    "recorded_sha256": "8522af6bffa90c4c04342e15cb5d21ca82ea8986e9266ce172d43937fb19c2df",
+    "status": "matched"
+  },
+  {
+    "role": "old/analysis/semantic_coverage/run_small_graph.py",
+    "archived_path": "runs/semantic_small_graph_v2/run_small_graph.py",
+    "actual_sha256": "294a92cb1f45ea07ab078083ea745bc999a895aa0a8cf61a08aed37f1251717e",
+    "recorded_sha256": "294a92cb1f45ea07ab078083ea745bc999a895aa0a8cf61a08aed37f1251717e",
+    "status": "matched"
+  },
+  {
+    "role": "old/analysis/semantic_coverage/inspect_d05.py",
+    "archived_path": "runs/semantic_small_graph_v2/inspect_d05.py",
+    "actual_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
+    "recorded_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
+    "status": "matched"
+  },
+  {
+    "role": "old/analysis/semantic_coverage/common.py",
+    "archived_path": "runs/semantic_small_graph_v2/common.py",
+    "actual_sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
+    "recorded_sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
+    "status": "matched"
+  },
+  {
+    "role": "old/input",
+    "archived_path": "runs/semantic_small_graph_v2/inputs.json",
+    "actual_sha256": "18ea585be5d6b1ca59f25b6461be23e317b0a56c06035f1e2490dad9d142d58e",
+    "recorded_sha256": "18ea585be5d6b1ca59f25b6461be23e317b0a56c06035f1e2490dad9d142d58e",
+    "status": "matched"
+  },
+  {
+    "role": "old/generated/conservative_shadow_reduction.py",
+    "archived_path": "runs/semantic_small_graph_v2/conservative_shadow_reduction.py",
+    "actual_sha256": "7e6e04b0bde4842567f11d6fc81da1c0e3e0f8335ee4d31f3e935d178d686b7b",
+    "recorded_sha256": "7e6e04b0bde4842567f11d6fc81da1c0e3e0f8335ee4d31f3e935d178d686b7b",
+    "status": "matched"
+  },
+  {
+    "role": "old/generated/original_update_shadow.py",
+    "archived_path": "runs/semantic_small_graph_v2/original_update_shadow.py",
+    "actual_sha256": "1039386f1c944e14e23a300c3fddd354063f70dec1bc2192484237c6d65e2613",
+    "recorded_sha256": "1039386f1c944e14e23a300c3fddd354063f70dec1bc2192484237c6d65e2613",
+    "status": "matched"
+  },
+  {
+    "role": "runs/semantic_minimal_trace_v2/executed",
+    "archived_path": "runs/semantic_minimal_trace_v2/source_executed.py",
+    "actual_sha256": "9b980a8c0d39608a6752d75f279460eaba5311014260cf1e081de3ea2a6afbae",
+    "recorded_sha256": "9b980a8c0d39608a6752d75f279460eaba5311014260cf1e081de3ea2a6afbae",
+    "status": "matched"
+  },
+  {
+    "role": "runs/semantic_manuscript_audit_v1/executed",
+    "archived_path": "runs/semantic_manuscript_audit_v1/source_executed.py",
+    "actual_sha256": "9d6db7a3b2e014c1f539e0ad577a5cee96764ec746e56e8ef5deb7fafe37633d",
+    "recorded_sha256": "9d6db7a3b2e014c1f539e0ad577a5cee96764ec746e56e8ef5deb7fafe37633d",
+    "status": "matched"
+  },
+  {
+    "role": "runs/semantic_action_check_serialization_v3/executed",
+    "archived_path": "runs/semantic_action_check_serialization_v3/source_executed.py",
+    "actual_sha256": "68e6d30f714b8e7ebc6edd608619f786addaba963dd7b2d2d4bcd59160e86838",
+    "recorded_sha256": "68e6d30f714b8e7ebc6edd608619f786addaba963dd7b2d2d4bcd59160e86838",
+    "status": "matched"
+  },
+  {
+    "role": "runs/semantic_action_far_control_v2/executed",
+    "archived_path": "runs/semantic_action_far_control_v2/source_executed.py",
+    "actual_sha256": "68e6d30f714b8e7ebc6edd608619f786addaba963dd7b2d2d4bcd59160e86838",
+    "recorded_sha256": "68e6d30f714b8e7ebc6edd608619f786addaba963dd7b2d2d4bcd59160e86838",
+    "status": "matched"
+  },
+  {
+    "role": "control/small_graph.py",
+    "archived_path": "runs/semantic_controls_v1/small_graph.py",
+    "actual_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "recorded_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "status": "matched"
+  },
+  {
+    "role": "control/reference.py",
+    "archived_path": "runs/semantic_controls_v1/reference.py",
+    "actual_sha256": "8d214b4233555ef1e3dc9670f1a2e00bc3da1b2f5b2a2d7ae47b0a5578bdf499",
+    "recorded_sha256": "8d214b4233555ef1e3dc9670f1a2e00bc3da1b2f5b2a2d7ae47b0a5578bdf499",
+    "status": "matched"
+  },
+  {
+    "role": "control/conservative_reduction.py",
+    "archived_path": "runs/semantic_controls_v1/conservative_reduction.py",
+    "actual_sha256": "0ab64200412d5f034ee6d877eaee6c29405fcc7807479eb31fe035d42d880499",
+    "recorded_sha256": "0ab64200412d5f034ee6d877eaee6c29405fcc7807479eb31fe035d42d880499",
+    "status": "matched"
+  },
+  {
+    "role": "control/run_small_graph.py",
+    "archived_path": "runs/semantic_controls_v1/run_small_graph.py",
+    "actual_sha256": "294a92cb1f45ea07ab078083ea745bc999a895aa0a8cf61a08aed37f1251717e",
+    "recorded_sha256": "294a92cb1f45ea07ab078083ea745bc999a895aa0a8cf61a08aed37f1251717e",
+    "status": "matched"
+  },
+  {
+    "role": "control/check_actions.py",
+    "archived_path": "runs/semantic_controls_v1/check_actions.py",
+    "actual_sha256": "6bf6a7d15abd1d3721b7651c18160f96a27148df9732de0796acbcfc92e8bd75",
+    "recorded_sha256": "6bf6a7d15abd1d3721b7651c18160f96a27148df9732de0796acbcfc92e8bd75",
+    "status": "matched"
+  },
+  {
+    "role": "control/verify_controls.py",
+    "archived_path": "runs/semantic_controls_v1/verify_controls.py",
+    "actual_sha256": "f294cf696d7a4698d517ab79bb37c2e167f3b8eb028af8fc2dd89ab535b84fb0",
+    "recorded_sha256": "f294cf696d7a4698d517ab79bb37c2e167f3b8eb028af8fc2dd89ab535b84fb0",
+    "status": "matched"
+  },
+  {
+    "role": "control/inspect_d05.py",
+    "archived_path": "runs/semantic_controls_v1/inspect_d05.py",
+    "actual_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
+    "recorded_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
+    "status": "matched"
+  },
+  {
+    "role": "control/common.py",
+    "archived_path": "runs/semantic_controls_v1/common.py",
+    "actual_sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
+    "recorded_sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/development_v1",
+    "archived_path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/source_executed.py",
+    "actual_sha256": "be9fb829ec0440360739663508194c13b4d47a350ff75c8acaaddb17d6ec0dd4",
+    "recorded_sha256": "be9fb829ec0440360739663508194c13b4d47a350ff75c8acaaddb17d6ec0dd4",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/development_v1/shadow_utils.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow_utils.py",
+    "actual_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "recorded_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/development_v1/visibility_checker.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/visibility_checker.py",
+    "actual_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "recorded_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/development_v1/shadow.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow.py",
+    "actual_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "recorded_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/confirmation_v3",
+    "archived_path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/source_executed.py",
+    "actual_sha256": "8e44d918307913ba3e960d4f1dfcc86f0d9ae5bd840d84c6ccf4da41cf5cc94a",
+    "recorded_sha256": "8e44d918307913ba3e960d4f1dfcc86f0d9ae5bd840d84c6ccf4da41cf5cc94a",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/confirmation_v3/shadow_utils.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow_utils.py",
+    "actual_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "recorded_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/confirmation_v3/visibility_checker.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/visibility_checker.py",
+    "actual_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "recorded_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/confirmation_v3/shadow.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow.py",
+    "actual_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "recorded_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_control",
+    "archived_path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/source_executed.py",
+    "actual_sha256": "5b65d7fa629d88936088bca7bc2b21e049383fa8815b444b80a28d1314af7cc7",
+    "recorded_sha256": "5b65d7fa629d88936088bca7bc2b21e049383fa8815b444b80a28d1314af7cc7",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_control/shadow_utils.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow_utils.py",
+    "actual_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "recorded_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_control/visibility_checker.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/visibility_checker.py",
+    "actual_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "recorded_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_control/shadow.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow.py",
+    "actual_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "recorded_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_local",
+    "archived_path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/source_executed.py",
+    "actual_sha256": "5b65d7fa629d88936088bca7bc2b21e049383fa8815b444b80a28d1314af7cc7",
+    "recorded_sha256": "5b65d7fa629d88936088bca7bc2b21e049383fa8815b444b80a28d1314af7cc7",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_local/shadow_utils.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow_utils.py",
+    "actual_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "recorded_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_local/visibility_checker.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/visibility_checker.py",
+    "actual_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "recorded_sha256": "154d8dd6ed551940352b68ff06d8d2698b9658b099f90dd889349993f59a971b",
+    "status": "matched"
+  },
+  {
+    "role": "sensor/native_resolution_local/shadow.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow.py",
+    "actual_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "recorded_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "status": "matched"
+  },
+  {
+    "role": "native_D1/repos/rss_occlusion/risk_analysis/shadow_utils.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow_utils.py",
+    "actual_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "recorded_sha256": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "status": "matched"
+  },
+  {
+    "role": "native_D1/repos/rss_occlusion/risk_analysis/shadow.py",
+    "archived_path": "repos/rss_occlusion/risk_analysis/shadow.py",
+    "actual_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "recorded_sha256": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "status": "matched"
+  },
+  {
+    "role": "native_D1/analysis/semantic_coverage/small_graph.py",
+    "archived_path": "runs/semantic_small_graph_v2/small_graph.py",
+    "actual_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "recorded_sha256": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "status": "matched"
+  }
+]

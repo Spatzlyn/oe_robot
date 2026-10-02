@@ -1,0 +1,41 @@
+{
+  "frozen_utc": "2026-09-24T15:34:44.721130+00:00",
+  "phase": "development bounded native-genesis search",
+  "question": "Can native genesis/prediction/update produce a strictly larger rejected backward mature candidate with a feasible stationary witness absent from the entire output?",
+  "initialization": "Single native create_shadow(100,18,None,0,in,None), same constructor form as update_visibility initialization; no hand-assembled branch forest. Synthetic road network + prescribed visibility, not sensor-realized scene. Native cross=[1] yields backward risk roots. No injected shadow duplication.",
+  "native_revision": "2b6b06637850b406cfbeab926a3dedc01edad91e",
+  "times": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "seed": 240925,
+  "topology": "ego100->101, both cross lane1; risk fork lane1 predecessors2,3, 20m each. Native backward stop length40 unchanged. Native forward successor chain finite.",
+  "observation_patterns": {
+    "ego": "ds>=15 or ds<=3",
+    "risk_root": "ds<=c, c in [0,1,2,3,4,5,6], optionally one visible island [10,10.5] or [15,15.5]",
+    "branches": "ds>=15, optional ds<=c c in [0,1,2,3,4,5,6], optional visible island [4,4.5] or [6,6.5]; ds in [8,11] always hidden"
+  },
+  "search_plan": "16 hand-design schedule templates (static/alternating barriers; three root patterns), plus 240 deterministic seeded schedules of 5 epochs. All are development, never call not-found a general impossibility result.",
+  "candidate_definition": "Native mature rejection where at same root lane/ds_out retained leaf(id,depth) set is a strict subset of candidate set. Record other rejected nonidentical representations separately.",
+  "positive_endpoint": "Stationary branch witness hidden at every scheduled observation, present after genesis in full explicit output; native rejected candidate explicitly covers witness; final native full forest does not; same frozen input with mature-only predicate disabled retains it. Prior omission and unresolved implicit tail are separate.",
+  "controls": "For candidate-bearing traces rerun same case uninstrumented and compare full epoch forests; on candidate epochs local mature-only OFF same manager/input/visibility confirms stage. Candidate rejection with alternate final coverage is a negative control, not omission.",
+  "measurement": "Full genesis/create/predict/primitive/pending/mature/final trace, target witness membership at each epoch, exact copied-input control; no new checker permission or task rollout",
+  "resource_bounds": {
+    "max_runs": 256,
+    "epochs": 5,
+    "max_queue_pops_per_epoch": 1000,
+    "timeout_seconds_per_case": 5,
+    "cpu_only": true
+  },
+  "frozen_source_sha256": {
+    "vendor/rss_occlusion/risk_analysis/shadow_utils.py": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2",
+    "vendor/rss_occlusion/risk_analysis/shadow.py": "2dc76a0372be5882af5b002b3ba432eb064822a98dd52b68c252f9d0a01eeee0",
+    "reproduce/_common/small_graph.py": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e"
+  },
+  "scope": "Normal native initialization/update API shape in synthetic topology; no claim of real sensor/map occurrence or full native frontend initialization. Cross-lane OutBound prediction source path suspected limitation preserved unchanged.",
+  "confirmation_gate": "After exploration select positive case or negative structural boundary, write separate heldout structural protocol before execution. If no supported positive found, report bounded search failure and code invariants only within stated graph/path assumptions.",
+  "public_portability_note": "Historical protocol retained; paths and hashes of packaged helper copies updated for portable replay. No new held-out designation or scientific threshold change."
+}

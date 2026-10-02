@@ -1,0 +1,93 @@
+{
+  "frozen_at_utc": "2026-09-24T09:39:07.707389Z",
+  "status": "frozen_before_execution",
+  "device": "CPU only; no simulator/GPU",
+  "seed": 240924,
+  "variants": [
+    "original",
+    "structural_key",
+    "mature_guard",
+    "admission_disabled",
+    "all_backward_reductions_disabled"
+  ],
+  "definitions": {
+    "original": "Pinned native update",
+    "structural_key": "Existing rss_shadow_key_control.install; native remaining reductions unchanged",
+    "mature_guard": "Existing conservative_reduction.make(original) default all_guarded",
+    "admission_disabled": "Both backward searched-begin admission checks bypassed; visited-lane and mature-output native reductions unchanged",
+    "all_backward_reductions_disabled": "Backward admission, visited-lane and mature-output repeated checks bypassed; forward rules and primitives unchanged"
+  },
+  "experiments": [
+    {
+      "name": "existing_pipeline_cases",
+      "cases": [
+        "pipeline_two_lanes",
+        "pipeline_reversed_queue",
+        "no_lane_crossing",
+        "no_visibility_island",
+        "redundant_equal_copy",
+        "redundant_contained_cover",
+        "redundant_contained_cover_reversed"
+      ],
+      "times": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "timing_repetitions": 11,
+      "instrumented_repetitions": 1,
+      "memory_repetitions": 1,
+      "coverage_reference": "reuse exact stored rational layers; no new reference propagation",
+      "scope": "same existing discovery fixtures; not heldout or independent episodes"
+    },
+    {
+      "name": "frozen_epoch_duplicate_stress",
+      "source": "pipeline_two_lanes mature_coverage_guard saved output at t=2.5, native prediction to t=3",
+      "duplicate_counts": [
+        1,
+        4,
+        16,
+        64
+      ],
+      "timing_repetitions": 11,
+      "instrumented_repetitions": 1,
+      "memory_repetitions": 1,
+      "scope": "exact full worklist copies leave input union unchanged; constructed representation/cost stress, not scene generalization"
+    }
+  ],
+  "measurement": {
+    "timing": "perf_counter; update call only includes primitive processing and guard lookup; fresh manager per repetition; import/construction/predict/deepcopy/queue-fill/coverage/serialization excluded and separately recorded when relevant",
+    "timing_order": "11 rounds of seeded shuffled job order; a prior unreported-as-data warmup of each variant on base case",
+    "instrumentation": "separate runs; instrument all queue instances incl inner primitive queues; total puts/gets, maximum per-queue size and aggregate live item count; primitive call counts; guard dominance checks; terminal representation count",
+    "memory": "separate tracemalloc runs; peak additional Python-traced allocations during update; input built before tracing; not native allocator/RSS/full planner memory",
+    "deadline": "no realtime threshold asserted; 30 s administrative timeout per bounded repetition; timeout is unresolved runtime/resource result, not safety failure",
+    "coverage": "position projection and native zero-horizon position-speed tested separately; immutable finite reference; implicit-tail or unsupported decoder is unresolved, not method failure; native velocity-envelope discrepancy remains separate",
+    "correctness": "exact semantic output digest parity between timed/instrumented/memory runs checked; duplicates retained in digest; no outcome-based exclusion",
+    "sufficiency_criterion": "finite target t=4 state coverage and termination on tested inputs; cost reported descriptively with no invented practical deadline; full temporal/continuous/planner soundness not claimed"
+  },
+  "input_sha256": {
+    "fixtures/controlled/reference.pkl": "2b138c7453e1db3a90011c329aa6fb79f4a560a68605c8fff4631d8d909739b0",
+    "fixtures/controlled/implementation_states.pkl": "fe5b28c26e5d60ef0223276a0c94d473c744c958d4b7187f706d7974c71b0e89",
+    "reproduce/_common/small_graph.py": "43c001a83986b0a1f2e6aea17920c2723cea8859177d68d65117c63012edf75e",
+    "reproduce/_common/conservative_reduction.py": "0ab64200412d5f034ee6d877eaee6c29405fcc7807479eb31fe035d42d880499",
+    "reproduce/_common/rss_shadow_key_control.py": "af2374761661723062ab47006ebb7bb3db7b95c2b6026526032ffe5f79e19a8b",
+    "vendor/rss_occlusion/risk_analysis/shadow_utils.py": "677abdf0d0439189a46636fdd4767057e1bea0155b416a160c3cb3e93d08f3c2"
+  },
+  "reuse_findings": {
+    "c1": "Original t4 omission293; structural position0/full-state previouslynotmeasured; matureguard0; single admission0",
+    "controls": "7 existing fixture settings saved; separate prefix velocity discrepancy predates queue omission",
+    "open_questions": [
+      "Does simply disabling admission restore finite coverage with modest observed cost?",
+      "Does stronger structural key have measured position-speed coverage in saved scope?",
+      "Does mature guard refusing unsupported dominance cause nontermination or measured prohibitive burden in repeated faithful inputs?",
+      "Do timing/work/queue/Python-memory differences appear under semantically redundant representation growth?"
+    ]
+  },
+  "public_portability_note": "Historical protocol retained; paths and hashes of packaged helper copies updated for portable replay. No new held-out designation or scientific threshold change."
+}

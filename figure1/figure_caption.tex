@@ -1,0 +1,33 @@
+% Main figure: designed at 7.15 in (181.61 mm), fonts 8--10 pt.
+% Use full text width; do not shrink the two-panel figure to one column.
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\textwidth]{generated/c1_1920_t3p5_original_vs_single_admission.pdf}
+  \caption{Feasible hidden-position omission and recovery in the synthetic-depth scene
+  (1920$\times$1080, $t=3.5$\,s). Both executions use identical geometry, depth
+  history, and execution prefix through the target admission event.
+  Blue denotes the positional union of every returned shadow, including the
+  separate output at $x=0$, $y\in[-5,-4]$.
+  The orange hatched rectangle is an independently feasible stationary body;
+  its front/reference position is $w=(8,0)$ (diamond).
+  Camera marks the shared origin of four depth cameras; gray rays illustrate
+  the plan-view occlusion geometry.
+  Original omits $w$, whereas granting exactly one rejected long candidate
+  restores its position to the returned union. The body is a hidden-state
+  witness, not a detected object or an algorithm output. Stroke width is for
+  visibility; the figure does not represent velocity/history coverage,
+  a safety verdict, or a measured collision.}
+  \label{fig:c1-synthetic-depth}
+\end{figure*}
+
+% Optional separate figure, not included in the main two-panel figure.
+% Designed at 3.5 in (88.9 mm).
+% \begin{figure}[t]
+%   \centering
+%   \includegraphics[width=\linewidth]{generated/c1_1920_t4p0_original.pdf}
+%   \caption{Original at the next observation epoch, $t=4.0$\,s.
+%   The witness front position is present again in the returned positional union.
+%   Camera position and depth have changed; this is not a same-observation
+%   counterfactual. Later regeneration does not erase the omission at $t=3.5$\,s.}
+%   \label{fig:c1-next-epoch}
+% \end{figure}

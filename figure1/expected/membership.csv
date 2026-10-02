@@ -1,0 +1,4 @@
+sample,time_s,method,query_lane,query_ds,world_x,world_y,front_in_whole_positional_union,independent_body_feasible,output_shadow_count,implicit_tails,safety_verdict,collision
+original_3p5,3.5,original,1,8,8,0,False,True,5,0,unmeasured,unmeasured
+single_admission_3p5,3.5,single_admission,1,8,8,0,True,True,6,0,unmeasured,unmeasured
+original_4p0,4.0,original,1,8,8,0,True,True,6,0,unmeasured,unmeasured

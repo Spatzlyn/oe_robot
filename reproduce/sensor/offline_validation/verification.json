@@ -1,0 +1,1400 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "distributed_hash/expected/confirmation_v2/execution_failure.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v2/start_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v2/v0.5_g-0.5/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v2/v0.5_g-0.5/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v2/v0.5_g-0.5/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/completion.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/source_executed.py",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/start_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/summary.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/admission_off.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/admission_off_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/mature_guard.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/mature_guard_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/mature_only_off.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/mature_only_off_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/single_admission.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/confirmation_v3/v0.5_g-0.5/single_admission_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/completion.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/source_executed.py",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/start_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/summary.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.25/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.25/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.25/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.25/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.25/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.5/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.5/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.5/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.5/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g-0.5/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g0/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g0/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g0/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g0/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0.5_g0/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.25/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.25/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.25/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.25/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.25/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.5/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.5/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.5/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.5/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g-0.5/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g0/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g0/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g0/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g0/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v0_g0/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.25/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.25/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.25/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.25/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.25/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.5/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.5/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.5/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.5/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g-0.5/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g0/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g0/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g0/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g0/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/development_v1/v1_g0/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/completion.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/source_executed.py",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/start_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/summary.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/v0.5_g-0.5/admission_off.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/v0.5_g-0.5/admission_off_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/v0.5_g-0.5/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/v0.5_g-0.5/original.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/v0.5_g-0.5/original_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/v0.5_g-0.5/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_control/v0.5_g-0.5/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/completion.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/source_executed.py",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/start_manifest.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/summary.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/v0.5_g-0.5/depth.npz",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/v0.5_g-0.5/scene.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/v0.5_g-0.5/sensor_poses.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/v0.5_g-0.5/single_admission.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/expected/native_resolution_local/v0.5_g-0.5/single_admission_plain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_protocols/confirmation_freeze.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_protocols/confirmation_freeze_v3.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_protocols/measurement_change_v2.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_protocols/native_resolution_local_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_protocols/native_resolution_protocol.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_protocols/protocol_v1.md",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_analysis/body_sensor_noninterference.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_analysis/causal_chain.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_analysis/epoch_matrix.csv",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_analysis/parity.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_analysis/run_matrix.csv",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_analysis/summary.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/historical_analysis/target_epoch_all_events.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/protocols/sensor_1920.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/protocols/sensor_640.json",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/helpers/common.py",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/helpers/conservative_reduction.py",
+      "passed": true
+    },
+    {
+      "name": "distributed_hash/helpers/small_graph.py",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.5/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g-0.25/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0_g0/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.5/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g-0.25/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v0.5_g0/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.5/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g-0.25/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/completed",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "development_v1/v1_g0/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/completed",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/completed",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/single_admission/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/completed",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/admission_off/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/completed",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_only_off/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/completed",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "confirmation_v3/v0.5_g-0.5/mature_guard/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/completed",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/original/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/completed",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_control/v0.5_g-0.5/admission_off/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/completed",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/traced_plain/steps",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/traced_plain/status",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/traced_plain/intervention_applied",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/0.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/0.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/1.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/1.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/2.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/2.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/3.0",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/3.5",
+      "passed": true
+    },
+    {
+      "name": "native_resolution_local/v0.5_g-0.5/single_admission/witness_certificate/4.0",
+      "passed": true
+    },
+    {
+      "name": "640/same_prefix",
+      "passed": true
+    },
+    {
+      "name": "640/same_target_prior",
+      "passed": true
+    },
+    {
+      "name": "640/one_target_grant",
+      "passed": true
+    },
+    {
+      "name": "640/exact_event_prefix",
+      "passed": true
+    },
+    {
+      "name": "640/original/absent_times",
+      "passed": true
+    },
+    {
+      "name": "640/single_admission/absent_times",
+      "passed": true
+    },
+    {
+      "name": "1920/same_prefix",
+      "passed": true
+    },
+    {
+      "name": "1920/same_target_prior",
+      "passed": true
+    },
+    {
+      "name": "1920/one_target_grant",
+      "passed": true
+    },
+    {
+      "name": "1920/exact_event_prefix",
+      "passed": true
+    },
+    {
+      "name": "1920/original/absent_times",
+      "passed": true
+    },
+    {
+      "name": "1920/single_admission/absent_times",
+      "passed": true
+    },
+    {
+      "name": "pre_native_instrumentation_failure_retained",
+      "passed": true
+    },
+    {
+      "name": "pixel_audit/confirmation_v3",
+      "passed": true
+    },
+    {
+      "name": "pixel_audit/native_resolution_control",
+      "passed": true
+    }
+  ],
+  "failed": 0,
+  "historical_traced_sequences": 17,
+  "historical_plain_sequences": 17,
+  "historical_epoch_records": 153,
+  "historical_native_update_calls": 306,
+  "historical_instrumentation_failures_before_native": 1,
+  "cohort": {
+    "development_v1": 9,
+    "confirmation_v3": 5,
+    "native_resolution_control": 2,
+    "native_resolution_local": 1
+  },
+  "new_native_runs": 0,
+  "pixel_test_reexecuted": true,
+  "scope": "Nine related development geometry/motion conditions; selected replay and resolution conditions overlap, not independent scenes. Position projection; no whole continuous soundness or action-safety certificate."
+}

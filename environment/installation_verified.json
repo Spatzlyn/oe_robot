@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "platform": "Linux x86_64",
+  "python": "3.7.12",
+  "installation": "New conda prefix, pip dependencies, OctoMap and opendrive2lanelet built from bundled source.",
+  "commands": [
+    "bash environment/setup_native.sh NEW_PREFIX",
+    "NATIVE_PYTHON=NEW_PREFIX/bin/python bash environment/run_native.sh environment/check_native.py"
+  ],
+  "numpy": "1.19.5",
+  "pip_check": "No broken requirements found",
+  "imports": [
+    "carla",
+    "octomap",
+    "client",
+    "planning",
+    "risk_analysis.shadow_utils",
+    "risk_analysis.state_checker"
+  ],
+  "simulator_started": false,
+  "gpu_used": false,
+  "historical_lock_vs_resolved_lock": "Historical lock retained separately. Transitive packages selected by installer are pinned in native-resolved-lock.txt for subsequent installs.",
+  "octomap_private_binary_reused": false,
+  "warning": "Binary wheel reproducibility is not claimed; build logs and environment depend on platform."
+}

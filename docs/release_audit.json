@@ -1,0 +1,188 @@
+{
+  "schema": "anonymous-release-audit.v1",
+  "date": "2026-10-02",
+  "scope": "Read-only independent package review, with two audit documents added after inspecting frozen experiment files.",
+  "snapshot": {
+    "initial_files": 664,
+    "followup_files": 675,
+    "added_files_reviewed": 11,
+    "previous_payloads_unchanged": true,
+    "is_final_release_file_count": false,
+    "final_payload_manifest": "MANIFEST.sha256",
+    "subsequent_packaging_edits_reviewed": [
+      {
+        "path": "environment/figure-requirements.txt",
+        "change": "Matplotlib pin 3.10.5 to 3.10.8; agrees with actual extraction manifest",
+        "sha256": "d0fde2ed40dc752798b58c29b1f28989b37248567757dcf2c07e6bf00ed82c88"
+      },
+      {
+        "path": ".gitignore",
+        "change": "Add results/ exclusion",
+        "sha256": "95521e4f0a1518064f15f84964de91c8dd80b675331e52c881a6391a70b81a18"
+      }
+    ],
+    "scientific_family_payloads_unchanged_after_review": true,
+    "audit_frozen": true
+  },
+  "privacy": {
+    "submission_identity_matches": 0,
+    "private_drive_link_matches": 0,
+    "recognized_credential_matches": 0,
+    "direct_text_scan_identifying_matches": 0,
+    "nested_archive_containers_inspected": 35,
+    "archive_inspection_errors": 0,
+    "pickle_fixtures_inspected_without_execution": 4,
+    "upstream_build_paths": {
+      "count": 15,
+      "location": "official CARLA egg binary",
+      "classification": "upstream CI build metadata; not submission-author paths"
+    },
+    "email_matches_classification": "Upstream author/license/contact attribution or Python matrix-expression false positives. Preserved.",
+    "private_denylist_published": false,
+    "limits": "Targeted content audit; external account identity, repository history and mirror service settings are separate."
+  },
+  "packaging": {
+    "excluded_cache_and_bytecode": true,
+    "uncompressed_map_cache_not_release_payload": true,
+    "auth_files_distributed": false,
+    "private_audit_scripts_distributed": false,
+    "payloads_over_100MB": 0,
+    "project_markdown_missing_file_links": 0,
+    "upstream_optional_documentation_links_missing": 3,
+    "upstream_license_typo": "Octovis README names LICENSE; actual retained file is LICENCE."
+  },
+  "evidence_checks": {
+    "offline_v3": {
+      "checks": 22565,
+      "failed": 0,
+      "new_native_runs": 0
+    },
+    "native_command_families": {
+      "families": 13,
+      "parity_checks_passed": 322,
+      "failed": 0
+    },
+    "sensor_clean_environment": {
+      "resolution_conditions": 2,
+      "checks_per_resolution": 76,
+      "native_sequences": 8,
+      "native_updates": 72
+    },
+    "sensor_all_packaging_attempts": {
+      "native_sequences": 12,
+      "native_updates": 108,
+      "includes_initial_verifier_failure": true
+    },
+    "saved_sensor_pixel_audit": {
+      "checks": 345,
+      "new_native_runs": 0
+    },
+    "figure_extraction": {
+      "checks": 93,
+      "new_native_runs": 0
+    },
+    "independent_figure_review": {
+      "checks": 46,
+      "failed": 0,
+      "new_native_runs": 0
+    },
+    "repair_schedule": {
+      "method_case_groups": 55,
+      "timing_repetitions_per_group": 11,
+      "queue_repetitions_per_group": 1,
+      "memory_repetitions_per_group": 1,
+      "runs": 715,
+      "warmups_included": false
+    },
+    "new_scientific_conditions": 0,
+    "aggregate_native_updates_across_all_families": "not_computed; per-family denominators retained",
+    "gpu_used": false
+  },
+  "figure_membership": [
+    {
+      "sample": "original_3p5",
+      "time": 3.5,
+      "shadow_count": 5,
+      "independent_union": {
+        "999": [
+          [
+            14.0,
+            15.0
+          ]
+        ],
+        "1": [
+          [
+            0.0,
+            2.0
+          ]
+        ]
+      },
+      "front_position_8_present": false
+    },
+    {
+      "sample": "single_admission_3p5",
+      "time": 3.5,
+      "shadow_count": 6,
+      "independent_union": {
+        "999": [
+          [
+            14.0,
+            15.0
+          ]
+        ],
+        "1": [
+          [
+            0.0,
+            13.5
+          ]
+        ]
+      },
+      "front_position_8_present": true
+    },
+    {
+      "sample": "original_4p0",
+      "time": 4.0,
+      "shadow_count": 6,
+      "independent_union": {
+        "999": [
+          [
+            14.0,
+            15.0
+          ]
+        ],
+        "1": [
+          [
+            0.0,
+            13.0
+          ]
+        ]
+      },
+      "front_position_8_present": true
+    }
+  ],
+  "attribution": {
+    "missing_witness_times": 104,
+    "locally_adjudicated": 2,
+    "unresolved": 102
+  },
+  "scientific_limits": [
+    "Sensor and checker scenes are separate.",
+    "Fourteen permission differences are not collisions.",
+    "Two hundred ninety-three hypotheses are a finite reference at one epoch.",
+    "Position coverage does not certify velocity/history coverage or continuous soundness.",
+    "Far control includes background-lane removal; it is not a single-factor distance ablation.",
+    "Constructed output-pruning counterexample and native-generation search have different scope.",
+    "Processing records reset per update.",
+    "No new RFM empirical result or task-completion claim."
+  ],
+  "references": [
+    "artifact/validation_public/validation_results.json",
+    "artifact/LABEL_CORRECTION.md",
+    "artifact/PUBLIC_COPY_VERIFICATION.json",
+    "reproduce/verification.json",
+    "reproduce/output_verification.json",
+    "reproduce/sensor/package_verification.json",
+    "reproduce/sensor/PORTABILITY_VALIDATION.md",
+    "figure1/expected/audit.json"
+  ]
+}

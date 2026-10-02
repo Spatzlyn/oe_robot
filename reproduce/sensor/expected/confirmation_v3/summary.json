@@ -1,0 +1,68 @@
+[
+  {
+    "case": "v0.5_g-0.5",
+    "method": "original",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [
+      2.0,
+      3.5,
+      4.0
+    ],
+    "unresolved_times": [],
+    "applied": 0,
+    "native_rejects": 20,
+    "error": null
+  },
+  {
+    "case": "v0.5_g-0.5",
+    "method": "single_admission",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [
+      3.5,
+      4.0
+    ],
+    "unresolved_times": [],
+    "applied": 1,
+    "native_rejects": 20,
+    "error": null
+  },
+  {
+    "case": "v0.5_g-0.5",
+    "method": "admission_off",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [],
+    "unresolved_times": [],
+    "applied": 0,
+    "native_rejects": 36,
+    "error": null
+  },
+  {
+    "case": "v0.5_g-0.5",
+    "method": "mature_only_off",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [
+      2.0,
+      3.5,
+      4.0
+    ],
+    "unresolved_times": [],
+    "applied": 0,
+    "native_rejects": 41,
+    "error": null
+  },
+  {
+    "case": "v0.5_g-0.5",
+    "method": "mature_guard",
+    "status": "completed",
+    "parity": true,
+    "omission_times": [],
+    "unresolved_times": [],
+    "applied": 0,
+    "native_rejects": 88,
+    "error": null
+  }
+]

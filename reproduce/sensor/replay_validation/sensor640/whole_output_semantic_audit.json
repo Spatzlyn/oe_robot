@@ -1,0 +1,742 @@
+[
+  {
+    "method": "original",
+    "t": 0.0,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          2.5,
+          15.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        1.7142857142857135,
+        3.894736842105263,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 3,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 0.5,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.5,
+          2.5
+        ],
+        [
+          2.5,
+          15.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        1.845238095238095,
+        4.013157894736842,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 4,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 1.0,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.5,
+          2.5
+        ],
+        [
+          2.5,
+          14.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        1.9761904761904763,
+        4.13157894736842,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 4,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 1.5,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.5,
+          2.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          2.0,
+          14.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.1071428571428568,
+        4.25,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 6,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 2.0,
+    "whole_output_membership": {
+      "status": "absent",
+      "position_present": false,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.238095238095238,
+        4.368421052631579,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 5,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 2.5,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          1.5,
+          14.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.3690476190476186,
+        4.4868421052631575,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 6,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 3.0,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          0.5,
+          13.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.5,
+        4.605263157894736,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 5,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 3.5,
+    "whole_output_membership": {
+      "status": "absent",
+      "position_present": false,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.6309523809523805,
+        4.723684210526315,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.776315789473685,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 5,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "original",
+    "t": 4.0,
+    "whole_output_membership": {
+      "status": "absent",
+      "position_present": false,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.761904761904762,
+        4.842105263157895,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.6578947368421053,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 6,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 0.0,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          2.5,
+          15.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        1.7142857142857135,
+        3.894736842105263,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 3,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 0.5,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.5,
+          2.5
+        ],
+        [
+          2.5,
+          15.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        1.845238095238095,
+        4.013157894736842,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 4,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 1.0,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.5,
+          2.5
+        ],
+        [
+          2.5,
+          14.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        1.9761904761904763,
+        4.13157894736842,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 4,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 1.5,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.5,
+          2.0
+        ],
+        [
+          1.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          2.0,
+          14.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.1071428571428568,
+        4.25,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 6,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 2.0,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          2.0,
+          14.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.238095238095238,
+        4.368421052631579,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 6,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 2.5,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          1.5,
+          14.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.3690476190476186,
+        4.4868421052631575,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 6,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 3.0,
+    "whole_output_membership": {
+      "status": "present",
+      "position_present": true,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.5
+        ],
+        [
+          0.5,
+          13.5
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.5,
+        4.605263157894736,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.8052631578947369,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 5,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 3.5,
+    "whole_output_membership": {
+      "status": "absent",
+      "position_present": false,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.6309523809523805,
+        4.723684210526315,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.776315789473685,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 5,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  },
+  {
+    "method": "single_admission",
+    "t": 4.0,
+    "whole_output_membership": {
+      "status": "absent",
+      "position_present": false,
+      "absence_supported": true,
+      "unknown": [],
+      "intervals": [
+        [
+          1.0,
+          1.5
+        ],
+        [
+          2.0,
+          2.5
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0,
+          1.0
+        ]
+      ]
+    },
+    "independent_body_certificate": {
+      "feasible": true,
+      "bounds": [
+        2.761904761904762,
+        4.842105263157895,
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "strict_margin": 0.6578947368421053,
+      "scope": "stationary 3x1x1.5 m body occlusion under fixed ideal panel geometry; linear camera segments bounded by endpoints"
+    },
+    "returned_shadow_count": 6,
+    "query_lane_ds": [
+      1,
+      8
+    ]
+  }
+]

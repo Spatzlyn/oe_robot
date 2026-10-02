@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-24T15:43:14.292506+00:00",
+  "config": {
+    "id": "v0.5_g-0.5",
+    "velocity": 0.5,
+    "gap": -0.5
+  },
+  "target": null,
+  "methods": [
+    "original",
+    "admission_off"
+  ],
+  "predictions": {
+    "original": "possible same admission mechanism; absence is not assumed",
+    "admission_off": "if admission-caused omission occurs, target position should recover"
+  },
+  "selection": "same development scene; bounded sensor-resolution control, not new independent scene",
+  "input_sha256": "e78cdaa6f1884fde31785383bd0ad29c40100c1c624a08629a22ec9555402950",
+  "harness_sha256": "7e8eb83a94206122fd4a391738abda25e8b3f9e09ce13fe80d86a22a83c51b34",
+  "measurement_revision": "v3",
+  "measurement_revision_utc": "2026-09-24T15:40:52.893516Z",
+  "model_change": {
+    "element": "sensor resolution 640x360 to native constructor default 1920x1080",
+    "held_fixed": "geometry, camera path, times, dynamics, native wrapper, occluders and independent body witness",
+    "question": "Does the evidence depend on low-resolution pixel discretization?",
+    "not_claimed": "same global feasible-trajectory set; observation operator changes with resolution"
+  }
+}

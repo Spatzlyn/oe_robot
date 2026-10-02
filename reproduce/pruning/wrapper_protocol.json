@@ -1,0 +1,37 @@
+{
+  "frozen_utc": "2026-09-24T15:59:22.434351+00:00",
+  "phase": "posthoc bounded initialization compatibility check, not heldout validation",
+  "new_uncertainty": "create_shadow lane100 ds18 in prior development used native constructor form but positive lane length20 native wrapper applies ds_start=ego_local_s-2.5; ds18 requires ego_local_s20.5 outside lane. It is not a proven wrapper-reachable initial input.",
+  "cases": [
+    "D_template_000",
+    "D_template_012"
+  ],
+  "construction": "Actual ShadowUtils.update_visibility called; synthetic map waypoint local_s20, lane_id+1, lane_section.start0 produces ds_start17.5. Native wrapper handles first and all later epochs. DepthVisibility interface is explicitly prescribed visibility stub, not image-based sensor.",
+  "times": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "fixed": [
+    "same fork topology and native source",
+    "same per-case prescribed visibility and stationary hidden witnesses",
+    "same dynamics and observation times",
+    "no manual mature forest or duplication",
+    "same native mature predicate and visited rules"
+  ],
+  "comparison": "Capture native constructor inputs; expected18versus17.5 difference before filtering permitted. Compare all post-update forest fields by exact numeric/object-value equality against frozen archived development case. Do not assume parity; divergence means prior raw does not establish this wrapper path.",
+  "predictions": [
+    "First native forward primitive may shrink both initial inbound positions through visible ds>=15 to samebound15; test rather than assume",
+    "If post-update parity holds, representative visited-stage omission and native subsetrelation carry to legal wrapper initialization for these two cases only"
+  ],
+  "scope": "This verifies actual wrapper+synthetic client/map interface+prescribed sensor stub. It does not validate real map extraction, physical frontend, sensor-generated occurrence, other254schedules or harmful D1.",
+  "cpu_only": true,
+  "source_hashes": {
+    "run_native_search.py": "bef3719dadb348b7f95208ca861deb7ac7fa6d55370acca06fca4336fe0d1ea4",
+    "development/D_template_000.json": "b482287b516c2ddfafcf19b093bfacb3cdcfbcad9f785d45e18b02a185aebe30",
+    "development/D_template_012.json": "e4f9a4251cec222c65ae88bc0853dacc69b7c72a7c193f901abc1fde587c30a0"
+  },
+  "public_portability_note": "Historical protocol retained; paths and hashes of packaged helper copies updated for portable replay. No new held-out designation or scientific threshold change."
+}

@@ -1,0 +1,28 @@
+{
+  "target": {
+    "t": 2.0,
+    "shadow": {
+      "risk_bound": false,
+      "parent": 999,
+      "root": {
+        "type": "InOutBound",
+        "id": 1,
+        "ds_in": 14.5,
+        "ds_out": 1.5,
+        "t_in": 1.5,
+        "t_out": 2.0,
+        "ds_in_hist": null,
+        "t_in_hist": null,
+        "children": []
+      },
+      "leaf_depth": []
+    }
+  },
+  "target_indices_zero_based": [
+    306,
+    306
+  ],
+  "equal_event_prefix_count": 307,
+  "only_one_admission_changed": true,
+  "other_claims": "No same-scene action checker, collision or task completion measured."
+}

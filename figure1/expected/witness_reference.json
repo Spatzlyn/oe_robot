@@ -1,0 +1,214 @@
+{
+  "body_xyz_bounds": [
+    [
+      8,
+      11
+    ],
+    [
+      -0.5,
+      0.5
+    ],
+    [
+      0,
+      1.5
+    ]
+  ],
+  "reference_front_lane_ds": [
+    1,
+    8
+  ],
+  "reference_front_world_xyz": [
+    8,
+    0,
+    0
+  ],
+  "v": 0,
+  "a": 0,
+  "interpretation": "Independent feasible stationary body; not an object rendered in the original depth images. Membership is for its reference/front position, not a full velocity-history certificate.",
+  "certificate_basis": "Ray intersections with fixed opaque right panel. Fractional-affine coordinate extrema at body corners; affine dependence on camera x covers intermediate times.",
+  "analytic_rechecks": [
+    {
+      "time_s": 0.0,
+      "camera_x": -4.0,
+      "panel_intersection_x": [
+        1.7142857142857135,
+        3.894736842105263
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 0.5,
+      "camera_x": -3.75,
+      "panel_intersection_x": [
+        1.845238095238095,
+        4.013157894736842
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 1.0,
+      "camera_x": -3.5,
+      "panel_intersection_x": [
+        1.9761904761904763,
+        4.13157894736842
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 1.5,
+      "camera_x": -3.25,
+      "panel_intersection_x": [
+        2.1071428571428568,
+        4.25
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 2.0,
+      "camera_x": -3.0,
+      "panel_intersection_x": [
+        2.238095238095238,
+        4.368421052631579
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 2.5,
+      "camera_x": -2.75,
+      "panel_intersection_x": [
+        2.3690476190476186,
+        4.4868421052631575
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 3.0,
+      "camera_x": -2.5,
+      "panel_intersection_x": [
+        2.5,
+        4.605263157894736
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 3.5,
+      "camera_x": -2.25,
+      "panel_intersection_x": [
+        2.6309523809523805,
+        4.723684210526315
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    },
+    {
+      "time_s": 4.0,
+      "camera_x": -2.0,
+      "panel_intersection_x": [
+        2.761904761904762,
+        4.842105263157895
+      ],
+      "panel_intersection_z": [
+        0.8052631578947369,
+        1.6047619047619048
+      ],
+      "all_body_hidden": true
+    }
+  ],
+  "historical_pixel_audit": [
+    {
+      "t": 0.0,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 33204,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 0.5,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 35551,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 1.0,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 37968,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 1.5,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 40494,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 2.0,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 43029,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 2.5,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 45743,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 3.0,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 47897,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 3.5,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 48792,
+      "changed_depth_pixels_with_body": 0
+    },
+    {
+      "t": 4.0,
+      "image_width": 1920,
+      "image_height": 1080,
+      "body_intersecting_pixels": 49713,
+      "changed_depth_pixels_with_body": 0
+    }
+  ],
+  "pixel_audit_reexecuted": false
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "old_stationary",
+    "group": "R-old-C1",
+    "q": -8,
+    "front_ds": 8,
+    "footprint_q": [
+      -11,
+      -8
+    ],
+    "v": 0,
+    "a": 0,
+    "feasibility": "feasible",
+    "evidence": "runs/semantic_small_graph_v2/witness.json",
+    "observation_operator": "closed visible nearest-waypoint cells at 0.5 s epochs",
+    "semantics": "position witness; not a goal-completion oracle"
+  },
+  {
+    "id": "sensor_stationary",
+    "groups": [
+      "R-sensor640",
+      "R-sensor1920"
+    ],
+    "front_ds": 8,
+    "body_world": {
+      "x": [
+        8,
+        11
+      ],
+      "y": [
+        -0.5,
+        0.5
+      ],
+      "z": [
+        0,
+        1.5
+      ]
+    },
+    "v": 0,
+    "a": 0,
+    "feasibility": "strict panel occlusion bounds over selected 0.5 m/s camera path; no model mask equivalence transferred",
+    "continuous_segment_argument": "Plane intersection is affine in camera x and coordinatewise fractional-affine with positive denominator on the box; endpoint extrema bound each linear camera segment."
+  },
+  {
+    "id": "boundary_stationary",
+    "groups": [
+      "B-D1",
+      "B-native-D1"
+    ],
+    "lanes": [
+      2,
+      3
+    ],
+    "front_ds": 8,
+    "rear_ds": 11,
+    "v": 0,
+    "a": 0,
+    "feasibility": "Body within hidden ds region; 1D prescribed observation field, not rendered sensor.",
+    "restrictions": "Only specified stationary positions; unresolved truncated output remains unresolved."
+  },
+  {
+    "id": "moving_velocity",
+    "group": "B-velocity",
+    "path": [
+      {
+        "t": 0.0,
+        "q": -11.5,
+        "v": 6.0,
+        "hidden": true
+      },
+      {
+        "t": 0.5,
+        "q": -8.0,
+        "v": 8.0,
+        "hidden": true
+      },
+      {
+        "t": 1.0,
+        "q": -3.5,
+        "v": 10.0,
+        "hidden": true
+      }
+    ],
+    "acceleration": 4,
+    "independent_cap": 9.848857801796104,
+    "cap_squared": 97,
+    "scope": "1D front state with length3 footprint; native velocity algebra audited from source, not rerun",
+    "feasibility": "feasible",
+    "position": "present",
+    "speed": "absent_under_recorded_native_envelope"
+  }
+]

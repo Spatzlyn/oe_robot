@@ -1,0 +1,52 @@
+[
+  {
+    "rule": "empty_output",
+    "case": "R-sensor640/t2",
+    "rule_conclusion": "no_flag",
+    "independent_result": "feasible designated position absent",
+    "failure_mode": "false_reassurance",
+    "evidence": "confirmation_v3/v0.5_g-0.5/original.json#steps/4",
+    "output_count": 5
+  },
+  {
+    "rule": "representative_exists",
+    "case": "R-sensor1920/t3.5",
+    "rule_conclusion": "preserved",
+    "independent_result": "ds8 absent despite short [1,1.5] retained",
+    "failure_mode": "false_reassurance",
+    "evidence": "native_resolution_control/v0.5_g-0.5/original.json",
+    "retained": true
+  },
+  {
+    "rule": "final_only",
+    "case": "R-sensor1920/t4",
+    "rule_conclusion": "present",
+    "independent_result": "t3.5 absent; t4 present",
+    "failure_mode": "misses_intermediate_omission",
+    "evidence": "native_resolution_control/v0.5_g-0.5/original.json"
+  },
+  {
+    "rule": "rejection_is_loss",
+    "case": "V3_alternate_owner",
+    "rule_conclusion": "harmful_omission",
+    "independent_result": "both feasible designated branch positions retained in whole union",
+    "failure_mode": "false_harm_attribution",
+    "evidence": "send/SPAIS_reaudit/boundaries/validation/V3_alternate_owner__original.json",
+    "candidate_rejections": 1
+  },
+  {
+    "rule": "patch_consensus",
+    "case": "B-velocity/t1",
+    "rule_conclusion": "semantics_correct",
+    "independent_result": "feasible v=10 exceeds shared native cap sqrt(97)",
+    "failure_mode": "false_reassurance",
+    "evidence": "runs/semantic_manuscript_audit_v1/velocity_audit.json",
+    "consensus_methods": [
+      "original",
+      "single_admission",
+      "mature_coverage_guard",
+      "structural_key"
+    ],
+    "cap": 9.848857801796104
+  }
+]

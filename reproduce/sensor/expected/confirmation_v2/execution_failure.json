@@ -1,0 +1,7 @@
+{
+  "status": "invalid_instrumentation_before_native_execution",
+  "native_episodes": 0,
+  "error": "trace_method assertion n==1 failed (n=0); regex used bound_lane_id, actual native source uses cur_shadow.root.id",
+  "retained": "generated depth/poses/scene and start_manifest; no method outcome was produced",
+  "next_change": "regex literal only; same config target methods predictions"
+}
