@@ -2,7 +2,7 @@
 
 ## Source identity
 
-The analyzed implementation is SafeRoboticsLab/Safe_Occlusion_Aware_Planning, revision `2b6b06637850b406cfbeab926a3dedc01edad91e`. [upstream_files.json](upstream_files.json) records upstream and distributed SHA256 for every vendored file. Required runtime and third-party build sources are bundled; unused maps, simulator assets, compiled caches and unrelated research were omitted.
+The analyzed implementation is SafeRoboticsLab/Safe_Occlusion_Aware_Planning, revision `2b6b06637850b406cfbeab926a3dedc01edad91e`. [upstream_files.json](upstream_files.json) records upstream and distributed SHA256 for every vendored file. Required runtime and third-party build sources are bundled; unused maps, simulator assets and compiled caches were omitted. Paper-facing entries are separated from the explicitly labeled auxiliary full-state audit.
 
 The four pre-existing compatibility changes are isolated in [compatibility.patch](../environment/compatibility.patch): headless Matplotlib backend selection, Traffic Manager port handling, and sensor-ready frame metadata. The core shadow propagation, reachable-set and safety-checker modules are unchanged. The CPU experiment entry points do not start a simulator or use the live sensor callbacks.
 
@@ -10,7 +10,7 @@ The four pre-existing compatibility changes are isolated in [compatibility.patch
 
 Original private records are retained outside this repository. The public copy removes submission-author identifying paths and private Drive URLs. It does not remove upstream copyright attribution.
 
-The offline archive keeps 647 members. Of these, 619 are byte-identical to their originals; 28 contain identity-text or derived source-hash metadata transformations. Independent comparison preserved JSON structure and 4,907,816 non-string scalar values, including 3,773,805 numerical scalars. All 13 NPZ files in that archive are byte-identical. See [PUBLIC_COPY_VERIFICATION.json](../artifact/PUBLIC_COPY_VERIFICATION.json) and [ANONYMIZATION.json](../artifact/ANONYMIZATION.json).
+The offline archive keeps 644 members after content curation. [CURATION.json](../artifact/CURATION.json) lists removed editorial material and modified documents/metadata. All experimental raw inputs and outputs are unchanged. Earlier anonymization checks are retained with their historical scope in [PUBLIC_COPY_VERIFICATION.json](../artifact/PUBLIC_COPY_VERIFICATION.json).
 
 Public hashes refer to the bytes actually distributed. Historical hashes are explicitly named and retained when needed for source lineage. A public source hash must not be silently interpreted as the old private-file hash.
 
@@ -31,7 +31,7 @@ The first portable sensor verifier compared live tuples to archived JSON lists a
 
 ## Actual release validation
 
-- Offline V3: 22,565 consistency checks, zero failures; a separate negative control confirmed a wrong expected value is rejected.
+- Offline V3: 22,563 consistency checks, zero failures; a separate negative control confirmed a wrong expected value is rejected.
 - Native reproduction: all 13 command families executed; [verification.json](../reproduce/verification.json) and [output_verification.json](../reproduce/output_verification.json) record comparisons and their limits. Controlled pickles were reproduced byte-identically; near/far candidate verdicts match.
 - Clean environment: a new CPython 3.7.12 prefix, dependency install, source-built OctoMap and opendrive2lanelet, `pip check`, native imports, controlled and near-checker replay. This is a dependency/portability check, not a new scientific scene.
 - Sensor: fresh 640 and 1920 Original/single-admission pairs passed 76 checks each in the clean environment, including complete arrays and execution traces. Saved-record pixel audit passed 345 checks.
@@ -44,3 +44,8 @@ Native replays reuse existing conditions; they are not additional independent ev
 `MANIFEST.sha256` records all distributed payload files except itself. Run `python tools/verify_release.py` after download to check it. Family manifests additionally connect raw input, public transformation and generated outputs. Reproduction outputs should go to a new directory outside the preserved fixture and expected-result trees.
 
 Archived source snapshots may contain old relative layouts for provenance. Use documented portable entry points instead of executing arbitrary source snapshots extracted from `evidence.zip`.
+
+Current content curation and affected-entry-point regression results are recorded
+in [content_validation.json](content_validation.json). Existing native validation
+records describe their earlier source snapshots; the current controlled and
+checker regressions use unchanged scientific-output expectations.

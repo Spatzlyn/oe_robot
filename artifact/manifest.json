@@ -43,8 +43,8 @@
   "unavailable": [],
   "source_snapshot_scope": "Listed raw and source files only; complete environment and CARLA not bundled.",
   "distribution": "anonymous public copy; redacted provenance and re-hashed source metadata",
-  "archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
-  "archive_bytes": 7079860,
+  "archive_sha256": "f0e27fcf49b544dc56727890a9e34d8bd3ae6cdcbe22809725bb71c44e9e29ff",
+  "archive_bytes": 7068546,
   "source_root": "archive-relative paths",
   "files": [
     {
@@ -70,17 +70,17 @@
     },
     {
       "path": "docs/semantic_coverage_report.md",
-      "sha256": "17f491437b3b98872c69e041a6332eeeace86efb01cba783021b9e81202f1fa0",
-      "bytes": 16457,
+      "sha256": "f9b678166c79930fdfd820e835d2775adabf5e9cd456ff3f952415bf770395ff",
+      "bytes": 8651,
       "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "docs/shadow_semantics.md",
-      "sha256": "8266c526ed6d2b2cd5c11b54a7734b5db6a967fef3e165da8d0f7147d444d8ce",
-      "bytes": 18124,
+      "sha256": "051ab5d44f3a8ea4d2155122b08bbc8eb29d47c4529276c3f4c1d2d89713a877",
+      "bytes": 13962,
       "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "patches/rss-final-compatibility.patch",
@@ -300,18 +300,11 @@
       "provenance": "historical_byte_identical_copy"
     },
     {
-      "path": "runs/semantic_controls_v1/inspect_d05.py",
-      "sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
-      "bytes": 3404,
-      "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
-    },
-    {
       "path": "runs/semantic_controls_v1/manifest.json",
-      "sha256": "89991f2c17f0013487d64205554b5c2e1f9fe4e2764d943747b217a031824cc2",
-      "bytes": 1386,
+      "sha256": "967121ad6770cd8042f170957292603bcb6ec271ce8e50dc3a1dad4c6609ac8b",
+      "bytes": 1296,
       "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "runs/semantic_controls_v1/normal_duplicate__admission_only.json",
@@ -343,10 +336,10 @@
     },
     {
       "path": "runs/semantic_controls_v1/provenance_supplement.json",
-      "sha256": "0bfb647ba84316fdc77525df0a5cccafe9dd7626c704c3a41388b1cd2d1c66f5",
-      "bytes": 4473,
+      "sha256": "9143e5bd47e707b69e0c50bc6c32366e063e4be2818b328d8f3105964776afa3",
+      "bytes": 4084,
       "storage": "evidence.zip",
-      "provenance": "anonymous_public_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "runs/semantic_controls_v1/reference.py",
@@ -531,18 +524,11 @@
       "provenance": "historical_byte_identical_copy"
     },
     {
-      "path": "runs/semantic_small_graph_v2/inspect_d05.py",
-      "sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
-      "bytes": 3404,
-      "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
-    },
-    {
       "path": "runs/semantic_small_graph_v2/manifest.json",
-      "sha256": "cfd726dd0aeba3d895e858ae63c165594afaefb7df159efd61fbdff13245b292",
-      "bytes": 1342,
+      "sha256": "167c09af7372d602ce41ec9dbf8c71523418a8e9221ab9c4448dcbdb6b9a639a",
+      "bytes": 1225,
       "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "runs/semantic_small_graph_v2/no_lane_crossing__mature_coverage_guard.json",
@@ -693,10 +679,10 @@
     },
     {
       "path": "runs/semantic_small_graph_v2/provenance_supplement.json",
-      "sha256": "6c272b62de769e5443fcd06a6d20703e43831e9a57d149f72c339d8f29ce981d",
-      "bytes": 3753,
+      "sha256": "10cab345f5c04a9f41716e1638ac14a1d55ecba3e9ee438a7fcc9b043a000492",
+      "bytes": 3337,
       "storage": "evidence.zip",
-      "provenance": "anonymous_public_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "runs/semantic_small_graph_v2/redundant_contained_cover__mature_coverage_guard.json",
@@ -1623,11 +1609,18 @@
       "provenance": "anonymous_public_copy"
     },
     {
-      "path": "send/SPAIS_C1_native_sensor_validation/d1/artifact_hashes.json",
-      "sha256": "40776fa3722436fb4891d769225642bad73a8dbd87f08bc27a1841ec6dbcd06c",
-      "bytes": 34955,
+      "path": "send/SPAIS_C1_native_sensor_validation/d1/aggregate_checks.json",
+      "sha256": "9c604474781a9a243f922f7ca9d2d59417df89f40944b4f65a8b0016ab93cf72",
+      "bytes": 1334,
       "storage": "evidence.zip",
-      "provenance": "anonymous_public_copy"
+      "provenance": "curated_public_copy"
+    },
+    {
+      "path": "send/SPAIS_C1_native_sensor_validation/d1/artifact_hashes.json",
+      "sha256": "d9e63d01bb24d79144f49437d7637b6f6fcacb192fef5218c6c34596283c7ac7",
+      "bytes": 34775,
+      "storage": "evidence.zip",
+      "provenance": "curated_public_copy"
     },
     {
       "path": "send/SPAIS_C1_native_sensor_validation/d1/audit_representative.py",
@@ -3751,13 +3744,6 @@
       "provenance": "historical_byte_identical_copy"
     },
     {
-      "path": "send/SPAIS_C1_native_sensor_validation/d1/final_review.json",
-      "sha256": "8d959e485c9ac0299c1403264516d4c77df80bd1fad5e95d45f47bc293fa3fe2",
-      "bytes": 3283,
-      "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
-    },
-    {
       "path": "send/SPAIS_C1_native_sensor_validation/d1/manifest.json",
       "sha256": "a83a1c543fc69b0c4a7cba778fee9b76a027a65b81d2be4d2fbdcbabd104886a",
       "bytes": 490,
@@ -3794,10 +3780,10 @@
     },
     {
       "path": "send/SPAIS_C1_native_sensor_validation/d1/report.md",
-      "sha256": "111d9600b91c0433ea9e817612fe69f217fc92c5d37cfb592c89de23b76ba1cf",
-      "bytes": 16687,
+      "sha256": "073b9a4b2dc41ad45845f9f6823e701e201be1e2b3f034a24f0bee5b79e5bb5e",
+      "bytes": 15822,
       "storage": "evidence.zip",
-      "provenance": "anonymous_public_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "send/SPAIS_C1_native_sensor_validation/d1/representative_attribution/admission_only_off_at_target.json",
@@ -3990,10 +3976,10 @@
     },
     {
       "path": "send/SPAIS_C1_native_sensor_validation/inputs/provenance.json",
-      "sha256": "f34365fec4eaeb1c61d734d0ca3f8ff42f20e7ade996ec7ad405290900454a21",
-      "bytes": 2051,
+      "sha256": "a0ead5f448e84feb931318f76bac8b44ffacf7b1c47f5fb6783a8560068c652f",
+      "bytes": 1787,
       "storage": "evidence.zip",
-      "provenance": "anonymous_public_copy"
+      "provenance": "curated_public_copy"
     },
     {
       "path": "send/SPAIS_C1_native_sensor_validation/inputs/rss_pip_freeze.txt",
@@ -4050,13 +4036,6 @@
       "bytes": 543,
       "storage": "evidence.zip",
       "provenance": "anonymous_public_copy"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/source_sensor_path_review.json",
-      "sha256": "d9de1e5be203bfce2d88e53cac6064f0b905cae078eb6d307e3adb07c373b8d2",
-      "bytes": 1891,
-      "storage": "evidence.zip",
-      "provenance": "historical_byte_identical_copy"
     },
     {
       "path": "send/SPAIS_reaudit/boundaries/development/D1_subset_fork__admission_off.json",

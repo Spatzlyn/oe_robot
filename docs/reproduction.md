@@ -8,7 +8,7 @@ Commands below run from the repository root. Every `outputs/...` destination mus
 python artifact/validate_offline_v3.py --artifact artifact --output outputs/offline
 ```
 
-Expected terminal accounting: 22,565 consistency checks; zero failed; 1,410 normalized outputs; 180 checker query records. The 647-member evidence archive preserves failures, negative results and unresolved cases. V3 attribution is 2 confirmed witness-times and 102 unresolved. These are selected witness-times, not independent episodes.
+Expected terminal accounting: 22,563 consistency checks; zero failed; 1,410 normalized outputs; 180 checker query records. The 644-member evidence archive preserves failures, negative results and unresolved cases. V3 attribution is 2 confirmed witness-times and 102 unresolved. These are selected witness-times, not independent episodes.
 
 This mode reads and rechecks archived results. It does not produce new native results. The archive contains historical source snapshots for audit; executable portable entry points are the scripts below.
 
@@ -103,3 +103,5 @@ Two representative conditions additionally check initialization from valid vehic
 Existing scientific negatives and unresolved outcomes are retained. Packaging failures, such as a missing headless import setting or a tuple/list representation mismatch in a verifier, are recorded separately from scientific method outcomes. The sensor portability report preserves its initial failed verification even though the native numeric outputs matched.
 
 The shipped expected results are regression expectations derived from prior evidence. They are not prospective predictions for new scenes. A passing checksum, replay, or finite witness audit does not prove full continuous safety, physically observed collision avoidance, or a direct RFM benefit.
+
+The separate velocity-envelope diagnostic is optional: see [ancillary scope](../ancillary/README.md). The `controlled-audit` command produces the paper-facing observation and geometry records; `ancillary-audit` additionally produces the preserved velocity record.

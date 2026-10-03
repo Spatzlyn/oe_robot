@@ -2,32 +2,32 @@
   "schema": "public-offline-bundle.v1",
   "self_excluded": "bundle_manifest.json",
   "file_count": 32,
-  "bytes": 33168226,
+  "bytes": 33163665,
   "files": [
     {
       "path": "ANONYMIZATION.json",
-      "bytes": 10966,
-      "sha256": "3b033b703a45e9d3ecab0c1d16a9fccec08d152a04f52d87013d02068f11930c"
+      "bytes": 11766,
+      "sha256": "f92b2cadeb8db5409b6bf800d2c5073fc353c944e4aebbb7111ce75cf8ad6d5c"
     },
     {
       "path": "CURATION.json",
-      "bytes": 1139,
-      "sha256": "9819c5559986b3ec828fbe7d715d4391524da6da60c653aae42580e412e1a1d1"
+      "bytes": 4527,
+      "sha256": "035a74ab11ecf7d05f599cf58347c7b31d3fbcf2abcd4356f5eeaa5810b2af40"
     },
     {
       "path": "LABEL_CORRECTION.md",
-      "bytes": 2523,
-      "sha256": "acf002fe0a3c022a75b09d0f6d002d29e63e34209128ace0ba996455aeead262"
+      "bytes": 2762,
+      "sha256": "c0c27cd118826852a0ad59111eb1c06111eb8fe47250c81bfb2595027f0ba44c"
     },
     {
       "path": "PUBLIC_COPY_VERIFICATION.json",
-      "bytes": 26683,
-      "sha256": "db4e73e08e46ce5fec43cbb9ce78e5caadf3f88d52374affafa2311487aa1f9e"
+      "bytes": 29674,
+      "sha256": "c929b9dcb679ba0f191bb1d5a7ccd44cf1f118d05d3a5721e8915c3c5adf9d1d"
     },
     {
       "path": "README.md",
-      "bytes": 7460,
-      "sha256": "50dfb67d521f091b638334bf535c54468bf538d5dc5254a1c2c17c514da36218"
+      "bytes": 7818,
+      "sha256": "33b58ca0effe5136bbb0344b87048fc4963c01b56a5754b8a25e181fd0587651"
     },
     {
       "path": "SCHEMA.md",
@@ -37,17 +37,17 @@
     {
       "path": "TRUST_AND_LIMITS.md",
       "bytes": 4046,
-      "sha256": "ebff4e48fc5f8da3552181efa7f72e40c7c072c567136f3cf3992de6cfff2440"
+      "sha256": "a101bd1d85df570bfc61d63706d1e95e587a65757db2a76ef04acc052834eaa3"
     },
     {
       "path": "VALIDATION_RUN.json",
-      "bytes": 1249,
-      "sha256": "c907c4f10c3fcb934200d2659b019418a849a352f81e5ea13e5f35d4bfdd1d6f"
+      "bytes": 1403,
+      "sha256": "3209b90f39d0beb877f86407074d1da6e6468b114e2ccf5b01f834a089bd736c"
     },
     {
       "path": "evidence.zip",
-      "bytes": 7079860,
-      "sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6"
+      "bytes": 7068546,
+      "sha256": "f0e27fcf49b544dc56727890a9e34d8bd3ae6cdcbe22809725bb71c44e9e29ff"
     },
     {
       "path": "expected.json",
@@ -56,8 +56,8 @@
     },
     {
       "path": "manifest.json",
-      "bytes": 192047,
-      "sha256": "4c13edfe19d7707475ddd84bb7bef3cb71043ede1c0cf6a6dfcd6f83c9231567"
+      "bytes": 191159,
+      "sha256": "8efffe275c37cffe9ba47274325319b3866b254fe5ddeebc895fa0d0f0b867ec"
     },
     {
       "path": "protocol.json",
@@ -66,8 +66,8 @@
     },
     {
       "path": "validate_offline_v3.py",
-      "bytes": 37057,
-      "sha256": "dea28ffca27c80724ff32419f4aa088023c7d93ca7461bc883360520b290dccc"
+      "bytes": 37377,
+      "sha256": "a8aec73c96f8b6a3184f0151876ad2cb4664e9879a46b27f305cac58b5391d4a"
     },
     {
       "path": "validation_public/attribution_scope_audit.json",
@@ -106,23 +106,23 @@
     },
     {
       "path": "validation_public/source_executed.py",
-      "bytes": 37057,
-      "sha256": "dea28ffca27c80724ff32419f4aa088023c7d93ca7461bc883360520b290dccc"
+      "bytes": 37377,
+      "sha256": "a8aec73c96f8b6a3184f0151876ad2cb4664e9879a46b27f305cac58b5391d4a"
     },
     {
       "path": "validation_public/source_lineage.json",
-      "bytes": 13693,
-      "sha256": "e9541d1f34ec8be49bc43865523bf879cbd1d93566de96649c9a2bd025081cce"
+      "bytes": 13035,
+      "sha256": "e0626177df6b68d82cdcb013fce1f1bce4b4763788f92fded31a9dee03a040e3"
     },
     {
       "path": "validation_public/validation_results.json",
-      "bytes": 9874412,
-      "sha256": "98a3a9f2466a1d68c02a5bdaa348453df79c3081e100fa2bcf460ae0b9370a48"
+      "bytes": 9873835,
+      "sha256": "2bf19d210196118ba81dbe4c2580dcbdc77e45cc22202d763783598857d43c2b"
     },
     {
       "path": "validation_public/version_parity.json",
-      "bytes": 2703,
-      "sha256": "035463b978ad591d5b4f6149a60ea1b1ebd77450782a2277b1fa8100cfe52ac5"
+      "bytes": 3009,
+      "sha256": "7dd4595ba427caf6898fe171cfe3c14bcd6104e417280d52c0d46f9fec830047"
     },
     {
       "path": "validation_public/witnesses.json",

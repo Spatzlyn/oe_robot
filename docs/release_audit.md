@@ -101,10 +101,19 @@ See [release_audit.json](release_audit.json) for machine-readable scope;
 [offline transformation verification](../artifact/PUBLIC_COPY_VERIFICATION.json),
 and [label correction](../artifact/LABEL_CORRECTION.md) for the underlying records.
 
-## Subsequent content curation
+## Historical content curation
 
 Four internal paper-direction/editorial documents were removed from the offline
 ZIP after this release audit. All retained archive members are byte-identical
 to the preceding public copy; scientific code, protocols, and raw records were
 not changed. See [CURATION.json](../artifact/CURATION.json) and the refreshed
 [offline validation](../artifact/VALIDATION_RUN.json).
+
+## Current v3 content validation
+
+The earlier release statistics above describe their recorded snapshot. Current
+content curation removes editorial instructions and unused tracing helpers, and
+separates the auxiliary velocity audit from the paper-facing native command.
+The current offline total is 22,563 checks, zero failures; the difference is two
+excluded prior-study source entries. See [content_validation.json](content_validation.json)
+for regression checks against unchanged scientific expectations.

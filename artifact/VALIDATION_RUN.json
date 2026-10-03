@@ -6,7 +6,7 @@
     "--artifact",
     "artifact",
     "--output",
-    "outputs/offline_content_curation"
+    "outputs/offline_v3_curated"
   ],
   "working_directory": "repository root",
   "python": "3.13.12",
@@ -14,7 +14,7 @@
   "gpu_used": false,
   "new_native_runs": 0,
   "completed": true,
-  "checks": 22565,
+  "checks": 22563,
   "failed": 0,
   "output_records": {
     "outputs": 1410,
@@ -27,8 +27,8 @@
     "unresolved_witness_times": 102,
     "total_missing_witness_times": 104
   },
-  "source_sha256": "dea28ffca27c80724ff32419f4aa088023c7d93ca7461bc883360520b290dccc",
-  "archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
+  "source_sha256": "a8aec73c96f8b6a3184f0151876ad2cb4664e9879a46b27f305cac58b5391d4a",
+  "archive_sha256": "f0e27fcf49b544dc56727890a9e34d8bd3ae6cdcbe22809725bb71c44e9e29ff",
   "wall_clock_runtime": "not_recorded",
   "private_negative_control": {
     "purpose": "Validator must fail on inconsistent expected data",
@@ -42,5 +42,6 @@
     "numeric scalars",
     "manifest entries"
   ],
-  "curation_record": "CURATION.json"
+  "curation_record": "CURATION.json",
+  "check_count_change": "Two source-hash checks for excluded prior-study inspect_d05.py copies were removed. Scientific checks and outcomes remain unchanged."
 }

@@ -56,7 +56,7 @@ input, and successful preservation are not equivalent negative results.
 
 ## Provenance and executable scope
 
-The public archive's 647 members have independent SHA256 checks. Personal paths
+The public archive's 644 members have independent SHA256 checks. Personal paths
 and private links were scrubbed; source references were rehashed transparently.
 Normalized scientific output records remain equal to the baseline except for
 the six explicitly corrected cause labels. All binary NPZ payloads remain

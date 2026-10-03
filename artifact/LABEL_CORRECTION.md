@@ -35,6 +35,10 @@ lineage are otherwise unchanged. Source hashes in both public versions refer
 to the anonymized archive copies; historical private source hashes are not
 misrepresented as public byte identities.
 
-The public re-execution reports 22,565 checks, zero failed, and zero new native
+The public re-execution reports 22,563 checks, zero failed, and zero new native
 runs. The correction changes attribution scope, not missing-state existence,
 checker verdicts, the original C1 result, or the unresolved native D1 search.
+
+Content curation excludes two prior-study D05 tracing scripts from source-lineage
+comparison. The immutable V2 source list is filtered for those two entries only;
+scientific normalized records and the six label corrections are unchanged.

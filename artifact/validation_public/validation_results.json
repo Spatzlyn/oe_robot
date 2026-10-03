@@ -1,19 +1,19 @@
 {
   "schema": "spais.e3.validation.v1",
-  "utc": "2026-10-02T16:52:29.497412+00:00",
+  "utc": "2026-10-03T00:30:02.151554+00:00",
   "python": "3.13.12",
-  "validator_sha256": "dea28ffca27c80724ff32419f4aa088023c7d93ca7461bc883360520b290dccc",
-  "archive_sha256": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
+  "validator_sha256": "a8aec73c96f8b6a3184f0151876ad2cb4664e9879a46b27f305cac58b5391d4a",
+  "archive_sha256": "f0e27fcf49b544dc56727890a9e34d8bd3ae6cdcbe22809725bb71c44e9e29ff",
   "expected_sha256": "68bbb920cef4823ef2352fa6ff57964b48abfb473c0954f2f0e22a49d1746b58",
   "new_native_runs": 0,
-  "checks": 22565,
+  "checks": 22563,
   "failed": 0,
   "failed_checks": [],
   "checks_detail": [
     {
       "name": "archive_sha256",
-      "actual": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
-      "expected": "46e23f41036d0149e959452e849a5779f59c0ac39d6f65acf9fb3fdd391bb0d6",
+      "actual": "f0e27fcf49b544dc56727890a9e34d8bd3ae6cdcbe22809725bb71c44e9e29ff",
+      "expected": "f0e27fcf49b544dc56727890a9e34d8bd3ae6cdcbe22809725bb71c44e9e29ff",
       "pass_": true,
       "scope": ""
     },
@@ -49,13 +49,6 @@
       "name": "source_lineage/old/analysis/semantic_coverage/run_small_graph.py",
       "actual": "294a92cb1f45ea07ab078083ea745bc999a895aa0a8cf61a08aed37f1251717e",
       "expected": "294a92cb1f45ea07ab078083ea745bc999a895aa0a8cf61a08aed37f1251717e",
-      "pass_": true,
-      "scope": ""
-    },
-    {
-      "name": "source_lineage/old/analysis/semantic_coverage/inspect_d05.py",
-      "actual": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
-      "expected": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
       "pass_": true,
       "scope": ""
     },
@@ -154,13 +147,6 @@
       "name": "source_lineage/control/verify_controls.py",
       "actual": "f294cf696d7a4698d517ab79bb37c2e167f3b8eb028af8fc2dd89ab535b84fb0",
       "expected": "f294cf696d7a4698d517ab79bb37c2e167f3b8eb028af8fc2dd89ab535b84fb0",
-      "pass_": true,
-      "scope": ""
-    },
-    {
-      "name": "source_lineage/control/inspect_d05.py",
-      "actual": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
-      "expected": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
       "pass_": true,
       "scope": ""
     },

@@ -31,8 +31,8 @@
     "source": "scripts/rss_checkpoint.py",
     "source_sha256": "8086db4fb9aeefca9543f438db97741efbbcaf5d75182cea3152219a80d6b321",
     "public": "reproduce/_common/rss_checkpoint.py",
-    "public_sha256": "8086db4fb9aeefca9543f438db97741efbbcaf5d75182cea3152219a80d6b321",
-    "change": "byte-identical"
+    "public_sha256": "61d9ef0a34aff3d2bae803eac628cc4fec56f54e592a1e74acb21ae323b3bf8a",
+    "change": "Public entry-point curation: remove unused prior-study helpers or separate optional ancillary audit; scientific function behavior preserved."
   },
   {
     "source": "scripts/rss_mechanism_diagnostics.py",
@@ -45,8 +45,8 @@
     "source": "scripts/rss_trace.py",
     "source_sha256": "25e33f51f903861365845e746eadb23ef2e011ecc2bbc10e5e058018aae44a57",
     "public": "reproduce/_common/rss_trace.py",
-    "public_sha256": "25e33f51f903861365845e746eadb23ef2e011ecc2bbc10e5e058018aae44a57",
-    "change": "byte-identical"
+    "public_sha256": "0a2799a576a1b74c2d8921812b4efe997a816f52ee9e89df18197756456b7fc9",
+    "change": "Public entry-point curation: remove unused prior-study helpers or separate optional ancillary audit; scientific function behavior preserved."
   },
   {
     "source": "scripts/rss_shadow_key_control.py",
@@ -184,7 +184,7 @@
     "source": "analysis/semantic_coverage/audit_manuscript.py",
     "source_sha256": "9d6db7a3b2e014c1f539e0ad577a5cee96764ec746e56e8ef5deb7fafe37633d",
     "public": "reproduce/controlled/audit_manuscript.py",
-    "public_sha256": "cc42e573990aaef2555e9e6f475cb5970cbfadc97943f5e3ab21bb2790784aa3",
-    "change": "Portable paths; revision literal for vendor snapshot; external replay directory support. Scientific functions and assertions unchanged."
+    "public_sha256": "85db55d79d6fe7e76a436640a25710b1fdc49ef36ab66ca9c3e8bd0ae7d957fb",
+    "change": "Public entry-point curation: remove unused prior-study helpers or separate optional ancillary audit; scientific function behavior preserved."
   }
 ]

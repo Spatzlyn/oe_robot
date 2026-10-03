@@ -1,0 +1,167 @@
+{
+  "schema": "v3-content-curation-validation.v1",
+  "paper_title": "Possible Hazards Lost Before Safety Checks: A Case Study in Occlusion-Aware Planning",
+  "device": "CPU",
+  "gpu_used": false,
+  "native_tests": [
+    {
+      "experiment": "controlled",
+      "command": [
+        "bash",
+        "environment/run_native.sh",
+        "reproduce/run.py",
+        "controlled",
+        "--output",
+        "outputs/controlled"
+      ],
+      "status": "passed",
+      "comparisons": [
+        {
+          "file": "summary.json",
+          "expected_sha256": "45d30b4a3f385cafbe183dddb453d1e2b536960015d409956a21bf0e529c8f83",
+          "actual_sha256": "45d30b4a3f385cafbe183dddb453d1e2b536960015d409956a21bf0e529c8f83",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "experiment": "checker-near",
+      "command": [
+        "bash",
+        "environment/run_native.sh",
+        "reproduce/run.py",
+        "checker-near",
+        "--output",
+        "outputs/checker-near"
+      ],
+      "status": "passed",
+      "comparisons": [
+        {
+          "file": "results.json",
+          "expected_sha256": "86991cdba3da2c429812ef57dc5b85f5dc041b965ac3ed5707631dce17fe6334",
+          "actual_sha256": "86991cdba3da2c429812ef57dc5b85f5dc041b965ac3ed5707631dce17fe6334",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "experiment": "checker-far",
+      "command": [
+        "bash",
+        "environment/run_native.sh",
+        "reproduce/run.py",
+        "checker-far",
+        "--output",
+        "outputs/checker-far"
+      ],
+      "status": "passed",
+      "comparisons": [
+        {
+          "file": "results.json",
+          "expected_sha256": "40080b909fc9c43d3c569f6cdb7a68c33c3f26ef241d2242ffaab2c78a185b75",
+          "actual_sha256": "40080b909fc9c43d3c569f6cdb7a68c33c3f26ef241d2242ffaab2c78a185b75",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "experiment": "controlled-audit",
+      "command": [
+        "bash",
+        "environment/run_native.sh",
+        "reproduce/run.py",
+        "controlled-audit",
+        "--output",
+        "outputs/controlled-audit"
+      ],
+      "status": "passed",
+      "comparisons": [
+        {
+          "file": "observation_equivalence.json",
+          "expected_sha256": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
+          "actual_sha256": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
+          "passed": true
+        },
+        {
+          "file": "geometry_audit.json",
+          "expected_sha256": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e",
+          "actual_sha256": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "experiment": "ancillary-audit",
+      "command": [
+        "bash",
+        "environment/run_native.sh",
+        "reproduce/run.py",
+        "ancillary-audit",
+        "--output",
+        "outputs/ancillary-audit"
+      ],
+      "status": "passed",
+      "comparisons": [
+        {
+          "file": "observation_equivalence.json",
+          "expected_sha256": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
+          "actual_sha256": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
+          "passed": true
+        },
+        {
+          "file": "velocity_audit.json",
+          "expected_sha256": "459cb37442e19eba81cdd0374022c2a9a959bf6a13dfb97c036106eb1b7a681d",
+          "actual_sha256": "459cb37442e19eba81cdd0374022c2a9a959bf6a13dfb97c036106eb1b7a681d",
+          "passed": true
+        },
+        {
+          "file": "geometry_audit.json",
+          "expected_sha256": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e",
+          "actual_sha256": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "offline_checks": 22563,
+  "offline_failed": 0,
+  "normalized_output_records_unchanged": 1410,
+  "normalized_query_records_unchanged": 180,
+  "normalized_event_records_unchanged": 828,
+  "experimental_archive_inputs_outputs_unchanged": true,
+  "retained_archive_members_byte_identical": 634,
+  "archive_members": 644,
+  "helper_functions_preserved": [
+    "rss_trace.snapshot AST identical",
+    "rss_checkpoint.restore AST identical"
+  ],
+  "paper_audit_excludes_auxiliary_velocity_output": true,
+  "auxiliary_audit_preserves_velocity_fingerprint": true,
+  "new_scientific_conditions": 0,
+  "source_files": [
+    {
+      "path": "artifact/validate_offline_v3.py",
+      "sha256": "a8aec73c96f8b6a3184f0151876ad2cb4664e9879a46b27f305cac58b5391d4a"
+    },
+    {
+      "path": "reproduce/run.py",
+      "sha256": "4410f0018ac48f59530da98e42f81071b6a5cbc126c5c0611ba8db5fd3f452f2"
+    },
+    {
+      "path": "reproduce/verify_outputs.py",
+      "sha256": "b937da4bc763b51e1845db08e8de133790cbf9412ce20be18d2632b6eb25749e"
+    },
+    {
+      "path": "reproduce/_common/rss_trace.py",
+      "sha256": "0a2799a576a1b74c2d8921812b4efe997a816f52ee9e89df18197756456b7fc9"
+    },
+    {
+      "path": "reproduce/_common/rss_checkpoint.py",
+      "sha256": "61d9ef0a34aff3d2bae803eac628cc4fec56f54e592a1e74acb21ae323b3bf8a"
+    },
+    {
+      "path": "reproduce/controlled/audit_manuscript.py",
+      "sha256": "85db55d79d6fe7e76a436640a25710b1fdc49ef36ab66ca9c3e8bd0ae7d957fb"
+    }
+  ]
+}

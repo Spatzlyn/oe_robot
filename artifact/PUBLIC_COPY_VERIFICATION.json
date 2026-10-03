@@ -1,1274 +1,1282 @@
 {
-  "schema": "public-transformation-verification.v1",
-  "archive_member_count": 647,
-  "archive_members_byte_identical": 619,
-  "archive_members_modified": 28,
-  "all_json_shapes_and_non_string_scalars_unchanged": true,
-  "numeric_scalars_checked": 3773805,
-  "total_non_string_scalars_checked": 4907816,
-  "string_changes": [
-    {
-      "path": "runs/semantic_action_check_serialization_v3/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
-      "kind": "source_hash"
-    },
-    {
-      "path": "runs/semantic_action_far_control_v2/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
-      "kind": "source_hash"
-    },
-    {
-      "path": "runs/semantic_controls_v1/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
-      "kind": "source_hash"
-    },
-    {
-      "path": "runs/semantic_manuscript_audit_v1/provenance_supplement.json/unchanged_dependencies/configs/rss-pip-lock.txt",
-      "kind": "source_hash"
-    },
-    {
-      "path": "runs/semantic_minimal_trace_v2/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
-      "kind": "source_hash"
-    },
-    {
-      "path": "runs/semantic_small_graph_v2/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_freeze_v3.json/harness_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/start_manifest.json/harness_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/start_manifest.json/harness_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/measurement_change_v2.json/old_source_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/start_manifest.json/harness_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/start_manifest.json/harness_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local_protocol.json/harness_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_protocol.json/harness_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/d1/artifact_hashes.json/package_lock.txt",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/d1/artifact_hashes.json/report.md",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/inputs/provenance.json/input_md_drive_url",
-      "kind": "private_link_or_path"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/inputs/provenance.json/input_md_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/0/source_snapshot_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/1/source_snapshot_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/2/source_snapshot_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/3/source_snapshot_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1.json/batches/0/source_snapshot_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1.json/batches/1/source_snapshot_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1.json/batches/2/source_snapshot_sha256",
-      "kind": "source_hash"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1_snapshot.json/files/measurement_audit_v1.json",
-      "kind": "source_hash"
-    }
-  ],
-  "altered_python_ast_scope": [
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/source_executed.py",
-      "change": "ROOT path discovery only"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/source_executed.py",
-      "change": "ROOT path discovery only"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/source_executed.py",
-      "change": "ROOT path discovery only"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/source_executed.py",
-      "change": "ROOT path discovery only"
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/run_sensor.py",
-      "change": "ROOT path discovery only"
-    }
-  ],
-  "unchanged_npz_numeric_arrays": [
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v2/v0.5_g-0.5/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/v0.5_g-0.5/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0.5_g-0.25/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0.5_g-0.5/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0.5_g0/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0_g-0.25/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0_g-0.5/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0_g0/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v1_g-0.25/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v1_g-0.5/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v1_g0/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            360,
-            640
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/v0.5_g-0.5/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        }
-      ],
-      "byte_identical": true
-    },
-    {
-      "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/v0.5_g-0.5/depth.npz",
-      "arrays": [
-        {
-          "name": "frame_00.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_01.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_02.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_03.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_04.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_05.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_06.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_07.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        },
-        {
-          "name": "frame_08.npy",
-          "dtype": "<f4",
-          "shape": [
-            4,
-            1080,
-            1920
-          ]
-        }
-      ],
-      "byte_identical": true
-    }
-  ],
-  "forbidden_identity_or_personal_link_matches": 0,
-  "scientific_execution": "No native experiment or sensor rendering; public evidence transformation audit only.",
-  "original_archive_unchanged": true,
+  "schema": "public-content-verification.v2",
+  "scope": "Current curation byte changes are enumerated by CURATION.json; the earlier anonymization verification below applies to the pre-curation archive.",
+  "archive_member_count": 644,
+  "retained_members_byte_identical_to_previous_public_archive": 634,
+  "previous_anonymization_verification": {
+    "schema": "public-transformation-verification.v1",
+    "archive_member_count": 647,
+    "archive_members_byte_identical": 619,
+    "archive_members_modified": 28,
+    "all_json_shapes_and_non_string_scalars_unchanged": true,
+    "numeric_scalars_checked": 3773805,
+    "total_non_string_scalars_checked": 4907816,
+    "string_changes": [
+      {
+        "path": "runs/semantic_action_check_serialization_v3/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
+        "kind": "source_hash"
+      },
+      {
+        "path": "runs/semantic_action_far_control_v2/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
+        "kind": "source_hash"
+      },
+      {
+        "path": "runs/semantic_controls_v1/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
+        "kind": "source_hash"
+      },
+      {
+        "path": "runs/semantic_manuscript_audit_v1/provenance_supplement.json/unchanged_dependencies/configs/rss-pip-lock.txt",
+        "kind": "source_hash"
+      },
+      {
+        "path": "runs/semantic_minimal_trace_v2/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
+        "kind": "source_hash"
+      },
+      {
+        "path": "runs/semantic_small_graph_v2/provenance_supplement.json/stable_dependencies_verified_against_phase2/configs/rss-pip-lock.txt",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_freeze_v3.json/harness_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/start_manifest.json/harness_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/start_manifest.json/harness_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/measurement_change_v2.json/old_source_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/start_manifest.json/harness_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/start_manifest.json/harness_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local_protocol.json/harness_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_protocol.json/harness_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/d1/artifact_hashes.json/package_lock.txt",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/d1/artifact_hashes.json/report.md",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/inputs/provenance.json/input_md_drive_url",
+        "kind": "private_link_or_path"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/inputs/provenance.json/input_md_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/0/source_snapshot_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/1/source_snapshot_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/2/source_snapshot_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit.json/batches/3/source_snapshot_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1.json/batches/0/source_snapshot_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1.json/batches/1/source_snapshot_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1.json/batches/2/source_snapshot_sha256",
+        "kind": "source_hash"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/methods/measurement_audit_v1_snapshot.json/files/measurement_audit_v1.json",
+        "kind": "source_hash"
+      }
+    ],
+    "altered_python_ast_scope": [
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/source_executed.py",
+        "change": "ROOT path discovery only"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/source_executed.py",
+        "change": "ROOT path discovery only"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/source_executed.py",
+        "change": "ROOT path discovery only"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/source_executed.py",
+        "change": "ROOT path discovery only"
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/run_sensor.py",
+        "change": "ROOT path discovery only"
+      }
+    ],
+    "unchanged_npz_numeric_arrays": [
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v2/v0.5_g-0.5/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/confirmation_v3/v0.5_g-0.5/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0.5_g-0.25/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0.5_g-0.5/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0.5_g0/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0_g-0.25/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0_g-0.5/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v0_g0/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v1_g-0.25/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v1_g-0.5/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/development_v1/v1_g0/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              360,
+              640
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_control/v0.5_g-0.5/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          }
+        ],
+        "byte_identical": true
+      },
+      {
+        "path": "send/SPAIS_C1_native_sensor_validation/c1/native_resolution_local/v0.5_g-0.5/depth.npz",
+        "arrays": [
+          {
+            "name": "frame_00.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_01.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_02.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_03.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_04.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_05.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_06.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_07.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          },
+          {
+            "name": "frame_08.npy",
+            "dtype": "<f4",
+            "shape": [
+              4,
+              1080,
+              1920
+            ]
+          }
+        ],
+        "byte_identical": true
+      }
+    ],
+    "forbidden_identity_or_personal_link_matches": 0,
+    "scientific_execution": "No native experiment or sensor rendering; public evidence transformation audit only.",
+    "original_archive_unchanged": true,
+    "curation_record": "CURATION.json"
+  },
+  "all_experimental_raw_inputs_outputs_unchanged": true,
   "curation_record": "CURATION.json"
 }

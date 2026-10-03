@@ -24,7 +24,7 @@ public release was checked with the Python version recorded in
 Expected terminal result:
 
 ```json
-{"checks": 22565, "failed": 0, "outputs": 1410, "queries": 180}
+{"checks": 22563, "failed": 0, "outputs": 1410, "queries": 180}
 ```
 
 The terminal JSON also reports the selected output path. A failed consistency
@@ -71,7 +71,7 @@ condition. Later regeneration does not undo an earlier omission.
 
 ## Files and data access
 
-- `evidence.zip`: 647 archive members, about 7.1 MB compressed and 235.1 MB
+- `evidence.zip`: 644 archive members, about 7.1 MB compressed and 235.1 MB
   uncompressed; relative paths preserve the evidence grouping.
 - `manifest.json`: public archive/member hashes and external-input limitations.
 - `expected.json`: retrospective regression expectations, not new predictions.
@@ -120,6 +120,11 @@ an explicit nonzero exit status on failed checks and describes the transformed
 provenance. Third-party source remains subject to the upstream license and the
 repository's third-party notices.
 
-Internal paper-direction and editorial review documents are excluded from this
-release. Scientific protocols, measurement audits, and raw evidence are retained
-unchanged. See [CURATION.json](CURATION.json) for the exact content change.
+Internal paper-direction and editorial review instructions are excluded from this
+release. Scientific raw records and protocols are retained. Mixed historical reports
+were reduced to scientific explanations; auxiliary results are identified separately. See [CURATION.json](CURATION.json) for the exact content change.
+
+The full offline audit preserves the auxiliary full-state and shortcut checks;
+see [ancillary scope](../ancillary/README.md). Its 22,563 checks exclude the two
+source-hash checks for removed, unused D05 tracing scripts. No scientific check
+was removed to obtain this result.

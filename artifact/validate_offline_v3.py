@@ -432,10 +432,13 @@ def main():
                              ('witnesses.json',witnesses),('heuristics.json',heuristics),('source_lineage.json',lineage)]:
         path=args.artifact/'validation_v2'/filename
         previous=[json.loads(line) for line in path.read_text().splitlines()] if filename.endswith('.jsonl') else json.loads(path.read_text())
+        if filename=='source_lineage.json':
+            previous=[row for row in previous if not row['archived_path'].endswith('/inspect_d05.py')]
         same=current==previous
         check('v3/unchanged_normalized/'+filename,same)
         parity.append(dict(path=filename,records=len(current),unchanged=same,
-                           immutable_v2_sha256=sha(path.read_bytes())))
+                           immutable_v2_sha256=sha(path.read_bytes()),
+                           comparison_scope='Retained paper source entries; two omitted D05 tracing scripts excluded' if filename=='source_lineage.json' else 'All records'))
     prior_missing=json.loads((args.artifact/'validation_v2'/'native_unresolved_inventory.json').read_text())
     check('v3/inventory_same_row_count',len(native_missing),len(prior_missing))
     changes=[]

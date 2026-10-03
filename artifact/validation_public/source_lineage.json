@@ -28,13 +28,6 @@
     "status": "matched"
   },
   {
-    "role": "old/analysis/semantic_coverage/inspect_d05.py",
-    "archived_path": "runs/semantic_small_graph_v2/inspect_d05.py",
-    "actual_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
-    "recorded_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
-    "status": "matched"
-  },
-  {
     "role": "old/analysis/semantic_coverage/common.py",
     "archived_path": "runs/semantic_small_graph_v2/common.py",
     "actual_sha256": "63be1f7fa01a866d99234427a1847f925e2271863d3aede91db33291fb43eaab",
@@ -130,13 +123,6 @@
     "archived_path": "runs/semantic_controls_v1/verify_controls.py",
     "actual_sha256": "f294cf696d7a4698d517ab79bb37c2e167f3b8eb028af8fc2dd89ab535b84fb0",
     "recorded_sha256": "f294cf696d7a4698d517ab79bb37c2e167f3b8eb028af8fc2dd89ab535b84fb0",
-    "status": "matched"
-  },
-  {
-    "role": "control/inspect_d05.py",
-    "archived_path": "runs/semantic_controls_v1/inspect_d05.py",
-    "actual_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
-    "recorded_sha256": "6912c673d48fb33db8b570d497b6a59d8fd8cc204f5a9494680391099ed3f126",
     "status": "matched"
   },
   {

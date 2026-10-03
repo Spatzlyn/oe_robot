@@ -14,6 +14,7 @@ from risk_analysis.reachable_set import translate_polygon
 ap=argparse.ArgumentParser()
 for name in ['small-run','control-run','action-run','far-run','trace-run','output']:
     ap.add_argument('--'+name,type=Path,required=True)
+ap.add_argument('--include-ancillary',action='store_true',help='Also reproduce the separate velocity-envelope diagnostic')
 args=ap.parse_args();out=args.output.resolve();out.mkdir(exist_ok=False)
 used={}
 def read(path,binary=False):
@@ -56,43 +57,44 @@ save('observation_equivalence.json',dict(
     other_observation_fields_equal=True,footprint_length=3,
     conclusion='Analytic equality of continuous hidden-state and feasible-trajectory sets in the specified 1D observation model; interval erosion proof is in docs/shadow_semantics.md.'))
 
-# Native FRS audit using the frozen t=1 shadow, without modifying its bound.
-s=states[('pipeline_two_lanes','original')][2][0]
-assert (s.root.ds_in,s.root.ds_out,s.leaf_depth)==(15,3,[12])
-prefix=[(F('-11.5'),F(6)),(F(-8),F(8)),(F('-3.5'),F(10))]
-assert all(transition(a,4)==b for a,b in zip(prefix,prefix[1:]))
-assert all(hidden(st,base['fields'][t]) for st,t in zip(prefix,[0,.5,1]))
-rows=[]
-for n in [20,200,2000]:
-    g=m.bwd_shadow_FRS(s,1,1,n=n)
-    for convention,offset in [('front',0),('center',-1.5),('rear',-3)]:
-        x=-3.5+offset+s.root.ds_out
-        line=g.intersection(LineString([(x,0),(x,30)]))
-        vmax=max(y for _,y in line.coords)
-        # Native checker translation is horizontal: x -> x - p_rel.
-        p_rel=s.root.ds_out+8.379379539499421
-        translated=translate_polygon(g,-p_rel)
-        before=g.covers(Point(x,10));after=translated.covers(Point(x-p_rel,10))
-        assert before==after==False
-        rows.append(dict(n=n,coordinate_interpretation=convention,local_x=x,checker_x=x-p_rel,
-                         bound_at_x=vmax,global_polygon_max_v=g.bounds[3],covered=before,translated_covered=after))
-cap=m.calc_V_max(s.root,9,1)
-assert abs(cap-(97**.5))<1e-12
-assert all(abs(row['global_polygon_max_v']-cap)<1e-12 for row in rows)
-# Normal-control prefix is the same native input; it also has this discrepancy.
-normal=read(args.control_run/'normal_duplicate__original.json')['steps'][2]
-assert normal['shadows']==[compact(s)]
-stationary=[]
-for v in ['original','single_admission','mature_coverage_guard']:
-    for t,forest in zip(base['times'],states[('pipeline_two_lanes',v)]):
-        present=any(sh.root.id==1 and m.bwd_shadow_FRS(sh,t,t).buffer(1e-9).covers(Point(-8+sh.root.ds_out,0)) for sh in forest)
-        stationary.append(dict(variant=v,t=t,native_position_speed_covered=present,whole_forest_count=len(forest)))
-save('velocity_audit.json',dict(classification='native_bound_footprint_discrepancy_in_stated_1D_model',
-    source_shadow=compact(s),path=[dict(t=t,q=float(q),v=float(v)) for t,(q,v) in zip([0,.5,1],prefix)],
-    native_cap=cap,native_algebra='Vin=(9 - 0.5*8*1^2)/1=5; Vout=sqrt(5^2+2*4*9)=sqrt(97)',
-    actual_travel=8,available_front_travel=9,rows=rows,normal_control_same_prefix=True,
-    convention_scope='Shadow boundaries are visibility geometry, not centers. Native shadow FRS is a longitudinal occupancy/boundary envelope without a unique front/rear label; all three physical markers exceed its global velocity cap. Horizontal translation cannot alter this conclusion.',
-    no_native_change=True,stationary=stationary))
+if args.include_ancillary:
+    # Native FRS audit using the frozen t=1 shadow, without modifying its bound.
+    s=states[('pipeline_two_lanes','original')][2][0]
+    assert (s.root.ds_in,s.root.ds_out,s.leaf_depth)==(15,3,[12])
+    prefix=[(F('-11.5'),F(6)),(F(-8),F(8)),(F('-3.5'),F(10))]
+    assert all(transition(a,4)==b for a,b in zip(prefix,prefix[1:]))
+    assert all(hidden(st,base['fields'][t]) for st,t in zip(prefix,[0,.5,1]))
+    rows=[]
+    for n in [20,200,2000]:
+        g=m.bwd_shadow_FRS(s,1,1,n=n)
+        for convention,offset in [('front',0),('center',-1.5),('rear',-3)]:
+            x=-3.5+offset+s.root.ds_out
+            line=g.intersection(LineString([(x,0),(x,30)]))
+            vmax=max(y for _,y in line.coords)
+            # Native checker translation is horizontal: x -> x - p_rel.
+            p_rel=s.root.ds_out+8.379379539499421
+            translated=translate_polygon(g,-p_rel)
+            before=g.covers(Point(x,10));after=translated.covers(Point(x-p_rel,10))
+            assert before==after==False
+            rows.append(dict(n=n,coordinate_interpretation=convention,local_x=x,checker_x=x-p_rel,
+                             bound_at_x=vmax,global_polygon_max_v=g.bounds[3],covered=before,translated_covered=after))
+    cap=m.calc_V_max(s.root,9,1)
+    assert abs(cap-(97**.5))<1e-12
+    assert all(abs(row['global_polygon_max_v']-cap)<1e-12 for row in rows)
+    # Normal-control prefix is the same native input; it also has this discrepancy.
+    normal=read(args.control_run/'normal_duplicate__original.json')['steps'][2]
+    assert normal['shadows']==[compact(s)]
+    stationary=[]
+    for v in ['original','single_admission','mature_coverage_guard']:
+        for t,forest in zip(base['times'],states[('pipeline_two_lanes',v)]):
+            present=any(sh.root.id==1 and m.bwd_shadow_FRS(sh,t,t).buffer(1e-9).covers(Point(-8+sh.root.ds_out,0)) for sh in forest)
+            stationary.append(dict(variant=v,t=t,native_position_speed_covered=present,whole_forest_count=len(forest)))
+    save('velocity_audit.json',dict(classification='native_bound_footprint_discrepancy_in_stated_1D_model',
+        source_shadow=compact(s),path=[dict(t=t,q=float(q),v=float(v)) for t,(q,v) in zip([0,.5,1],prefix)],
+        native_cap=cap,native_algebra='Vin=(9 - 0.5*8*1^2)/1=5; Vout=sqrt(5^2+2*4*9)=sqrt(97)',
+        actual_travel=8,available_front_travel=9,rows=rows,normal_control_same_prefix=True,
+        convention_scope='Shadow boundaries are visibility geometry, not centers. Native shadow FRS is a longitudinal occupancy/boundary envelope without a unique front/rear label; all three physical markers exceed its global velocity cap. Horizontal translation cannot alter this conclusion.',
+        no_native_change=True,stationary=stationary))
 
 # Reuse stored geometry: no live checker/episode rerun. Remove the background
 # conceptually only after verifying it is disjoint from every recorded zone.
@@ -131,8 +133,8 @@ for name,fn in [('calc_V_max',m.calc_V_max),('bwd_shadow_FRS',m.bwd_shadow_FRS),
     (out/(name+'.py')).write_text(inspect.getsource(fn))
 (out/'source_executed.py').write_bytes(Path(__file__).read_bytes())
 save('manifest.json',dict(command=sys.argv,seed=0,device='CPU',status='completed',
-    termination='bounded observation, native-envelope and stored-geometry audits completed',
+    termination='observation and stored-geometry audits completed; optional velocity audit recorded separately',
     commit='2b6b06637850b406cfbeab926a3dedc01edad91e',
     source_sha256=sha(__file__),input_hashes=used,timestamp=datetime.datetime.utcnow().isoformat()+'Z',
     scope='Existing discovery artifacts plus direct native-function CPU audit; no independent scene, simulator rollout, or full checker-harness rerun.'))
-print(json.dumps(dict(status='completed',observation_sets_analytically_equal=True,velocity_classification='separate native bound discrepancy in stated model',geometry_checks=len(components))))
+print(json.dumps(dict(status='completed',observation_sets_analytically_equal=True,velocity_classification='separate native bound discrepancy in stated model' if args.include_ancillary else 'not_run_ancillary',geometry_checks=len(components))))

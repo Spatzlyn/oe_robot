@@ -10,7 +10,6 @@
   },
   "controlled-audit": {
     "observation_equivalence.json": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
-    "velocity_audit.json": "459cb37442e19eba81cdd0374022c2a9a959bf6a13dfb97c036106eb1b7a681d",
     "geometry_audit.json": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e"
   },
   "checker-near": {
@@ -39,5 +38,10 @@
   },
   "native-wrapper": {
     "summary.json": "783a43ce49bfa9b7d203195f90eacdab661a0a6277c3a29a35d27ae697582ab9"
+  },
+  "ancillary-audit": {
+    "observation_equivalence.json": "7c1adb3950b9a5a36d4febe502d3c70396fc7261716630337e8e385b2323e63f",
+    "velocity_audit.json": "459cb37442e19eba81cdd0374022c2a9a959bf6a13dfb97c036106eb1b7a681d",
+    "geometry_audit.json": "81ff0897a997ebb1b0ea2f662e03503d39e79b725f8612a7a93cc208f1eebc8e"
   }
 }

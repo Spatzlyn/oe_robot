@@ -1,4 +1,4 @@
-# When Skipping Work Omits Possible Hazards
+# Possible Hazards Lost Before Safety Checks
 
 **A Case Study in Occlusion-Aware Planning — anonymous research artifact**
 
@@ -16,9 +16,9 @@ python artifact/validate_offline_v3.py \
   --output /tmp/oe_robot_offline_check
 ```
 
-Expected: **22,565 checks, 0 failures**, 1,410 normalized output records and 180 checker-query records. The corrected native-search attribution is **2 confirmed witness-times and 102 unresolved witness-times**. Output is written to a new directory; existing output directories are not overwritten.
+Expected: **22,563 checks, 0 failures**, 1,410 normalized output records and 180 checker-query records. The corrected native-search attribution is **2 confirmed witness-times and 102 unresolved witness-times**. Output is written to a new directory; existing output directories are not overwritten.
 
-This command checks archived inputs, source lineage, whole-output position membership, query records and consistency assertions. It **does not rerun the native safety checker, renderer, or planner**. See [artifact/README.md](artifact/README.md) and [the v3 label correction](artifact/LABEL_CORRECTION.md). The retained v2 records are a comparison baseline required by v3, not the current attribution.
+This full audit includes the explicitly labeled auxiliary velocity diagnostic as well as the paper evidence. It checks archived inputs, source lineage, whole-output position membership, query records and consistency assertions. It **does not rerun the native safety checker, renderer, or planner**. See [artifact/README.md](artifact/README.md) and [the v3 label correction](artifact/LABEL_CORRECTION.md). The retained v2 records are a comparison baseline required by v3, not the current attribution.
 
 ## Reproduce the paper's results
 
@@ -28,7 +28,7 @@ Install the [native environment](environment/README.md) for commands using `run_
 |---|---|---|
 | Controlled witness and independent finite reference (§3.3, §4) | `bash environment/run_native.sh reproduce/run.py controlled --output outputs/controlled` | Feasible stationary front position 8 m; Original omission at 3, 3.5 and 4 s; 293 finite reference hypotheses at 4 s. Observation modification and simple repairs are distinct arms. |
 | One admission after an identical prefix | `bash environment/run_native.sh reproduce/run.py controlled-trace --output outputs/controlled_trace` | Short job records the key; larger job is rejected; one admission restores the witness. |
-| Observation equivalence and auxiliary controls | `reproduce/run.py controlled-controls` and `controlled-audit` under the same native launcher, each with `--output NEW_DIR` | Finite-reference/trajectory checks and explicit scope of the separate velocity-envelope discrepancy. |
+| Observation equivalence and auxiliary controls | `reproduce/run.py controlled-controls` and `controlled-audit` under the same native launcher, each with `--output NEW_DIR` | Finite-reference/trajectory, observation-equivalence and stored checker-geometry checks. |
 | Table 1, original location | `bash environment/run_native.sh reproduce/run.py checker-near --output outputs/checker_near` | Same 18 query tuples: Original 18/18; reference, single admission, structural key and restricted guard 4/18. |
 | Table 1, upstream control | `bash environment/run_native.sh reproduce/run.py checker-far --output outputs/checker_far` | All methods 18/18. This archived control also removes the same background lane representation from every arm; see the detailed reproduction guide. |
 | Figure 1 and separate 4 s snapshot | `python figure1/build_figure.py --out outputs/figure1` | PDF/SVG/PNG, coordinates, whole-output union, membership and 93 extraction assertions; reads saved 1920×1080 data. |
@@ -53,7 +53,7 @@ The sensor sequence, controlled road fixture and safety-checker intersection fix
 
 Position absence establishes omission of the corresponding feasible state, but finite position coverage does not prove continuous safety or full planner soundness. A later regenerated output does not undo an earlier omission. The processing records reset at each update; the central case is not a cross-epoch stale cache. A short retained output exists in the 1920×1080 case, so `mature=None` is not necessary.
 
-Simple repairs suffice for the tested admission-related omissions at small measured cost. The constructed output-pruning case, visited-lane finding, native velocity-envelope discrepancy, and unresolved search records are retained with their distinct scopes. This artifact does not claim a new general preservation principle or direct RFM experimental validation.
+Simple repairs suffice for the tested admission-related omissions at small measured cost. The constructed output-pruning case, visited-lane finding, and unresolved search records are retained with their distinct scopes. An [auxiliary full-state diagnostic](ancillary/README.md) is preserved separately and is not a reported v3 paper result. This artifact does not claim a new general preservation principle or direct RFM experimental validation.
 
 ## Upstream implementation
 

@@ -13,6 +13,7 @@ COMMANDS={
  'controlled':('controlled/run_small_graph.py',[]),
  'controlled-controls':('controlled/verify_controls.py',[]),
  'controlled-audit':('controlled/audit_manuscript.py',[]),
+ 'ancillary-audit':('controlled/audit_manuscript.py',['--include-ancillary']),
  'controlled-trace':('controlled/trace_minimum.py',[]),
  'checker-near':('checker/check_actions.py',[]),
  'checker-far':('checker/check_actions.py',['--offset','100','--isolate-lane']),
@@ -58,9 +59,9 @@ def main():
  os.environ.setdefault('MPLBACKEND','Agg')
  os.environ.setdefault('PYGLET_HEADLESS','true')
  script,extra=COMMANDS[a.experiment];argv=[str(HERE/script)]+extra
- if a.experiment.startswith(('controlled','checker')):
+ if a.experiment.startswith(('controlled','checker')) or a.experiment=='ancillary-audit':
   argv+=['--output',str(out)]
-  if a.experiment=='controlled-audit':
+  if a.experiment in ('controlled-audit','ancillary-audit'):
    for key,path in [('small-run','fixtures/controlled'),('control-run','fixtures/audit/controls'),('action-run','fixtures/audit/near'),('far-run','fixtures/audit/far'),('trace-run','fixtures/audit/trace')]:
     argv+=['--'+key,str(ROOT/path)]
   if a.experiment.startswith('checker'):
